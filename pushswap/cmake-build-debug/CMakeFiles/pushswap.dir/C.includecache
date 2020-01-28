@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/gstarvin/CLionProjects/pushswap/check_functions.c
+push_swap.h
+/Users/gstarvin/CLionProjects/pushswap/push_swap.h
+
+/Users/gstarvin/CLionProjects/pushswap/do_action.c
+push_swap.h
+/Users/gstarvin/CLionProjects/pushswap/push_swap.h
+
+/Users/gstarvin/CLionProjects/pushswap/list_functions.c
+push_swap.h
+/Users/gstarvin/CLionProjects/pushswap/push_swap.h
+
+/Users/gstarvin/CLionProjects/pushswap/main.c
+stdio.h
+-
+push_swap.h
+/Users/gstarvin/CLionProjects/pushswap/push_swap.h
+
+/Users/gstarvin/CLionProjects/pushswap/push_swap.h
+../../gnl/get_next_line.h
+/Users/gstarvin/gnl/get_next_line.h
+stdio.h
+-
+
+/Users/gstarvin/gnl/get_next_line.h
+libft/libft.h
+/Users/gstarvin/gnl/libft/libft.h
+fcntl.h
+-
+
+/Users/gstarvin/gnl/libft/libft.h
+stdlib.h
+-
+unistd.h
+-
+string.h
+-
+
