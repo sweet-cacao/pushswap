@@ -6,21 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/gstarvin/CLionProjects/pushswap/check_functions.c
-push_swap.h
-/Users/gstarvin/CLionProjects/pushswap/push_swap.h
-
-/Users/gstarvin/CLionProjects/pushswap/do_action.c
-push_swap.h
-/Users/gstarvin/CLionProjects/pushswap/push_swap.h
-
-/Users/gstarvin/CLionProjects/pushswap/list_functions.c
-push_swap.h
-/Users/gstarvin/CLionProjects/pushswap/push_swap.h
-
-/Users/gstarvin/CLionProjects/pushswap/main.c
-stdio.h
--
+/Users/gstarvin/CLionProjects/pushswap/push_swap.c
 push_swap.h
 /Users/gstarvin/CLionProjects/pushswap/push_swap.h
 

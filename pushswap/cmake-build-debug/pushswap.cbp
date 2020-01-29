@@ -92,6 +92,9 @@
 		<Unit filename="/Users/gstarvin/CLionProjects/pushswap/main.c">
 			<Option target="pushswap"/>
 		</Unit>
+		<Unit filename="/Users/gstarvin/CLionProjects/pushswap/push_swap.c">
+			<Option target="pushswap"/>
+		</Unit>
 		<Unit filename="/Users/gstarvin/CLionProjects/pushswap/push_swap.h">
 			<Option target="pushswap"/>
 		</Unit>

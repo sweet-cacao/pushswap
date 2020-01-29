@@ -10,41 +10,47 @@ int main(int ac, char **av)
     int		arg;
 	int		i;
 
-	i = 0;
+	i = 1;
     arg = ac - 1;
     sort = NULL;
     sort2 = NULL;
 	buff = malloc(sizeof(char*));
 	check_args(ac, av);
-    while (arg > 0)
+    while (i < ac)
 	{
-    	push_front(atoi(av[arg]), &sort);
-    	arg--;
+    	push_front(atoi(av[i]), &sort);
+    	i++;
 	}
-    while (actual_command(buff))
+    push_swap(&sort, &sort2);
+/*	if (check_list(sort, sort2))
 	{
-		if (check_list(sort))
-		{
-			write(1, "OK\n", 3);
-			break;
-		}
-		if (check_list(sort) == 2)
-		{
-			write(1, "KO\n", 3);
-			break;
-		}
-		do_action(buff, sort, sort2);
-		get_next_line(0, &buff);
-	}
-    if (!actual_command(buff))
-	{
-		write(1, "Error\n", 6);
-    //	exit(0);
+		write(1, "OK\n", 3);
+		exit(0);
 	}
 
-   // delete_first(&sort);
+    while (get_next_line(0, &buff) > 0)
+	{
+			if (!actual_command(buff)) {
+				write(1, "Error\n", 6);
+				break;
+				//	exit(0);
+			}
+			do_action(buff, &sort, &sort2);
+			display_list(sort);
 
-    rotate(&sort);
+	}
+	if (check_list(sort, sort2))
+	{
+		write(1, "OK\n", 3);
+
+	}
+	if (check_list(sort, sort2) == 0)
+	{
+		write(1, "KO\n", 3);
+
+	}*/
+	// delete_first(&sort);
+ //   rotate(&sort);
 	tmp = sort;
   //  delete_last(sort);
     while (tmp)

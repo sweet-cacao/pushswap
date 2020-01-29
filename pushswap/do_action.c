@@ -11,7 +11,7 @@ void	swap(t_sort **sort)
 	(*sort)->next->next->prev = (*sort)->next;
 }
 
-void	rrotate(t_sort **sort)
+void	rotate(t_sort **sort)
 {
 	t_sort *tmp2;
 
@@ -20,7 +20,7 @@ void	rrotate(t_sort **sort)
 	push_end(tmp2->data, *sort);
 }
 
-void	rotate(t_sort **sort)
+void	rrotate(t_sort **sort)
 {
 	t_sort *tmp;
 
@@ -36,62 +36,43 @@ void	do_action(char *buff, t_sort **sort, t_sort **sort2)
 
 	if (!ft_strcmp(buff, "sa"))
 	{
-		if (!(*sort) || !(*sort)->next)
+		if ((*sort) && (*sort)->next)
 		{
-			write(1, "KO\n", 3);
-			exit(0);
-		}
-		else
 			swap(sort);
+		}
 	}
 	if (!ft_strcmp(buff, "sb"))
 	{
-		if (!(*sort2) || !(*sort2)->next)
+		if ((*sort2) && (*sort2)->next)
 		{
-			write(1, "KO\n", 3);
-			exit(0);
-		}
-		else
 			swap(sort2);
+		}
 	}
 	if (!ft_strcmp(buff, "ss"))
 	{
-		if (!(*sort2) || !(*sort2)->next || !(*sort) || !(*sort)->next)
+		if ((*sort2) && (*sort2)->next && (*sort) && (*sort)->next)
 		{
-			write(1, "KO\n", 3);
-			exit(0);
+			swap(sort);
+			swap(sort2);
 		}
-		swap(sort);
-		swap(sort2);
 	}
 	if (!ft_strcmp(buff, "pa"))
 	{
-		if (!(*sort2) || !(*sort2)->next)
-		{
-			write(1, "KO\n", 3);
-			exit(0);
-		}
-		else
+		if ((*sort2))
 		{
 			tmp = (*sort2);
 			delete_first(sort2);
 			push_front(tmp->data, sort);
-			free(tmp);
 		}
 	}
 	if (!ft_strcmp(buff, "pb"))
 	{
-		if (!(*sort) || !(*sort)->next)
-		{
-			write(1, "KO\n", 3);
-			exit(0);
-		}
-		else
+		if (*sort)
 		{
 			tmp = (*sort);
 			delete_first(sort);
 			push_front(tmp->data, sort2);
-			free(tmp);
+
 		}
 	}
 	if ((*sort) && (*sort)->next)
@@ -111,7 +92,6 @@ void	do_action(char *buff, t_sort **sort, t_sort **sort2)
 	if ((*sort2) && (*sort2)->next && (*sort) && (*sort)->next)
 	{
 		if (!ft_strcmp(buff, "rr"))
-
 		{
 			rotate(sort);
 			rotate(sort2);

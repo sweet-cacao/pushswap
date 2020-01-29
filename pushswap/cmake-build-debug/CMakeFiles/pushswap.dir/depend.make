@@ -55,3 +55,8 @@ CMakeFiles/pushswap.dir/main.c.o: ../push_swap.h
 CMakeFiles/pushswap.dir/main.c.o: /Users/gstarvin/gnl/get_next_line.h
 CMakeFiles/pushswap.dir/main.c.o: /Users/gstarvin/gnl/libft/libft.h
 
+CMakeFiles/pushswap.dir/push_swap.c.o: ../push_swap.c
+CMakeFiles/pushswap.dir/push_swap.c.o: ../push_swap.h
+CMakeFiles/pushswap.dir/push_swap.c.o: /Users/gstarvin/gnl/get_next_line.h
+CMakeFiles/pushswap.dir/push_swap.c.o: /Users/gstarvin/gnl/libft/libft.h
+

@@ -19,6 +19,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/gstarvin/CLionProjects/pushswap/do_action.c" "/Users/gstarvin/CLionProjects/pushswap/cmake-build-debug/CMakeFiles/pushswap.dir/do_action.c.o"
   "/Users/gstarvin/CLionProjects/pushswap/list_functions.c" "/Users/gstarvin/CLionProjects/pushswap/cmake-build-debug/CMakeFiles/pushswap.dir/list_functions.c.o"
   "/Users/gstarvin/CLionProjects/pushswap/main.c" "/Users/gstarvin/CLionProjects/pushswap/cmake-build-debug/CMakeFiles/pushswap.dir/main.c.o"
+  "/Users/gstarvin/CLionProjects/pushswap/push_swap.c" "/Users/gstarvin/CLionProjects/pushswap/cmake-build-debug/CMakeFiles/pushswap.dir/push_swap.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

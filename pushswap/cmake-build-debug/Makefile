@@ -528,6 +528,33 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/main.c.s
 .PHONY : main.c.s
 
+push_swap.o: push_swap.c.o
+
+.PHONY : push_swap.o
+
+# target to build an object file
+push_swap.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/push_swap.c.o
+.PHONY : push_swap.c.o
+
+push_swap.i: push_swap.c.i
+
+.PHONY : push_swap.i
+
+# target to preprocess a source file
+push_swap.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/push_swap.c.i
+.PHONY : push_swap.c.i
+
+push_swap.s: push_swap.c.s
+
+.PHONY : push_swap.s
+
+# target to generate assembly for a file
+push_swap.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/push_swap.c.s
+.PHONY : push_swap.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -582,6 +609,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... push_swap.o"
+	@echo "... push_swap.i"
+	@echo "... push_swap.s"
 .PHONY : help
 
 

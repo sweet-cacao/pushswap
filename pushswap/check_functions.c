@@ -33,7 +33,7 @@ int			check_args(int ac, char **av)
 	return (1);
 }
 
-int			check_list(t_sort *sort)
+int			check_list(t_sort *sort, t_sort *sort2)
 {
 	t_sort	*tmp;
 	t_sort	*tmp2;
@@ -44,13 +44,28 @@ int			check_list(t_sort *sort)
 		tmp2 = tmp->next;
 		while (tmp2)
 		{
-			if (tmp->data > tmp2->data)
+			if (tmp->data < tmp2->data)
 				return (0);
 			tmp2 = tmp2->next;
 		}
 		tmp = tmp->next;
 	}
-	return (1);
+	if (sort2 == NULL)
+		return (1);
+	return (0);
+}
+
+void	display_list(t_sort *sort)
+{
+	t_sort *tmp;
+	tmp = sort;
+	//  delete_last(sort);
+	while (tmp)
+	{
+		printf("el = %d\n", tmp->data);
+		tmp = tmp->next;
+	}
+	printf("\n");
 }
 
 
