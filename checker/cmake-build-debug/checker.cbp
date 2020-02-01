@@ -86,6 +86,12 @@
 		<Unit filename="/Users/gstarvin/CLionProjects/checker/do_action.c">
 			<Option target="checker"/>
 		</Unit>
+		<Unit filename="/Users/gstarvin/CLionProjects/checker/extra_functions.c">
+			<Option target="checker"/>
+		</Unit>
+		<Unit filename="/Users/gstarvin/CLionProjects/checker/instruction_functions.c">
+			<Option target="checker"/>
+		</Unit>
 		<Unit filename="/Users/gstarvin/CLionProjects/checker/list_functions.c">
 			<Option target="checker"/>
 		</Unit>

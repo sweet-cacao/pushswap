@@ -57,6 +57,16 @@ CMakeFiles/checker.dir/do_action.c.o
  /Users/gstarvin/CLionProjects/checker/push_swap.h
  /Users/gstarvin/gnl/get_next_line.h
  /Users/gstarvin/gnl/libft/libft.h
+CMakeFiles/checker.dir/extra_functions.c.o
+ /Users/gstarvin/CLionProjects/checker/extra_functions.c
+ /Users/gstarvin/CLionProjects/checker/push_swap.h
+ /Users/gstarvin/gnl/get_next_line.h
+ /Users/gstarvin/gnl/libft/libft.h
+CMakeFiles/checker.dir/instruction_functions.c.o
+ /Users/gstarvin/CLionProjects/checker/instruction_functions.c
+ /Users/gstarvin/CLionProjects/checker/push_swap.h
+ /Users/gstarvin/gnl/get_next_line.h
+ /Users/gstarvin/gnl/libft/libft.h
 CMakeFiles/checker.dir/list_functions.c.o
  /Users/gstarvin/CLionProjects/checker/list_functions.c
  /Users/gstarvin/CLionProjects/checker/push_swap.h

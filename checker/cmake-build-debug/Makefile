@@ -582,6 +582,60 @@ do_action.c.s:
 	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/do_action.c.s
 .PHONY : do_action.c.s
 
+extra_functions.o: extra_functions.c.o
+
+.PHONY : extra_functions.o
+
+# target to build an object file
+extra_functions.c.o:
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/extra_functions.c.o
+.PHONY : extra_functions.c.o
+
+extra_functions.i: extra_functions.c.i
+
+.PHONY : extra_functions.i
+
+# target to preprocess a source file
+extra_functions.c.i:
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/extra_functions.c.i
+.PHONY : extra_functions.c.i
+
+extra_functions.s: extra_functions.c.s
+
+.PHONY : extra_functions.s
+
+# target to generate assembly for a file
+extra_functions.c.s:
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/extra_functions.c.s
+.PHONY : extra_functions.c.s
+
+instruction_functions.o: instruction_functions.c.o
+
+.PHONY : instruction_functions.o
+
+# target to build an object file
+instruction_functions.c.o:
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/instruction_functions.c.o
+.PHONY : instruction_functions.c.o
+
+instruction_functions.i: instruction_functions.c.i
+
+.PHONY : instruction_functions.i
+
+# target to preprocess a source file
+instruction_functions.c.i:
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/instruction_functions.c.i
+.PHONY : instruction_functions.c.i
+
+instruction_functions.s: instruction_functions.c.s
+
+.PHONY : instruction_functions.s
+
+# target to generate assembly for a file
+instruction_functions.c.s:
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/instruction_functions.c.s
+.PHONY : instruction_functions.c.s
+
 list_functions.o: list_functions.c.o
 
 .PHONY : list_functions.o
@@ -723,6 +777,12 @@ help:
 	@echo "... do_action.o"
 	@echo "... do_action.i"
 	@echo "... do_action.s"
+	@echo "... extra_functions.o"
+	@echo "... extra_functions.i"
+	@echo "... extra_functions.s"
+	@echo "... instruction_functions.o"
+	@echo "... instruction_functions.i"
+	@echo "... instruction_functions.s"
 	@echo "... list_functions.o"
 	@echo "... list_functions.i"
 	@echo "... list_functions.s"

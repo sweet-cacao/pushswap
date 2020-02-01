@@ -16,6 +16,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_strsub.c.o"
   "CMakeFiles/checker.dir/check_functions.c.o"
   "CMakeFiles/checker.dir/do_action.c.o"
+  "CMakeFiles/checker.dir/extra_functions.c.o"
+  "CMakeFiles/checker.dir/instruction_functions.c.o"
   "CMakeFiles/checker.dir/list_functions.c.o"
   "CMakeFiles/checker.dir/main.c.o"
   "CMakeFiles/checker.dir/parse.c.o"

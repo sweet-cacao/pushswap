@@ -16,4 +16,4 @@ add_executable(checker main.c list_functions.c push_swap.h ../../gnl/get_next_li
         ../../gnl/libft/ft_lstadd.c
         ../../gnl/libft/ft_lstdel.c
         ../../gnl/libft/ft_lstnew.c
-        ../../gnl/libft/ft_memcpy.c parse.c)
+        ../../gnl/libft/ft_memcpy.c parse.c extra_functions.c instruction_functions.c)

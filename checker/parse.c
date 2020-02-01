@@ -14,7 +14,7 @@ t_list		*parse_instr()
 	while(walk)
 	{
 		if (!actual_command(walk->content))
-			exit_error("Error");
+			exit_error("Error", NULL, NULL);
 		walk = walk->next;
 	}
 	ft_strdel(&buff);
@@ -22,18 +22,18 @@ t_list		*parse_instr()
 	return (instr);
 }
 
-t_sort		*parse_args(int ac, char **av)
+t_sort		*parse_args(int ac, char **av, t_sort **sort)
 {
-	t_sort 	*sort;
+	t_sort 	*sortik;
 	int		i;
 
 	i = 1;
-	sort = NULL;
-	check_args(ac, av);
+	sortik = NULL;
+	check_args(ac, av, &sortik);
 	while (i < ac)
 	{
-		push_front(ft_atoi(av[i]), &sort);
+		push_front(ft_atoi(av[i]), &sortik);
 		i++;
 	}
-	return (sort);
+	return (sortik);
 }

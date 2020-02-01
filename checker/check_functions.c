@@ -1,38 +1,6 @@
 #include "push_swap.h"
 
 
-void		check_choose(t_sort *sort, t_sort *sort2)
-{
-	if (check_list(sort, sort2))
-	{
-		write(1, "OK\n", 3);
-	}
-	if (check_list(sort, sort2) == 0)
-	{
-		write(1, "KO\n", 3);
-	}
-}
-
-void		exit_error(char *str)
-{
-	if (ft_strcmp("Error", str) == 0)
-	{
-		write(2, "Error\n", 6);
-		exit(0);
-	}
-	if (ft_strcmp("OK", str) == 0)
-	{
-		write(1, "OK\n", 3);
-		exit(0);
-	}
-	if (ft_strcmp("KO", str) == 0)
-	{
-		write(1, "KO\n", 3);
-		exit(0);
-	}
-
-}
-
 int			is_number(char *str)
 {
 	int i;
@@ -63,7 +31,7 @@ int			check_max_min(char *str)
 	return (1);
 }
 
-int			check_args(int ac, char **av)
+int			check_args(int ac, char **av, t_sort **sort)
 {
 	int		i;
 	int		j;
@@ -73,17 +41,16 @@ int			check_args(int ac, char **av)
 	{
 		j = 1;
 		if (check_max_min(av[i]) < 0)
-			exit_error("Error");
+			exit_error("Error", sort, NULL);
 		while (j < ac)
 		{
 			if (j != i && ft_strcmp(av[i], av[j]) == 0)
-				exit_error("Error");
+				exit_error("Error", sort, NULL);
 			j++;
 		}
 		if (!is_number(av[i]) || ft_atoi(av[i]) == -1)
-			exit_error("Error");
+			exit_error("Error", sort, NULL);
 		i++;
-
 	}
 	return (1);
 }
@@ -94,33 +61,30 @@ int			check_list(t_sort *sort, t_sort *sort2)
 	t_sort	*tmp2;
 
 	tmp = sort;
+	tmp2 = NULL;
+	if (!(tmp->next))
+		return (1);
 	while (tmp)
 	{
 		tmp2 = tmp->next;
 		while (tmp2)
 		{
 			if (tmp->data < tmp2->data)
+			{
+		//		sort_del(&tmp);
+		//		sort_del(&tmp2);
 				return (0);
+			}
 			tmp2 = tmp2->next;
 		}
 		tmp = tmp->next;
 	}
+//	sort_del(&tmp);
+//	sort_del(&tmp2);
 	if (sort2 == NULL)
 		return (1);
 	return (0);
 }
 
-void	display_list(t_sort *sort)
-{
-	t_sort *tmp;
-	tmp = sort;
-	//  delete_last(sort);
-	while (tmp)
-	{
-		printf("el = %d\n", tmp->data);
-		tmp = tmp->next;
-	}
-	printf("\n");
-}
 
 

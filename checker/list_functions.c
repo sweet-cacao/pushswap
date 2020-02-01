@@ -63,7 +63,7 @@ void      push_front(int data, t_sort **sort)
     t_sort *head;
 
     if (sort == NULL)
-        sort = add_block(data);
+        *sort = add_block(data);
     else
     {
         tmp = add_block(data);
@@ -93,16 +93,32 @@ void	delete_first(t_sort **sort)
 void 	delete_last(t_sort *sort)
 {
 	t_sort *tmp;
+	t_sort *el;
 
 	tmp = sort;
-	if (!tmp->next)
-	{
-		sort = NULL;
-		return;
-	}
 	while (tmp->next->next)
 	{
 		tmp = tmp->next;
 	}
+	el = tmp->next;
+	free(el);
 	tmp->next = NULL;
+}
+
+void	sort_del(t_sort **sort)
+{
+	t_sort *tmp;
+	t_sort *next;
+
+
+	if (!sort || !(*sort))
+		return;
+	tmp = *sort;
+	while (tmp)
+	{
+		next = tmp->next;
+		free(tmp);
+		tmp = next;
+	}
+	*sort = NULL;
 }

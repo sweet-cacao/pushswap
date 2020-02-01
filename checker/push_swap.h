@@ -11,11 +11,18 @@ typedef struct      s_sort
 	struct s_sort   *prev;
 }                   t_sort;
 
+typedef struct		s_global
+{
+	t_sort			*sort;
+	t_sort			*sort2;
+	t_list			*instr;
+}					t_global;
+
 void        		push_front(int data, t_sort **sort);
 void        		push_end(int data, t_sort *sort);
 t_sort      		*add_block(int data);
 int 				actual_command(char *buff);
-int					check_args(int ac, char **av);
+int					check_args(int ac, char **av, t_sort **sort);
 int					check_list(t_sort *sort, t_sort *sort2);
 void 				delete_last(t_sort *sort);
 void				delete_first(t_sort **sort);
@@ -26,9 +33,10 @@ void				rrotate(t_sort **sort);
 void				do_action(char *buff, t_sort **sort, t_sort **sort2);
 void				display_list(t_sort *sort);
 void				push_swap(t_sort **sort, t_sort **sort2);
-void				exit_error(char *str);
-void				check_choose(t_sort *sort, t_sort *sort2);
+void				exit_error(char *str, t_sort **sort, t_sort **sort2);
+void				check_choose(t_sort **sort, t_sort **sort2);
 t_list				*parse_instr();
-t_sort				*parse_args(int ac, char **av);
+t_sort				*parse_args(int ac, char **av, t_sort **sort);
+void				sort_del(t_sort **sort);
 
 #endif

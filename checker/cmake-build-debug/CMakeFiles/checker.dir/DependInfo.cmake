@@ -21,6 +21,8 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/gstarvin/gnl/libft/ft_strsub.c" "/Users/gstarvin/CLionProjects/checker/cmake-build-debug/CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_strsub.c.o"
   "/Users/gstarvin/CLionProjects/checker/check_functions.c" "/Users/gstarvin/CLionProjects/checker/cmake-build-debug/CMakeFiles/checker.dir/check_functions.c.o"
   "/Users/gstarvin/CLionProjects/checker/do_action.c" "/Users/gstarvin/CLionProjects/checker/cmake-build-debug/CMakeFiles/checker.dir/do_action.c.o"
+  "/Users/gstarvin/CLionProjects/checker/extra_functions.c" "/Users/gstarvin/CLionProjects/checker/cmake-build-debug/CMakeFiles/checker.dir/extra_functions.c.o"
+  "/Users/gstarvin/CLionProjects/checker/instruction_functions.c" "/Users/gstarvin/CLionProjects/checker/cmake-build-debug/CMakeFiles/checker.dir/instruction_functions.c.o"
   "/Users/gstarvin/CLionProjects/checker/list_functions.c" "/Users/gstarvin/CLionProjects/checker/cmake-build-debug/CMakeFiles/checker.dir/list_functions.c.o"
   "/Users/gstarvin/CLionProjects/checker/main.c" "/Users/gstarvin/CLionProjects/checker/cmake-build-debug/CMakeFiles/checker.dir/main.c.o"
   "/Users/gstarvin/CLionProjects/checker/parse.c" "/Users/gstarvin/CLionProjects/checker/cmake-build-debug/CMakeFiles/checker.dir/parse.c.o"
