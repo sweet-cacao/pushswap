@@ -34,7 +34,6 @@ int	do_action(char *buff, t_sort **sort, t_sort **sort2)
 	t_sort *tmp;
 	static int g_h = 0;
 
-
 	if (!ft_strcmp(buff, "sa"))
 	{
 		if ((*sort) && (*sort)->next)
