@@ -1,8 +1,11 @@
 #include <stdio.h>
 #include "push_swap.h"
 
+
+
 int main(int ac, char **av)
 {
+
     t_sort 	*sort;
 	t_sort 	*sort2;
     t_sort 	*tmp;
@@ -21,7 +24,8 @@ int main(int ac, char **av)
     	push_front(atoi(av[i]), &sort);
     	i++;
 	}
-    push_swap(&sort, &sort2);
+//	i = push_swap(&sort, &sort2);
+	i = push_swap2(&sort, &sort2);
 /*	if (check_list(sort, sort2))
 	{
 		write(1, "OK\n", 3);
@@ -58,5 +62,6 @@ int main(int ac, char **av)
         printf("el = %d\n", tmp->data);
         tmp = tmp->next;
     }
+    printf("%d", i);
     return 0;
 }

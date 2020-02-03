@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/gstarvin/CLionProjects/pushswap/push_swap.c
+/Users/gstarvin/CLionProjects/pushswap/main.c
+stdio.h
+-
 push_swap.h
 /Users/gstarvin/CLionProjects/pushswap/push_swap.h
 

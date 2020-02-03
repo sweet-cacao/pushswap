@@ -4,6 +4,7 @@
 #include "../../gnl/get_next_line.h"
 #include <stdio.h>
 
+
 typedef struct      s_sort
 {
 	int             data;
@@ -23,8 +24,9 @@ void		swap(t_sort **sort);
 t_sort 		*get_next(t_sort *map);
 void		rotate(t_sort **sort);
 void		rrotate(t_sort **sort);
-void		do_action(char *buff, t_sort **sort, t_sort **sort2);
+int			do_action(char *buff, t_sort **sort, t_sort **sort2);
 void		display_list(t_sort *sort);
-void		push_swap(t_sort **sort, t_sort **sort2);
+int		push_swap(t_sort **sort, t_sort **sort2);
+int		push_swap2(t_sort **sort, t_sort **sort2);
 
 #endif
