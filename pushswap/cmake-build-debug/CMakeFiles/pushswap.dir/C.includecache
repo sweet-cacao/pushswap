@@ -6,16 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/gstarvin/CLionProjects/pushswap/push_swap.c
-push_swap.h
-/Users/gstarvin/CLionProjects/pushswap/push_swap.h
-
-/Users/gstarvin/CLionProjects/pushswap/push_swap.h
-../../gnl/get_next_line.h
-/Users/gstarvin/gnl/get_next_line.h
-stdio.h
--
-
 /Users/gstarvin/gnl/get_next_line.h
 libft/libft.h
 /Users/gstarvin/gnl/libft/libft.h
@@ -28,5 +18,17 @@ stdlib.h
 unistd.h
 -
 string.h
+-
+
+/Users/gstarvin/pushswap/pushswap/main.c
+stdio.h
+-
+push_swap.h
+/Users/gstarvin/pushswap/pushswap/push_swap.h
+
+/Users/gstarvin/pushswap/pushswap/push_swap.h
+../../gnl/get_next_line.h
+/Users/gstarvin/gnl/get_next_line.h
+stdio.h
 -
 

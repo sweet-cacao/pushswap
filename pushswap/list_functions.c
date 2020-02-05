@@ -1,5 +1,17 @@
 #include "push_swap.h"
 
+int 		count_len(t_sort *sort)
+{
+	int len;
+
+	len = 0;
+	while(sort)
+	{
+		len++;
+		sort = sort->next;
+	}
+	return (len);
+}
 int 		actual_command(char *buff)
 {
 	int i;
@@ -38,16 +50,16 @@ t_sort      *add_block(int data)
     return (sort);
 }
 
-void     push_end(int data, t_sort *sort)
+void     push_end(int data, t_sort **sort)
 {
     t_sort  *last;
     t_sort  *tmp;
 
-    last = get_next(sort);
+    last = get_next(*sort);
     tmp = add_block(data);
     if (last == NULL)
     {
-        sort = tmp;
+		(*sort) = tmp;
     }
     else
     {
@@ -62,8 +74,8 @@ void      push_front(int data, t_sort **sort)
     t_sort  *tmp;
     t_sort *head;
 
-    if (sort == NULL)
-        sort = add_block(data);
+    if ((*sort) == NULL)
+		(*sort) = add_block(data);
     else
     {
         tmp = add_block(data);
@@ -87,22 +99,23 @@ void	delete_first(t_sort **sort)
 	}
 	(*sort) = (*sort)->next;
 	(*sort)->prev = NULL;
-	free(tmp);
+	//free(tmp);
 }
 
-void 	delete_last(t_sort *sort)
+void 	delete_last(t_sort **sort)
 {
 	t_sort *tmp;
 
-	tmp = sort;
-	if (!tmp->next)
+	tmp = (*sort);
+/*	if (!tmp->next)
 	{
-		sort = NULL;
+		(*sort) = NULL;
 		return;
-	}
+	}*/
 	while (tmp->next->next)
 	{
 		tmp = tmp->next;
 	}
+	tmp->next->prev = NULL;
 	tmp->next = NULL;
 }

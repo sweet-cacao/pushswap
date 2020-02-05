@@ -36,27 +36,27 @@ CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_strsub.c.o
  /Users/gstarvin/gnl/libft/ft_strsub.c
  /Users/gstarvin/gnl/libft/libft.h
 CMakeFiles/pushswap.dir/check_functions.c.o
- /Users/gstarvin/CLionProjects/pushswap/check_functions.c
- /Users/gstarvin/CLionProjects/pushswap/push_swap.h
  /Users/gstarvin/gnl/get_next_line.h
  /Users/gstarvin/gnl/libft/libft.h
+ /Users/gstarvin/pushswap/pushswap/check_functions.c
+ /Users/gstarvin/pushswap/pushswap/push_swap.h
 CMakeFiles/pushswap.dir/do_action.c.o
- /Users/gstarvin/CLionProjects/pushswap/do_action.c
- /Users/gstarvin/CLionProjects/pushswap/push_swap.h
  /Users/gstarvin/gnl/get_next_line.h
  /Users/gstarvin/gnl/libft/libft.h
+ /Users/gstarvin/pushswap/pushswap/do_action.c
+ /Users/gstarvin/pushswap/pushswap/push_swap.h
 CMakeFiles/pushswap.dir/list_functions.c.o
- /Users/gstarvin/CLionProjects/pushswap/list_functions.c
- /Users/gstarvin/CLionProjects/pushswap/push_swap.h
  /Users/gstarvin/gnl/get_next_line.h
  /Users/gstarvin/gnl/libft/libft.h
+ /Users/gstarvin/pushswap/pushswap/list_functions.c
+ /Users/gstarvin/pushswap/pushswap/push_swap.h
 CMakeFiles/pushswap.dir/main.c.o
- /Users/gstarvin/CLionProjects/pushswap/main.c
- /Users/gstarvin/CLionProjects/pushswap/push_swap.h
  /Users/gstarvin/gnl/get_next_line.h
  /Users/gstarvin/gnl/libft/libft.h
+ /Users/gstarvin/pushswap/pushswap/main.c
+ /Users/gstarvin/pushswap/pushswap/push_swap.h
 CMakeFiles/pushswap.dir/push_swap.c.o
- /Users/gstarvin/CLionProjects/pushswap/push_swap.c
- /Users/gstarvin/CLionProjects/pushswap/push_swap.h
  /Users/gstarvin/gnl/get_next_line.h
  /Users/gstarvin/gnl/libft/libft.h
+ /Users/gstarvin/pushswap/pushswap/push_swap.c
+ /Users/gstarvin/pushswap/pushswap/push_swap.h

@@ -114,13 +114,14 @@ int	push_swap(t_sort **sort, t_sort **sort2) {
 int		last_make_up(t_sort **sort, t_sort **sort2)
 {
 	t_sort *tmp;
+	t_sort *tmp3;
 	int min;
 	int op_prev;
 	int op_next;
 	int i;
 	char *str = malloc(sizeof(char) * 5);
-	char *instr[3000];
-	int j;
+//	char *instr[3000];
+//	int j;
 	t_sort *need;
 	int p;
 
@@ -128,16 +129,17 @@ int		last_make_up(t_sort **sort, t_sort **sort2)
 	op_next = 0;
 	op_prev = 0;
 	p = 0;
-	j = 0;
+//	j = 0;
 	i = 0;
 	tmp = (*sort2);
-	while ((*sort2)->next)
+	need = NULL;
+	while ((*sort2))
 	{
 		i = 0;
 		min = INT32_MIN;
 		while (tmp)
 		{
-			if (tmp->data > min)
+			if (tmp->data >= min)
 			{
 				need = tmp;
 				min = tmp->data;
@@ -153,8 +155,8 @@ int		last_make_up(t_sort **sort, t_sort **sort2)
 			{
 				do_action("rrb", sort, sort2);
 //				display_list(*sort);
-				instr[j] = "rrb";// сомнительный код без маллока
-				j++;
+//				instr[j] = "rrb";// сомнительный код без маллока
+//				j++;
 				i++;
 			}
 		}
@@ -164,17 +166,22 @@ int		last_make_up(t_sort **sort, t_sort **sort2)
 			{
 				do_action("rb", sort, sort2);
 //				display_list(*sort);
-				instr[j] = "rb";// сомнительный код без маллока
-				j++;
+//				instr[j] = "rb";// сомнительный код без маллока
+//				j++;
 				i++;
 			}
 		}
-		p = do_action("pa", sort, sort2);
+		do_action("pa", sort, sort2);
 //		display_list(*sort);
-		instr[j] = "pa";
-		j++;
-		tmp = (*sort2);
+//		instr[j] = "pa";
+//		j++;
+		if (!(*sort2))
+			break;
+		if (*sort2)
+			tmp = (*sort2);
+//		tmp3 = (*sort2);
 	}
+//	p = do_action("last", sort, sort2);
 	p = do_action("pa", sort, sort2);
 	return (p);
 }
@@ -191,7 +198,7 @@ int 	count_operations(t_sort *sort)
 		return op_prev;
 }
 
-void make_up(t_sort **sort, t_sort *tmp, int go)
+void	make_up(t_sort **sort, t_sort *tmp, int go)
 {
 	int op_next;
 	int op_prev;
@@ -250,11 +257,11 @@ void	check_stack_b(t_sort **sort2, t_sort *tmp)
 	need = NULL;
 	go = 0;
 	walk = (*sort2);
-	diff = INT32_MAX;
+	diff = INT32_MIN;
 	while (walk)
 	{
 		go = tmp->data - walk->data;
-		if (go < diff && go > 0)
+		if (go > diff && go > 0)
 		{
 			diff = go;
 			need = walk;
@@ -285,11 +292,8 @@ void 	choose_number(t_sort **sort, t_sort **sort2, int count_one, int count_two,
 	int op_prev;
 	char *str = malloc(sizeof(char) * 5);
 	int i;
-	char *instr[1000];
-	int j;
 
 	i = 0;
-	j = 0;
 	if (count_one < count_two)
 	{
 		op_next = count_op_next(one);
@@ -299,22 +303,53 @@ void 	choose_number(t_sort **sort, t_sort **sort2, int count_one, int count_two,
 		{
 			while (i < op_next)
 			{
+				if ((sort2) && (*sort2) && (*sort2)->next && ((*sort)->next->data - (*sort)->data) < 10 && ((*sort)->next->data - (*sort)->data > 0) && ((*sort2)->next->data - (*sort2)->data) > -10 && ((*sort2)->next->data - (*sort2)->data < 0))
+					do_action("ss", sort, sort2);
+				if (((*sort)->next->data - (*sort)->data) < 10 && ((*sort)->next->data - (*sort)->data > 0))
+					do_action("sa", sort, sort2);
 				do_action("rra", sort, sort2);
+
+				;
 	//			display_list(*sort);
-				instr[j] = "rra";// сомнительный код без маллока
-				j++;
 				i++;
+			}
+			if (sort2 && (*sort2) && ((*sort2)->next))
+			{
+				if (((*sort2)->data > one->data))
+				{
+					do_action("rb", sort, sort2);
+				}
 			}
 		}
 		if (ft_strcmp("prev", str) == 0)
 		{
 			while (i < op_prev)
 			{
+				if ((sort2) && (*sort2) && (*sort2)->next && ((*sort)->next->data - (*sort)->data) < 10 && ((*sort)->next->data - (*sort)->data > 0) && ((*sort2)->next->data - (*sort2)->data) > -10 && ((*sort2)->next->data - (*sort2)->data < 0))
+					do_action("ss", sort, sort2);
+				if (((*sort)->next->data - (*sort)->data) < 10 && ((*sort)->next->data - (*sort)->data > 0))
+					do_action("sa", sort, sort2);
 				do_action("ra", sort, sort2);
 		//		display_list(*sort);
-				instr[j] = "ra";// сомнительный код без маллока
-				j++;
 				i++;
+			}
+		}
+/*		while ((*sort2)->data > one->data)
+		{
+			do_action("rra", sort, sort2);
+		}*/
+		if (sort2 && (*sort2) && ((*sort2)->next))
+		{
+			if (((*sort2)->data > one->data))
+			{
+				do_action("rb", sort, sort2);
+			}
+		}
+		if (sort2 && (*sort2) && ((*sort2)->next))
+		{
+			if (((*sort2)->data > one->data))
+			{
+				do_action("rb", sort, sort2);
 			}
 		}
 	//	check_stack_b(sort2, one);
@@ -329,10 +364,13 @@ void 	choose_number(t_sort **sort, t_sort **sort2, int count_one, int count_two,
 		{
 			while (i < op_next)
 			{
+				if (((*sort)->next->data - (*sort)->data) < 10 && ((*sort)->next->data - (*sort)->data > 0) && ((*sort2)->next->data - (*sort2)->data) > -10 && ((*sort2)->next->data - (*sort2)->data < 0))
+					do_action("ss", sort, sort2);
+				if (((*sort)->next->data - (*sort)->data) < 10 && ((*sort)->next->data - (*sort)->data > 0))
+					do_action("sa", sort, sort2);
 				do_action("rra", sort, sort2);
 		//		display_list(*sort);
-				instr[j] = "rra";// сомнительный код без маллока
-				j++;
+
 				i++;
 			}
 		}
@@ -340,14 +378,24 @@ void 	choose_number(t_sort **sort, t_sort **sort2, int count_one, int count_two,
 		{
 			while (i < op_prev)
 			{
+				if (((*sort)->next->data - (*sort)->data) < 10 && ((*sort)->next->data - (*sort)->data > 0) && ((*sort2)->next->data - (*sort2)->data) > -10 && ((*sort2)->next->data - (*sort2)->data < 0))
+					do_action("ss", sort, sort2);
+				if (((*sort)->next->data - (*sort)->data) < 10 && ((*sort)->next->data - (*sort)->data > 0))
+					do_action("sa", sort, sort2);
 				do_action("ra", sort, sort2);
 		//		display_list(*sort);
-				instr[j] = "ra";// сомнительный код без маллока
-				j++;
+
 				i++;
 			}
 		}
-		//check_stack_b(sort2, two); //для первого сортировочного алгоритма
+		if (sort2 && (*sort2) && ((*sort2)->next))
+		{
+			if (((*sort2)->data > one->data))
+			{
+				do_action("rb", sort, sort2);
+			}
+		}
+//		check_stack_b(sort2, two); //для первого сортировочного алгоритма
 		do_action("pb", sort, sort2);
 	}
 }
@@ -454,7 +502,9 @@ int	push_swap2(t_sort **sort, t_sort **sort2)
 	int max = INT32_MIN;
 	int count_one;
 	int count_two;
-	int stack[25] = {20, 40, 60, 80, 100};
+//	int stack[11] = {45, 90, 135, 180, 225, 270, 315, 360, 405, 450, 500};
+//	int stack[25] = {60, 105, 150, 195, 240, 280, 325, 370, 415, 450, 500};
+	int stack[25] = {20, 40, 60, 80, 100, 120, 140, 150, 160, 180, 200, 220, 240, 260, 280, 300, 320, 340, 360, 380, 400, 420, 440, 460, 500};
 	char *instr[1000];
 	int i;
 	int j;
@@ -462,7 +512,7 @@ int	push_swap2(t_sort **sort, t_sort **sort2)
 	i = 0;
 	j = 0;
 
-	while (i < 25) //для каждой группы выполняем необходимый код
+	while (i < 5) //для каждой группы выполняем необходимый код
 	{
 		one = find_first(stack[i], *sort);
 		while (one != NULL)
@@ -492,9 +542,9 @@ int	push_swap2(t_sort **sort, t_sort **sort2)
 		}
 		tmp = tmp->next;
 	}
-	make_up(sort2, one, 0); для первого сортировочного алгоритма*/
+	*/ //make_up(sort2, one, 0); //для первого сортировочного алгоритма*/
 	int p = last_make_up(sort, sort2);
-//	int p = push_everything(sort, sort2); для первого сортировочного алгоритма
+//	int p = push_everything(sort, sort2);// для первого сортировочного алгоритма
 /*	one = find_first()
 	tmp = (*sort);
 	while (two == NULL)

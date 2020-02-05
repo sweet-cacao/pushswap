@@ -24,6 +24,26 @@ int main(int ac, char **av)
     	push_front(atoi(av[i]), &sort);
     	i++;
 	}
+    if (count_len(sort) == 3)
+	{
+
+	}
+    if (count_len(sort) == 5)
+	{
+
+	}
+    else if (count_len(sort) <=100)
+	{
+
+	}
+    else if (count_len(sort) <= 500)
+	{
+
+	}
+    else if (count_len(sort) <= 1000)
+	{
+
+	}
 //	i = push_swap(&sort, &sort2);
 	i = push_swap2(&sort, &sort2);
 /*	if (check_list(sort, sort2))

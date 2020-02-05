@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/gstarvin/CLionProjects/pushswap
+CMAKE_SOURCE_DIR = /Users/gstarvin/pushswap/pushswap
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/gstarvin/CLionProjects/pushswap/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/gstarvin/pushswap/pushswap/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/gstarvin/CLionProjects/pushswap/cmake-build-debug/CMakeFiles /Users/gstarvin/CLionProjects/pushswap/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/gstarvin/pushswap/pushswap/cmake-build-debug/CMakeFiles /Users/gstarvin/pushswap/pushswap/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/gstarvin/CLionProjects/pushswap/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/gstarvin/pushswap/pushswap/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -555,6 +555,33 @@ push_swap.c.s:
 	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/push_swap.c.s
 .PHONY : push_swap.c.s
 
+push_swap_min.o: push_swap_min.c.o
+
+.PHONY : push_swap_min.o
+
+# target to build an object file
+push_swap_min.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/push_swap_min.c.o
+.PHONY : push_swap_min.c.o
+
+push_swap_min.i: push_swap_min.c.i
+
+.PHONY : push_swap_min.i
+
+# target to preprocess a source file
+push_swap_min.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/push_swap_min.c.i
+.PHONY : push_swap_min.c.i
+
+push_swap_min.s: push_swap_min.c.s
+
+.PHONY : push_swap_min.s
+
+# target to generate assembly for a file
+push_swap_min.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/push_swap_min.c.s
+.PHONY : push_swap_min.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -612,6 +639,9 @@ help:
 	@echo "... push_swap.o"
 	@echo "... push_swap.i"
 	@echo "... push_swap.s"
+	@echo "... push_swap_min.o"
+	@echo "... push_swap_min.i"
+	@echo "... push_swap_min.s"
 .PHONY : help
 
 

@@ -16,7 +16,7 @@ void	rotate(t_sort **sort)
 
 	tmp2 = (*sort);
 	delete_first(sort);
-	push_end(tmp2->data, *sort);
+	push_end(tmp2->data, sort);
 }
 
 void	rrotate(t_sort **sort)
@@ -25,16 +25,15 @@ void	rrotate(t_sort **sort)
 
 	tmp = (*sort);
 	tmp = get_next(tmp);
-	delete_last(*sort);
 	push_front(tmp->data, sort);
+	delete_last(sort);
 }
 
 int	do_action(char *buff, t_sort **sort, t_sort **sort2)
 {
+	static int g_h;
 	t_sort *tmp;
-	static int g_h = 0;
-
-	if (!ft_strcmp(buff, "sa"))
+	if (ft_strcmp(buff, "sa") == 0)
 	{
 		if ((*sort) && (*sort)->next)
 		{
@@ -44,7 +43,7 @@ int	do_action(char *buff, t_sort **sort, t_sort **sort2)
 			display_list(*sort);
 		}
 	}
-	if (!ft_strcmp(buff, "sb"))
+	if (ft_strcmp(buff, "sb") == 0)
 	{
 		if ((*sort2) && (*sort2)->next)
 		{
@@ -53,7 +52,7 @@ int	do_action(char *buff, t_sort **sort, t_sort **sort2)
 			swap(sort2);
 		}
 	}
-	if (!ft_strcmp(buff, "ss"))
+	if (ft_strcmp(buff, "ss") == 0)
 	{
 		if ((*sort2) && (*sort2)->next && (*sort) && (*sort)->next)
 		{
@@ -63,7 +62,7 @@ int	do_action(char *buff, t_sort **sort, t_sort **sort2)
 			swap(sort2);
 		}
 	}
-	if (!ft_strcmp(buff, "pa"))
+	if (ft_strcmp(buff, "pa") == 0)
 	{
 		if ((*sort2))
 		{
@@ -78,15 +77,16 @@ int	do_action(char *buff, t_sort **sort, t_sort **sort2)
 			display_list(*sort2);
 		}
 	}
-	if (!ft_strcmp(buff, "pb"))
+	if (ft_strcmp(buff, "pb") == 0)
 	{
 		if (*sort)
 		{
 			g_h++;
 			printf("pb\n");
 			tmp = (*sort);
+			int k = tmp->data;
 			delete_first(sort);
-			push_front(tmp->data, sort2);
+			push_front(k, sort2);
 			printf("a\n");
 			display_list(*sort);
 			printf("b\n");
@@ -96,7 +96,7 @@ int	do_action(char *buff, t_sort **sort, t_sort **sort2)
 	}
 	if ((*sort) && (*sort)->next)
 	{
-		if (!ft_strcmp(buff, "ra"))
+		if (ft_strcmp(buff, "ra") == 0)
 		{
 			g_h++;
 			printf("ra\n");
@@ -104,8 +104,7 @@ int	do_action(char *buff, t_sort **sort, t_sort **sort2)
 			printf("a\n");
 			display_list(*sort);
 		}
-
-		if (!ft_strcmp(buff, "rra"))
+		if (ft_strcmp(buff, "rra") == 0)
 		{
 			g_h++;
 			printf("rra\n");
@@ -116,7 +115,7 @@ int	do_action(char *buff, t_sort **sort, t_sort **sort2)
 	}
 	if ((*sort2) && (*sort2)->next)
 	{
-		if (!ft_strcmp(buff, "rb"))
+		if (ft_strcmp(buff, "rb") == 0)
 		{
 			g_h++;
 			printf("rb\n");
@@ -124,8 +123,7 @@ int	do_action(char *buff, t_sort **sort, t_sort **sort2)
 			printf("b\n");
 			display_list(*sort2);
 		}
-
-		if (!ft_strcmp(buff, "rrb"))
+		if (ft_strcmp(buff, "rrb") == 0)
 		{
 			g_h++;
 			printf("rrb\n");
@@ -137,14 +135,14 @@ int	do_action(char *buff, t_sort **sort, t_sort **sort2)
 	}
 	if ((*sort2) && (*sort2)->next && (*sort) && (*sort)->next)
 	{
-		if (!ft_strcmp(buff, "rr"))
+		if (ft_strcmp(buff, "rr") == 0)
 		{
 			g_h++;
 			printf("rr");
 			rotate(sort);
 			rotate(sort2);
 		}
-		if (!ft_strcmp(buff, "rrr"))
+		if (ft_strcmp(buff, "rrr") == 0)
 		{
 			g_h++;
 			printf("rrr");
