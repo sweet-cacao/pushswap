@@ -447,6 +447,33 @@ check_functions.c.s:
 	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/check_functions.c.s
 .PHONY : check_functions.c.s
 
+common_actions.o: common_actions.c.o
+
+.PHONY : common_actions.o
+
+# target to build an object file
+common_actions.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/common_actions.c.o
+.PHONY : common_actions.c.o
+
+common_actions.i: common_actions.c.i
+
+.PHONY : common_actions.i
+
+# target to preprocess a source file
+common_actions.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/common_actions.c.i
+.PHONY : common_actions.c.i
+
+common_actions.s: common_actions.c.s
+
+.PHONY : common_actions.s
+
+# target to generate assembly for a file
+common_actions.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/common_actions.c.s
+.PHONY : common_actions.c.s
+
 do_action.o: do_action.c.o
 
 .PHONY : do_action.o
@@ -627,6 +654,9 @@ help:
 	@echo "... check_functions.o"
 	@echo "... check_functions.i"
 	@echo "... check_functions.s"
+	@echo "... common_actions.o"
+	@echo "... common_actions.i"
+	@echo "... common_actions.s"
 	@echo "... do_action.o"
 	@echo "... do_action.i"
 	@echo "... do_action.s"

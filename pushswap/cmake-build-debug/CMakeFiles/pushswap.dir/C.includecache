@@ -20,9 +20,7 @@ unistd.h
 string.h
 -
 
-/Users/gstarvin/pushswap/pushswap/main.c
-stdio.h
--
+/Users/gstarvin/pushswap/pushswap/push_swap.c
 push_swap.h
 /Users/gstarvin/pushswap/pushswap/push_swap.h
 

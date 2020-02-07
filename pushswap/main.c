@@ -5,7 +5,7 @@
 
 int main(int ac, char **av)
 {
-
+	t_act a;
     t_sort 	*sort;
 	t_sort 	*sort2;
     t_sort 	*tmp;
@@ -24,28 +24,41 @@ int main(int ac, char **av)
     	push_front(atoi(av[i]), &sort);
     	i++;
 	}
+    if (check_list(sort, sort2))
+	{
+		tmp = sort;
+		while (tmp)
+		{
+			printf("el = %d\n", tmp->data);
+			tmp = tmp->next;
+		}
+		printf("%d", i);
+    	return (0);
+	}
     if (count_len(sort) == 3)
 	{
-
+		i  = push_swap_min(&sort, &sort2);
 	}
     if (count_len(sort) == 5)
 	{
-
+		push_swap_five(&sort, &sort2);
 	}
+    /*
     else if (count_len(sort) <=100)
 	{
 
-	}
+	}*/
     else if (count_len(sort) <= 500)
 	{
-
+		i = push_swap2(&sort, &sort2);
 	}
     else if (count_len(sort) <= 1000)
 	{
 
 	}
+/* 	 i = push_swap2(&sort, &sort2);*/
 //	i = push_swap(&sort, &sort2);
-	i = push_swap2(&sort, &sort2);
+
 /*	if (check_list(sort, sort2))
 	{
 		write(1, "OK\n", 3);
@@ -75,6 +88,7 @@ int main(int ac, char **av)
 	}*/
 	// delete_first(&sort);
  //   rotate(&sort);
+
 	tmp = sort;
   //  delete_last(sort);
     while (tmp)
