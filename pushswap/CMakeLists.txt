@@ -12,4 +12,4 @@ add_executable(pushswap main.c list_functions.c push_swap.h ../../gnl/get_next_l
         ../../gnl/libft/ft_strdel.c
         ../../gnl/libft/ft_strlen.c
         ../../gnl/libft/ft_strsub.c check_functions.c
-        ../../gnl/libft/ft_isdigit.c do_action.c push_swap.c push_swap_min.c common_actions.c push_min_op.c clear_pushswap.c)
+        ../../gnl/libft/ft_isdigit.c do_action.c push_swap.c push_swap_min.c common_actions.c push_min_op.c)

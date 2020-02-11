@@ -16,7 +16,6 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/gstarvin/gnl/libft/ft_strnew.c" "/Users/gstarvin/pushswap/pushswap/cmake-build-debug/CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_strnew.c.o"
   "/Users/gstarvin/gnl/libft/ft_strsub.c" "/Users/gstarvin/pushswap/pushswap/cmake-build-debug/CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_strsub.c.o"
   "/Users/gstarvin/pushswap/pushswap/check_functions.c" "/Users/gstarvin/pushswap/pushswap/cmake-build-debug/CMakeFiles/pushswap.dir/check_functions.c.o"
-  "/Users/gstarvin/pushswap/pushswap/clear_pushswap.c" "/Users/gstarvin/pushswap/pushswap/cmake-build-debug/CMakeFiles/pushswap.dir/clear_pushswap.c.o"
   "/Users/gstarvin/pushswap/pushswap/common_actions.c" "/Users/gstarvin/pushswap/pushswap/cmake-build-debug/CMakeFiles/pushswap.dir/common_actions.c.o"
   "/Users/gstarvin/pushswap/pushswap/do_action.c" "/Users/gstarvin/pushswap/pushswap/cmake-build-debug/CMakeFiles/pushswap.dir/do_action.c.o"
   "/Users/gstarvin/pushswap/pushswap/list_functions.c" "/Users/gstarvin/pushswap/pushswap/cmake-build-debug/CMakeFiles/pushswap.dir/list_functions.c.o"

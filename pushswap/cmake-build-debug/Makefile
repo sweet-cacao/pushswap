@@ -447,33 +447,6 @@ check_functions.c.s:
 	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/check_functions.c.s
 .PHONY : check_functions.c.s
 
-clear_pushswap.o: clear_pushswap.c.o
-
-.PHONY : clear_pushswap.o
-
-# target to build an object file
-clear_pushswap.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/clear_pushswap.c.o
-.PHONY : clear_pushswap.c.o
-
-clear_pushswap.i: clear_pushswap.c.i
-
-.PHONY : clear_pushswap.i
-
-# target to preprocess a source file
-clear_pushswap.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/clear_pushswap.c.i
-.PHONY : clear_pushswap.c.i
-
-clear_pushswap.s: clear_pushswap.c.s
-
-.PHONY : clear_pushswap.s
-
-# target to generate assembly for a file
-clear_pushswap.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/clear_pushswap.c.s
-.PHONY : clear_pushswap.c.s
-
 common_actions.o: common_actions.c.o
 
 .PHONY : common_actions.o
@@ -708,9 +681,6 @@ help:
 	@echo "... check_functions.o"
 	@echo "... check_functions.i"
 	@echo "... check_functions.s"
-	@echo "... clear_pushswap.o"
-	@echo "... clear_pushswap.i"
-	@echo "... clear_pushswap.s"
 	@echo "... common_actions.o"
 	@echo "... common_actions.i"
 	@echo "... common_actions.s"

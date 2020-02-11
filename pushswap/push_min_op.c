@@ -111,6 +111,7 @@ int push_min_op(t_sort **sort, t_sort **sort2)
 
 	min = INT32_MAX;
 	tmp = (*sort2);
+	need = NULL;
 	while ((*sort2))
 	{
         min = INT32_MAX;
@@ -119,14 +120,11 @@ int push_min_op(t_sort **sort, t_sort **sort2)
 			op = find_place3_a(&tmp, sort, &act) + make_up_a2(sort, sort2, tmp, &act);
 			if (op < min)
 			{
-		//		first = find_place3_a(&tmp, sort, &act);
-		//		second = make_up_a2(sort, sort2, tmp, &act);
 				min = op;
 				need = tmp;
 			}
 			tmp = tmp->next;
 		}
-//		clear_make(sort, sort2, need);
 		make_up_b(sort2, sort2, need);
 		find_place3_b(sort2, sort);
 		tmp = (*sort2);

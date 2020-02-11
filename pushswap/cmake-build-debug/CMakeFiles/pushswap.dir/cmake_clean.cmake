@@ -11,7 +11,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_strnew.c.o"
   "CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_strsub.c.o"
   "CMakeFiles/pushswap.dir/check_functions.c.o"
-  "CMakeFiles/pushswap.dir/clear_pushswap.c.o"
   "CMakeFiles/pushswap.dir/common_actions.c.o"
   "CMakeFiles/pushswap.dir/do_action.c.o"
   "CMakeFiles/pushswap.dir/list_functions.c.o"
