@@ -65,7 +65,6 @@ int 	make_up_a(t_sort **sort, t_sort **sort2, t_sort *tmp)
 			i++;
 
 		}
-
 	}
 	return (j);
 }
@@ -100,7 +99,6 @@ int 	make_up_b(t_sort **sort, t_sort **sort2, t_sort *tmp)
 		{
 			j = do_action("rb",  sort, sort2);
 			i++;
-
 		}
 	}
 	return (j);
@@ -285,7 +283,7 @@ void			find_place3_b(t_sort **sort, t_sort **sort2)
 	{
 		make_sorted(sort2, sort2);
 	}
-
+	do_action("pb", sort, sort2);
 }
 
 /*

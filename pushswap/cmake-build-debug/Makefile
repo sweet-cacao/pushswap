@@ -447,6 +447,33 @@ check_functions.c.s:
 	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/check_functions.c.s
 .PHONY : check_functions.c.s
 
+clear_pushswap.o: clear_pushswap.c.o
+
+.PHONY : clear_pushswap.o
+
+# target to build an object file
+clear_pushswap.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/clear_pushswap.c.o
+.PHONY : clear_pushswap.c.o
+
+clear_pushswap.i: clear_pushswap.c.i
+
+.PHONY : clear_pushswap.i
+
+# target to preprocess a source file
+clear_pushswap.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/clear_pushswap.c.i
+.PHONY : clear_pushswap.c.i
+
+clear_pushswap.s: clear_pushswap.c.s
+
+.PHONY : clear_pushswap.s
+
+# target to generate assembly for a file
+clear_pushswap.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/clear_pushswap.c.s
+.PHONY : clear_pushswap.c.s
+
 common_actions.o: common_actions.c.o
 
 .PHONY : common_actions.o
@@ -555,6 +582,33 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/main.c.s
 .PHONY : main.c.s
 
+push_min_op.o: push_min_op.c.o
+
+.PHONY : push_min_op.o
+
+# target to build an object file
+push_min_op.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/push_min_op.c.o
+.PHONY : push_min_op.c.o
+
+push_min_op.i: push_min_op.c.i
+
+.PHONY : push_min_op.i
+
+# target to preprocess a source file
+push_min_op.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/push_min_op.c.i
+.PHONY : push_min_op.c.i
+
+push_min_op.s: push_min_op.c.s
+
+.PHONY : push_min_op.s
+
+# target to generate assembly for a file
+push_min_op.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/push_min_op.c.s
+.PHONY : push_min_op.c.s
+
 push_swap.o: push_swap.c.o
 
 .PHONY : push_swap.o
@@ -654,6 +708,9 @@ help:
 	@echo "... check_functions.o"
 	@echo "... check_functions.i"
 	@echo "... check_functions.s"
+	@echo "... clear_pushswap.o"
+	@echo "... clear_pushswap.i"
+	@echo "... clear_pushswap.s"
 	@echo "... common_actions.o"
 	@echo "... common_actions.i"
 	@echo "... common_actions.s"
@@ -666,6 +723,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... push_min_op.o"
+	@echo "... push_min_op.i"
+	@echo "... push_min_op.s"
 	@echo "... push_swap.o"
 	@echo "... push_swap.i"
 	@echo "... push_swap.s"

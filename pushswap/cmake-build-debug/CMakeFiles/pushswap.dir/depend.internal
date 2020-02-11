@@ -40,6 +40,11 @@ CMakeFiles/pushswap.dir/check_functions.c.o
  /Users/gstarvin/gnl/libft/libft.h
  /Users/gstarvin/pushswap/pushswap/check_functions.c
  /Users/gstarvin/pushswap/pushswap/push_swap.h
+CMakeFiles/pushswap.dir/clear_pushswap.c.o
+ /Users/gstarvin/gnl/get_next_line.h
+ /Users/gstarvin/gnl/libft/libft.h
+ /Users/gstarvin/pushswap/pushswap/clear_pushswap.c
+ /Users/gstarvin/pushswap/pushswap/push_swap.h
 CMakeFiles/pushswap.dir/common_actions.c.o
  /Users/gstarvin/gnl/get_next_line.h
  /Users/gstarvin/gnl/libft/libft.h
@@ -59,6 +64,11 @@ CMakeFiles/pushswap.dir/main.c.o
  /Users/gstarvin/gnl/get_next_line.h
  /Users/gstarvin/gnl/libft/libft.h
  /Users/gstarvin/pushswap/pushswap/main.c
+ /Users/gstarvin/pushswap/pushswap/push_swap.h
+CMakeFiles/pushswap.dir/push_min_op.c.o
+ /Users/gstarvin/gnl/get_next_line.h
+ /Users/gstarvin/gnl/libft/libft.h
+ /Users/gstarvin/pushswap/pushswap/push_min_op.c
  /Users/gstarvin/pushswap/pushswap/push_swap.h
 CMakeFiles/pushswap.dir/push_swap.c.o
  /Users/gstarvin/gnl/get_next_line.h

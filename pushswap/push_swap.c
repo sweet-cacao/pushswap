@@ -316,7 +316,7 @@ void 	choose_number(t_sort **sort, t_sort **sort2, int count_one, int count_two,
 		act.op_b = find_place3_b2(&one, sort2, &act);
 		if (ft_strcmp("next", str) == 0)
 		{
-			act.op_a = op_next;
+/*			act.op_a = op_next;
 			act.str_a = 1;
 			if (act.str_a == act.str_b)
 			{
@@ -346,20 +346,20 @@ void 	choose_number(t_sort **sort, t_sort **sort2, int count_one, int count_two,
 			}
 			else
 			{
-
+*/
 			while (i < op_next)
 			{
-//				if ((sort2) && (*sort2) && (*sort2)->next && ((*sort)->next->data - (*sort)->data) < 10 && ((*sort)->next->data - (*sort)->data > 0) && ((*sort2)->next->data - (*sort2)->data) > -10 && ((*sort2)->next->data - (*sort2)->data < 0))
-//					do_action("ss", sort, sort2);
-//				if ((sort2) && (*sort2) && (*sort2)->next && ((*sort)->next->data - (*sort)->data) < 10 && ((*sort)->next->data - (*sort)->data > 0))
-//					do_action("sa", sort, sort2);
+				if ((sort2) && (*sort2) && (*sort2)->next && ((*sort)->next->data - (*sort)->data) < 10 && ((*sort)->next->data - (*sort)->data > 0) && ((*sort2)->next->data - (*sort2)->data) > -10 && ((*sort2)->next->data - (*sort2)->data < 0))
+					do_action("ss", sort, sort2);
+				if ((sort2) && (*sort2) && (*sort2)->next && ((*sort)->next->data - (*sort)->data) < 10 && ((*sort)->next->data - (*sort)->data > 0))
+					do_action("sa", sort, sort2);
 				do_action("rra", sort, sort2);
 	//			display_list(*sort);
 				i++;
 			}
-				if (sort2 && (*sort2))// && (*sort2)->next)
-					find_place3_b(sort, sort2);
-			}
+//				if (sort2 && (*sort2))// && (*sort2)->next)
+//					find_place3_b(sort, sort2);
+//			}
 /*			if (sort2 && (*sort2) && ((*sort2)->next))
 			{
 				if (((*sort2)->data > one->data))
@@ -370,7 +370,7 @@ void 	choose_number(t_sort **sort, t_sort **sort2, int count_one, int count_two,
 		}
 		if (ft_strcmp("prev", str) == 0)
 		{
-			act.op_a = op_prev;
+/*		act.op_a = op_prev;
 			act.str_a = 0;
 			if (act.str_a == act.str_b)
 			{
@@ -398,26 +398,26 @@ void 	choose_number(t_sort **sort, t_sort **sort2, int count_one, int count_two,
 					}
 				}
 			} else
-			{
+			{*/
 			while (i < op_prev)
 			{
-//				if ((sort2) && (*sort2) && (*sort)->next && ((*sort)->next->data - (*sort)->data) < 10 && ((*sort)->next->data - (*sort)->data > 0) && ((*sort2)->next->data - (*sort2)->data) > -10 && ((*sort2)->next->data - (*sort2)->data < 0))
-//					do_action("ss", sort, sort2);
-//				if ((sort2) && (*sort2) && (*sort)->next && ((*sort)->next->data - (*sort)->data) < 10 && ((*sort)->next->data - (*sort)->data > 0))
-//					do_action("sa", sort, sort2);
+				if ((sort2) && (*sort2) && (*sort)->next && ((*sort)->next->data - (*sort)->data) < 10 && ((*sort)->next->data - (*sort)->data > 0) && ((*sort2)->next->data - (*sort2)->data) > -10 && ((*sort2)->next->data - (*sort2)->data < 0))
+					do_action("ss", sort, sort2);
+				if ((sort2) && (*sort2) && (*sort)->next && ((*sort)->next->data - (*sort)->data) < 10 && ((*sort)->next->data - (*sort)->data > 0))
+					do_action("sa", sort, sort2);
 				do_action("ra", sort, sort2);
 		//		display_list(*sort);
 				i++;
 			}
-				if (sort2 && (*sort2))// && (*sort2)->next)
+/*				if (sort2 && (*sort2))// && (*sort2)->next)
 					find_place3_b(sort, sort2);
-			}
+			}*/
 		}
 /*		while ((*sort2)->data > one->data)
 		{
 			do_action("rra", sort, sort2);
 		}*/
-		/*if (sort2 && (*sort2) && ((*sort2)->next))
+		if (sort2 && (*sort2) && ((*sort2)->next))
 		{
 			if (((*sort2)->data > one->data))
 			{
@@ -430,7 +430,8 @@ void 	choose_number(t_sort **sort, t_sort **sort2, int count_one, int count_two,
 			{
 				do_action("rb", sort, sort2);
 			}
-		}*/
+		}
+
 	//	check_stack_b(sort2, one);
 //		if (sort2 && (*sort2) && (*sort2)->next)
 //			find_place3_b(sort, sort2);
@@ -441,10 +442,10 @@ void 	choose_number(t_sort **sort, t_sort **sort2, int count_one, int count_two,
 		op_next = count_op_next(two);
 		op_prev = count_op_prev(two);
 		str = op_next <= op_prev ? "next" : "prev";
-		act.op_b = find_place3_b2(&two, sort2, &act);
+//		act.op_b = find_place3_b2(&two, sort2, &act);
 		if (ft_strcmp("next", str) == 0)
 		{
-			act.op_a = op_next;
+/*			act.op_a = op_next;
 			act.str_a = 1;
 			if (act.str_a == act.str_b)
 			{
@@ -471,24 +472,24 @@ void 	choose_number(t_sort **sort, t_sort **sort2, int count_one, int count_two,
 						act.op_b--;
 					}
 				}
-			} else{
+			} else{*/
 				while (i < op_next) {
-//				if (((*sort)->next->data - (*sort)->data) < 10 && ((*sort)->next->data - (*sort)->data > 0) && ((*sort2)->next->data - (*sort2)->data) > -10 && ((*sort2)->next->data - (*sort2)->data < 0))
-//					do_action("ss", sort, sort2);
-//				if (((*sort)->next->data - (*sort)->data) < 10 && ((*sort)->next->data - (*sort)->data > 0))
-//					do_action("sa", sort, sort2);
-					do_action("rra", sort, sort2);
+				if (((*sort)->next->data - (*sort)->data) < 10 && ((*sort)->next->data - (*sort)->data > 0) && ((*sort2)->next->data - (*sort2)->data) > -10 && ((*sort2)->next->data - (*sort2)->data < 0))
+					do_action("ss", sort, sort2);
+				if (((*sort)->next->data - (*sort)->data) < 10 && ((*sort)->next->data - (*sort)->data > 0))
+					do_action("sa", sort, sort2);
+				do_action("rra", sort, sort2);
 					//		display_list(*sort);
 
 					i++;
 				}
-				if (sort2 && (*sort2))// && (*sort2)->next)
-					find_place3_b(sort, sort2);
-			}
+//				if (sort2 && (*sort2))// && (*sort2)->next)
+//					find_place3_b(sort, sort2);
+	//		}
 		}
 		if (ft_strcmp("prev", str) == 0)
 		{
-			act.op_a = op_prev;
+/*			act.op_a = op_prev;
 			act.str_a = 0;
 			if (act.str_a == act.str_b)
 			{
@@ -515,27 +516,34 @@ void 	choose_number(t_sort **sort, t_sort **sort2, int count_one, int count_two,
 						act.op_b--;
 					}
 				}
-			} else {
+			} else {*/
 				while (i < op_prev) {
-//				if (((*sort)->next->data - (*sort)->data) < 10 && ((*sort)->next->data - (*sort)->data > 0) && ((*sort2)->next->data - (*sort2)->data) > -10 && ((*sort2)->next->data - (*sort2)->data < 0))
-//					do_action("ss", sort, sort2);
-//				if (((*sort)->next->data - (*sort)->data) < 10 && ((*sort)->next->data - (*sort)->data > 0))
-	//				do_action("sa", sort, sort2);
+				if (((*sort)->next->data - (*sort)->data) < 10 && ((*sort)->next->data - (*sort)->data > 0) && ((*sort2)->next->data - (*sort2)->data) > -10 && ((*sort2)->next->data - (*sort2)->data < 0))
+					do_action("ss", sort, sort2);
+				if (((*sort)->next->data - (*sort)->data) < 10 && ((*sort)->next->data - (*sort)->data > 0))
+					do_action("sa", sort, sort2);
 				do_action("ra", sort, sort2);
 					//		display_list(*sort);
 					i++;
 				}
-				if (sort2 && (*sort2))// && (*sort2)->next)
-					find_place3_b(sort, sort2);
-			}
+//				if (sort2 && (*sort2))// && (*sort2)->next)
+//					find_place3_b(sort, sort2);
+	//		}
 		}
-/*		if (sort2 && (*sort2) && ((*sort2)->next))
+		if (sort2 && (*sort2) && ((*sort2)->next))
 		{
 			if (((*sort2)->data > one->data))
 			{
 				do_action("rb", sort, sort2);
 			}
-		}*/
+		}
+		if (sort2 && (*sort2) && ((*sort2)->next))
+		{
+			if (((*sort2)->data > one->data))
+			{
+				do_action("rb", sort, sort2);
+			}
+		}
 //		if ((*sort2) && (*sort2)->next)
 //			find_place3_b(sort, sort2);
 //		check_stack_b(sort2, two); //для первого сортировочного алгоритма
@@ -594,10 +602,12 @@ t_sort 	*find_last(int stack_last, t_sort *sort)
 	{
 		if (tmp->data < stack_last)
 		{
-			tmp2 = tmp;
-			return (tmp2);
+		    if (tmp->data != 0 && tmp->data != 500)
+		    {
+                tmp2 = tmp;
+                return (tmp2);
+            }
 		}
-
 		tmp = tmp->prev;
 	}
 	return (tmp2);
@@ -610,9 +620,12 @@ t_sort 	*find_first(int stack_last, t_sort *sort)
 	tmp = sort;
 	while(tmp)
 	{
-		if (tmp->data < stack_last)
-			return (tmp);
-		tmp = tmp->next;
+        if (tmp->data != 0 && tmp->data != 500)
+        {
+            if (tmp->data < stack_last)
+                return (tmp);
+        }
+        tmp = tmp->next;
 	}
 	return (tmp);
 }
@@ -645,7 +658,8 @@ int	push_swap2(t_sort **sort, t_sort **sort2)
 	int max = INT32_MIN;
 	int count_one;
 	int count_two;
-	int stack[11] = {45, 90, 135, 180, 225, 270, 315, 360, 405, 450, 500};
+	int stack[3] = {166, 332, 500};
+//	int stack[11] = {45, 90, 135, 180, 225, 270, 315, 360, 405, 450, 500};
 //	int stack[25] = {60, 105, 150, 195, 240, 280, 325, 370, 415, 450, 500};
 //	int stack[25] = {20, 40, 60, 80, 100, 120, 140, 150, 160, 180, 200, 220, 240, 260, 280, 300, 320, 340, 360, 380, 400, 420, 440, 460, 500};
 	char *instr[1000];
@@ -654,12 +668,14 @@ int	push_swap2(t_sort **sort, t_sort **sort2)
 
 	i = 0;
 	j = 0;
-
-	while (i < 25) //для каждой группы выполняем необходимый код
+/*
+	while (i < 3) //для каждой группы выполняем необходимый код
 	{
 		one = find_first(stack[i], *sort);
 		while (one != NULL)
 		{
+		    if ((*sort)->next->next == NULL)
+		        break;
 			one = find_first(stack[i], *sort);
 			if (one == NULL)
 				break;
@@ -675,6 +691,31 @@ int	push_swap2(t_sort **sort, t_sort **sort2)
 		}
 		i++;
 	}
+	*/
+
+ while ((*sort)->next->next)
+	{
+        if ((*sort)->next->next == NULL)
+            break;
+        if ((*sort)->data == 0 || (*sort)->data == 500)
+            do_action("ra", sort, sort2);
+		if (((*sort)->data) < 250 && (*sort)->data != 0 && (*sort)->data != 500)
+			do_action("pb", sort, sort2);
+		else
+		{
+		    if ((*sort)->data != 0 && (*sort)->data != 500)
+		    {
+                do_action("pb", sort, sort2);
+                do_action("rb", sort, sort2);
+            }
+		}
+	}
+	//	else
+	//	{
+		//	do_action("pb", sort, sort2);
+		//	do_action("rb", sort, sort2);
+	//	}
+
 /*	tmp = (*sort2);
 	while (tmp)
 	{
@@ -687,7 +728,8 @@ int	push_swap2(t_sort **sort, t_sort **sort2)
 	}
 	*/ //make_up(sort2, one, 0); //для первого сортировочного алгоритма*/
 //	int p = last_make_up(sort, sort2);
-	int p = push_everything(sort, sort2);// для первого сортировочного алгоритма
+	int p = push_min_op(sort, sort2);
+//	int p = push_everything(sort, sort2);// для первого сортировочного алгоритма
 /*	one = find_first()
 	tmp = (*sort);
 	while (two == NULL)

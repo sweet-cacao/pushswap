@@ -51,5 +51,9 @@ void		find_place3_b(t_sort **sort, t_sort **sort2);
 int 		check_biggest(t_sort **sort, t_sort **sort2);
 int			check_smallest(t_sort **sort, t_sort **sort2);
 int			find_place3_b2(t_sort **walk, t_sort **sort2, t_act *act);
+int			push_min_op(t_sort **sort, t_sort **sort2);
+int 		make_up_b(t_sort **sort, t_sort **sort2, t_sort *tmp);
+int 		make_sorted(t_sort **sort, t_sort **sort2);
+void 		clear_make(t_sort **sort, t_sort **sort2, t_sort *need);
 
 #endif
