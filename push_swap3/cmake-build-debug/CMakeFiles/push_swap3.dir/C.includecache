@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/gstarvin/CLionProjects/push_swap3/main.c
+push_swap.h
+/Users/gstarvin/CLionProjects/push_swap3/push_swap.h
+
+/Users/gstarvin/CLionProjects/push_swap3/minilibx_macos/mlx.h
+
+/Users/gstarvin/CLionProjects/push_swap3/push_swap.h
+../../gnl/get_next_line.h
+/Users/gstarvin/gnl/get_next_line.h
+minilibx_macos/mlx.h
+/Users/gstarvin/CLionProjects/push_swap3/minilibx_macos/mlx.h
+
+/Users/gstarvin/gnl/get_next_line.h
+libft/libft.h
+/Users/gstarvin/gnl/libft/libft.h
+fcntl.h
+-
+
+/Users/gstarvin/gnl/libft/libft.h
+stdlib.h
+-
+unistd.h
+-
+string.h
+-
+

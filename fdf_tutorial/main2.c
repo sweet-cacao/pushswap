@@ -1,6 +1,6 @@
 
 #include "fdf.h"
-
+/*
 int     deal_key(int key, fdf *data)
 {
 	printf("%d", key);
@@ -23,8 +23,8 @@ int     deal_key(int key, fdf *data)
 	mlx_clear_window(data->mlx_ptr, data->win_ptr);
 	draw(data);
 	return (0);
-}
-
+}*/
+/*
 int main(int argc, char **argv) {
 
 	fdf *data;
@@ -57,3 +57,4 @@ int main(int argc, char **argv) {
 	mlx_loop(data->mlx_ptr);
 	return (0);
 }
+*/
