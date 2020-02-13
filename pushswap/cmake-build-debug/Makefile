@@ -501,6 +501,33 @@ do_action.c.s:
 	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/do_action.c.s
 .PHONY : do_action.c.s
 
+help_functions.o: help_functions.c.o
+
+.PHONY : help_functions.o
+
+# target to build an object file
+help_functions.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/help_functions.c.o
+.PHONY : help_functions.c.o
+
+help_functions.i: help_functions.c.i
+
+.PHONY : help_functions.i
+
+# target to preprocess a source file
+help_functions.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/help_functions.c.i
+.PHONY : help_functions.c.i
+
+help_functions.s: help_functions.c.s
+
+.PHONY : help_functions.s
+
+# target to generate assembly for a file
+help_functions.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/help_functions.c.s
+.PHONY : help_functions.c.s
+
 list_functions.o: list_functions.c.o
 
 .PHONY : list_functions.o
@@ -687,6 +714,9 @@ help:
 	@echo "... do_action.o"
 	@echo "... do_action.i"
 	@echo "... do_action.s"
+	@echo "... help_functions.o"
+	@echo "... help_functions.i"
+	@echo "... help_functions.s"
 	@echo "... list_functions.o"
 	@echo "... list_functions.i"
 	@echo "... list_functions.s"

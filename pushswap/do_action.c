@@ -29,7 +29,36 @@ void	rrotate(t_sort **sort)
 	delete_last(sort);
 }
 
-int	do_action(char *buff, t_sort **sort, t_sort **sort2)
+void visual_gen(t_sort *sort, t_sort *sort2, fdf *data)
+{
+	int i;
+	int j;
+
+	i = 0;
+	j = 0;
+	data =  (fdf *)malloc(sizeof(fdf));
+	data->width = 2;
+	data->height = count_len(sort);
+	data->z_matrix = (int **)malloc(sizeof(int*) * (data->height + 1));
+	while (i < data->height)
+		data->z_matrix[i++] = (int*)malloc(sizeof(int) * (data->width + 1));
+	i = 0;
+	while(sort)
+	{
+		if (i % 2 == 0) {
+			data->z_matrix[i][0] = 0;
+			data->z_matrix[i][1] = 0;
+		} else {
+			data->z_matrix[i][0] = sort->data;
+			data->z_matrix[i][1] = sort->data;
+			sort = sort->next;
+		}
+		i++;
+	}
+	mlx_clear_window(data->mlx_ptr, data->win_ptr);
+	draw(data);
+}
+int do_action(char *buff, t_sort **sort, t_sort **sort2, fdf *data)
 {
 	static int g_h;
 	t_sort *tmp;
@@ -41,6 +70,7 @@ int	do_action(char *buff, t_sort **sort, t_sort **sort2)
 			g_h++;
 			printf("sa\n");
 			swap(sort);
+			visual_gen(*sort, *sort2, data);
 //			display_list(*sort);
 		}
 	}
@@ -51,6 +81,7 @@ int	do_action(char *buff, t_sort **sort, t_sort **sort2)
 			g_h++;
 			printf("sb");
 			swap(sort2);
+			visual_gen(*sort, *sort2, data);
 		}
 	}
 	if (ft_strcmp(buff, "ss") == 0)
@@ -61,6 +92,7 @@ int	do_action(char *buff, t_sort **sort, t_sort **sort2)
 			printf("ss");
 			swap(sort);
 			swap(sort2);
+			visual_gen(*sort, *sort2, data);
 		}
 	}
 	if (ft_strcmp(buff, "pa") == 0)
@@ -72,6 +104,7 @@ int	do_action(char *buff, t_sort **sort, t_sort **sort2)
 			tmp = (*sort2);
 			delete_first(sort2);
 			push_front(tmp->data, sort);
+			visual_gen(*sort, *sort2, data);
 //			printf("a\n");
 //			display_list(*sort);
 //			printf("b\n");
@@ -88,6 +121,7 @@ int	do_action(char *buff, t_sort **sort, t_sort **sort2)
 			int k = tmp->data;
 			delete_first(sort);
 			push_front(k, sort2);
+			visual_gen(*sort, *sort2, data);
 //			printf("a\n");
 //			display_list(*sort);
 //			printf("b\n");
@@ -102,6 +136,7 @@ int	do_action(char *buff, t_sort **sort, t_sort **sort2)
 			g_h++;
 			printf("ra\n");
 			rotate(sort);
+			visual_gen(*sort, *sort2, data);
 //			printf("a\n");
 //			display_list(*sort);
 		}
@@ -110,6 +145,7 @@ int	do_action(char *buff, t_sort **sort, t_sort **sort2)
 			g_h++;
 			printf("rra\n");
 			rrotate(sort);
+			visual_gen(*sort, *sort2, data);
 //			printf("a\n");
 //			display_list(*sort);
 		}
@@ -121,6 +157,7 @@ int	do_action(char *buff, t_sort **sort, t_sort **sort2)
 			g_h++;
 			printf("rb\n");
 			rotate(sort2);
+			visual_gen(*sort, *sort2, data);
 //			printf("b\n");
 //			display_list(*sort2);
 		}
@@ -129,6 +166,7 @@ int	do_action(char *buff, t_sort **sort, t_sort **sort2)
 			g_h++;
 			printf("rrb\n");
 			rrotate(sort2);
+			visual_gen(*sort, *sort2, data);
 //			printf("b\n");
 //			display_list(*sort2);
 		}
@@ -142,6 +180,7 @@ int	do_action(char *buff, t_sort **sort, t_sort **sort2)
 			printf("rr");
 			rotate(sort);
 			rotate(sort2);
+			visual_gen(*sort, *sort2, data);
 		}
 		if (ft_strcmp(buff, "rrr") == 0)
 		{
@@ -149,6 +188,7 @@ int	do_action(char *buff, t_sort **sort, t_sort **sort2)
 			printf("rrr");
 			rrotate(sort);
 			rrotate(sort2);
+			visual_gen(*sort, *sort2, data);
 		}
 	}
 	return (g_h);

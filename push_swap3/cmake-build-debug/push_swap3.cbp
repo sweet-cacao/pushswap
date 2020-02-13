@@ -80,13 +80,37 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/gstarvin/CLionProjects/push_swap3/check_functions.c">
+			<Option target="push_swap3"/>
+		</Unit>
+		<Unit filename="/Users/gstarvin/CLionProjects/push_swap3/do_action.c">
+			<Option target="push_swap3"/>
+		</Unit>
+		<Unit filename="/Users/gstarvin/CLionProjects/push_swap3/help_functions.c">
+			<Option target="push_swap3"/>
+		</Unit>
+		<Unit filename="/Users/gstarvin/CLionProjects/push_swap3/list_functions.c">
+			<Option target="push_swap3"/>
+		</Unit>
 		<Unit filename="/Users/gstarvin/CLionProjects/push_swap3/main.c">
+			<Option target="push_swap3"/>
+		</Unit>
+		<Unit filename="/Users/gstarvin/CLionProjects/push_swap3/push_a.c">
+			<Option target="push_swap3"/>
+		</Unit>
+		<Unit filename="/Users/gstarvin/CLionProjects/push_swap3/push_in_a.c">
 			<Option target="push_swap3"/>
 		</Unit>
 		<Unit filename="/Users/gstarvin/CLionProjects/push_swap3/push_swap.c">
 			<Option target="push_swap3"/>
 		</Unit>
 		<Unit filename="/Users/gstarvin/CLionProjects/push_swap3/push_swap.h">
+			<Option target="push_swap3"/>
+		</Unit>
+		<Unit filename="/Users/gstarvin/gnl/libft/ft_isdigit.c">
+			<Option target="push_swap3"/>
+		</Unit>
+		<Unit filename="/Users/gstarvin/gnl/libft/ft_strcmp.c">
 			<Option target="push_swap3"/>
 		</Unit>
 		<Unit filename="/Users/gstarvin/CLionProjects/push_swap3/CMakeLists.txt">

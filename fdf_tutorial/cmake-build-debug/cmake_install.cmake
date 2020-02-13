@@ -1,4 +1,4 @@
-# Install script for directory: /Users/gstarvin/CLionProjects/fdf_tutorial
+# Install script for directory: /Users/gstarvin/pushswap/fdf_tutorial
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/gstarvin/CLionProjects/fdf_tutorial/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/gstarvin/pushswap/fdf_tutorial/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

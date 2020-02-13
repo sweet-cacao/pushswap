@@ -55,7 +55,7 @@ int			check_list(t_sort *sort, t_sort *sort2)
 		return (1);
 	return (0);
 }
-
+*/
 void	display_list(t_sort *sort)
 {
 	t_sort *tmp;
@@ -67,7 +67,7 @@ void	display_list(t_sort *sort)
 		tmp = tmp->next;
 	}
 	printf("\n");
-}*/
+}
 /*
 int	push_everything(t_sort **sort, t_sort **sort2)
 {

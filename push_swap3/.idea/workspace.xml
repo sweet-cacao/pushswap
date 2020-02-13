@@ -38,7 +38,7 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="push_swap3" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="push_swap3" TARGET_NAME="push_swap3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="push_swap3" RUN_TARGET_NAME="push_swap3">
+    <configuration name="push_swap3" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="8 9 5 4 0 2 11 13 7 10" PASS_PARENT_ENVS_2="true" PROJECT_NAME="push_swap3" TARGET_NAME="push_swap3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="push_swap3" RUN_TARGET_NAME="push_swap3">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -55,11 +55,85 @@
       <option name="presentableId" value="Default" />
       <updated>1581510083586</updated>
       <workItem from="1581510086367" duration="3693000" />
-      <workItem from="1581521121082" duration="5461000" />
+      <workItem from="1581521121082" duration="5527000" />
+      <workItem from="1581587492217" duration="18286000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="61" y="352" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581610413441">
+      <screen x="0" y="22" width="2560" height="1338" />
+    </state>
+    <state x="61" y="352" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.22.2560.1338@0.22.2560.1338" timestamp="1581610413441" />
+    <state width="1128" height="382" key="GridCell.Tab.0.bottom" timestamp="1581613589894">
+      <screen x="0" y="22" width="2560" height="1338" />
+    </state>
+    <state width="1128" height="382" key="GridCell.Tab.0.bottom/0.22.2560.1338@0.22.2560.1338" timestamp="1581613589894" />
+    <state width="1128" height="382" key="GridCell.Tab.0.center" timestamp="1581613589894">
+      <screen x="0" y="22" width="2560" height="1338" />
+    </state>
+    <state width="1128" height="382" key="GridCell.Tab.0.center/0.22.2560.1338@0.22.2560.1338" timestamp="1581613589894" />
+    <state width="1128" height="382" key="GridCell.Tab.0.left" timestamp="1581613589893">
+      <screen x="0" y="22" width="2560" height="1338" />
+    </state>
+    <state width="1128" height="382" key="GridCell.Tab.0.left/0.22.2560.1338@0.22.2560.1338" timestamp="1581613589893" />
+    <state width="1128" height="382" key="GridCell.Tab.0.right" timestamp="1581613589894">
+      <screen x="0" y="22" width="2560" height="1338" />
+    </state>
+    <state width="1128" height="382" key="GridCell.Tab.0.right/0.22.2560.1338@0.22.2560.1338" timestamp="1581613589894" />
+    <state width="1128" height="469" key="GridCell.Tab.1.bottom" timestamp="1581612822618">
+      <screen x="0" y="22" width="2560" height="1338" />
+    </state>
+    <state width="1128" height="469" key="GridCell.Tab.1.bottom/0.22.2560.1338@0.22.2560.1338" timestamp="1581612822618" />
+    <state width="1128" height="469" key="GridCell.Tab.1.center" timestamp="1581612822617">
+      <screen x="0" y="22" width="2560" height="1338" />
+    </state>
+    <state width="1128" height="469" key="GridCell.Tab.1.center/0.22.2560.1338@0.22.2560.1338" timestamp="1581612822617" />
+    <state width="1128" height="469" key="GridCell.Tab.1.left" timestamp="1581612822617">
+      <screen x="0" y="22" width="2560" height="1338" />
+    </state>
+    <state width="1128" height="469" key="GridCell.Tab.1.left/0.22.2560.1338@0.22.2560.1338" timestamp="1581612822617" />
+    <state width="1128" height="469" key="GridCell.Tab.1.right" timestamp="1581612822618">
+      <screen x="0" y="22" width="2560" height="1338" />
+    </state>
+    <state width="1128" height="469" key="GridCell.Tab.1.right/0.22.2560.1338@0.22.2560.1338" timestamp="1581612822618" />
+    <state x="1215" y="523" key="com.intellij.ide.util.TipDialog" timestamp="1581587492499">
+      <screen x="0" y="22" width="2560" height="1338" />
+    </state>
+    <state x="1215" y="523" key="com.intellij.ide.util.TipDialog/0.22.2560.1338@0.22.2560.1338" timestamp="1581587492499" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.c</url>
+          <line>21</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/push_swap.c</url>
+          <line>136</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/push_in_a.c</url>
+          <line>56</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/push_a.c</url>
+          <line>145</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/push_a.c</url>
+          <line>135</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

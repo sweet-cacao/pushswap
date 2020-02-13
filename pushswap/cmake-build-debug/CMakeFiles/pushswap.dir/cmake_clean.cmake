@@ -13,6 +13,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/pushswap.dir/check_functions.c.o"
   "CMakeFiles/pushswap.dir/common_actions.c.o"
   "CMakeFiles/pushswap.dir/do_action.c.o"
+  "CMakeFiles/pushswap.dir/help_functions.c.o"
   "CMakeFiles/pushswap.dir/list_functions.c.o"
   "CMakeFiles/pushswap.dir/main.c.o"
   "CMakeFiles/pushswap.dir/push_min_op.c.o"

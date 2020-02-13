@@ -125,6 +125,9 @@
 		<Unit filename="/Users/gstarvin/pushswap/pushswap/do_action.c">
 			<Option target="pushswap"/>
 		</Unit>
+		<Unit filename="/Users/gstarvin/pushswap/pushswap/help_functions.c">
+			<Option target="pushswap"/>
+		</Unit>
 		<Unit filename="/Users/gstarvin/pushswap/pushswap/list_functions.c">
 			<Option target="pushswap"/>
 		</Unit>

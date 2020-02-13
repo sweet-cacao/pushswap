@@ -71,3 +71,31 @@ int     find_max(t_sort **sort)
 	}
 	return (max);
 }
+
+int check_biggest(t_sort **sort, t_sort **sort2)
+{
+	t_sort 	*tmp;
+	int big;
+	tmp = (*sort2);
+	while (tmp)
+	{
+		if ((*sort)->data < tmp->data)
+			return (1);
+		tmp=tmp->next;
+	}
+	return (0);
+}
+
+int check_smallest(t_sort **sort, t_sort **sort2)
+{
+	t_sort 	*tmp;
+	int small;
+	tmp = (*sort2);
+	while (tmp)
+	{
+		if ((*sort)->data > tmp->data)
+			return (1);
+		tmp=tmp->next;
+	}
+	return (0);
+}

@@ -123,6 +123,168 @@ push_swap3/fast:
 	$(MAKE) -f CMakeFiles/push_swap3.dir/build.make CMakeFiles/push_swap3.dir/build
 .PHONY : push_swap3/fast
 
+Users/gstarvin/gnl/libft/ft_isdigit.o: Users/gstarvin/gnl/libft/ft_isdigit.c.o
+
+.PHONY : Users/gstarvin/gnl/libft/ft_isdigit.o
+
+# target to build an object file
+Users/gstarvin/gnl/libft/ft_isdigit.c.o:
+	$(MAKE) -f CMakeFiles/push_swap3.dir/build.make CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_isdigit.c.o
+.PHONY : Users/gstarvin/gnl/libft/ft_isdigit.c.o
+
+Users/gstarvin/gnl/libft/ft_isdigit.i: Users/gstarvin/gnl/libft/ft_isdigit.c.i
+
+.PHONY : Users/gstarvin/gnl/libft/ft_isdigit.i
+
+# target to preprocess a source file
+Users/gstarvin/gnl/libft/ft_isdigit.c.i:
+	$(MAKE) -f CMakeFiles/push_swap3.dir/build.make CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_isdigit.c.i
+.PHONY : Users/gstarvin/gnl/libft/ft_isdigit.c.i
+
+Users/gstarvin/gnl/libft/ft_isdigit.s: Users/gstarvin/gnl/libft/ft_isdigit.c.s
+
+.PHONY : Users/gstarvin/gnl/libft/ft_isdigit.s
+
+# target to generate assembly for a file
+Users/gstarvin/gnl/libft/ft_isdigit.c.s:
+	$(MAKE) -f CMakeFiles/push_swap3.dir/build.make CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_isdigit.c.s
+.PHONY : Users/gstarvin/gnl/libft/ft_isdigit.c.s
+
+Users/gstarvin/gnl/libft/ft_strcmp.o: Users/gstarvin/gnl/libft/ft_strcmp.c.o
+
+.PHONY : Users/gstarvin/gnl/libft/ft_strcmp.o
+
+# target to build an object file
+Users/gstarvin/gnl/libft/ft_strcmp.c.o:
+	$(MAKE) -f CMakeFiles/push_swap3.dir/build.make CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_strcmp.c.o
+.PHONY : Users/gstarvin/gnl/libft/ft_strcmp.c.o
+
+Users/gstarvin/gnl/libft/ft_strcmp.i: Users/gstarvin/gnl/libft/ft_strcmp.c.i
+
+.PHONY : Users/gstarvin/gnl/libft/ft_strcmp.i
+
+# target to preprocess a source file
+Users/gstarvin/gnl/libft/ft_strcmp.c.i:
+	$(MAKE) -f CMakeFiles/push_swap3.dir/build.make CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_strcmp.c.i
+.PHONY : Users/gstarvin/gnl/libft/ft_strcmp.c.i
+
+Users/gstarvin/gnl/libft/ft_strcmp.s: Users/gstarvin/gnl/libft/ft_strcmp.c.s
+
+.PHONY : Users/gstarvin/gnl/libft/ft_strcmp.s
+
+# target to generate assembly for a file
+Users/gstarvin/gnl/libft/ft_strcmp.c.s:
+	$(MAKE) -f CMakeFiles/push_swap3.dir/build.make CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_strcmp.c.s
+.PHONY : Users/gstarvin/gnl/libft/ft_strcmp.c.s
+
+check_functions.o: check_functions.c.o
+
+.PHONY : check_functions.o
+
+# target to build an object file
+check_functions.c.o:
+	$(MAKE) -f CMakeFiles/push_swap3.dir/build.make CMakeFiles/push_swap3.dir/check_functions.c.o
+.PHONY : check_functions.c.o
+
+check_functions.i: check_functions.c.i
+
+.PHONY : check_functions.i
+
+# target to preprocess a source file
+check_functions.c.i:
+	$(MAKE) -f CMakeFiles/push_swap3.dir/build.make CMakeFiles/push_swap3.dir/check_functions.c.i
+.PHONY : check_functions.c.i
+
+check_functions.s: check_functions.c.s
+
+.PHONY : check_functions.s
+
+# target to generate assembly for a file
+check_functions.c.s:
+	$(MAKE) -f CMakeFiles/push_swap3.dir/build.make CMakeFiles/push_swap3.dir/check_functions.c.s
+.PHONY : check_functions.c.s
+
+do_action.o: do_action.c.o
+
+.PHONY : do_action.o
+
+# target to build an object file
+do_action.c.o:
+	$(MAKE) -f CMakeFiles/push_swap3.dir/build.make CMakeFiles/push_swap3.dir/do_action.c.o
+.PHONY : do_action.c.o
+
+do_action.i: do_action.c.i
+
+.PHONY : do_action.i
+
+# target to preprocess a source file
+do_action.c.i:
+	$(MAKE) -f CMakeFiles/push_swap3.dir/build.make CMakeFiles/push_swap3.dir/do_action.c.i
+.PHONY : do_action.c.i
+
+do_action.s: do_action.c.s
+
+.PHONY : do_action.s
+
+# target to generate assembly for a file
+do_action.c.s:
+	$(MAKE) -f CMakeFiles/push_swap3.dir/build.make CMakeFiles/push_swap3.dir/do_action.c.s
+.PHONY : do_action.c.s
+
+help_functions.o: help_functions.c.o
+
+.PHONY : help_functions.o
+
+# target to build an object file
+help_functions.c.o:
+	$(MAKE) -f CMakeFiles/push_swap3.dir/build.make CMakeFiles/push_swap3.dir/help_functions.c.o
+.PHONY : help_functions.c.o
+
+help_functions.i: help_functions.c.i
+
+.PHONY : help_functions.i
+
+# target to preprocess a source file
+help_functions.c.i:
+	$(MAKE) -f CMakeFiles/push_swap3.dir/build.make CMakeFiles/push_swap3.dir/help_functions.c.i
+.PHONY : help_functions.c.i
+
+help_functions.s: help_functions.c.s
+
+.PHONY : help_functions.s
+
+# target to generate assembly for a file
+help_functions.c.s:
+	$(MAKE) -f CMakeFiles/push_swap3.dir/build.make CMakeFiles/push_swap3.dir/help_functions.c.s
+.PHONY : help_functions.c.s
+
+list_functions.o: list_functions.c.o
+
+.PHONY : list_functions.o
+
+# target to build an object file
+list_functions.c.o:
+	$(MAKE) -f CMakeFiles/push_swap3.dir/build.make CMakeFiles/push_swap3.dir/list_functions.c.o
+.PHONY : list_functions.c.o
+
+list_functions.i: list_functions.c.i
+
+.PHONY : list_functions.i
+
+# target to preprocess a source file
+list_functions.c.i:
+	$(MAKE) -f CMakeFiles/push_swap3.dir/build.make CMakeFiles/push_swap3.dir/list_functions.c.i
+.PHONY : list_functions.c.i
+
+list_functions.s: list_functions.c.s
+
+.PHONY : list_functions.s
+
+# target to generate assembly for a file
+list_functions.c.s:
+	$(MAKE) -f CMakeFiles/push_swap3.dir/build.make CMakeFiles/push_swap3.dir/list_functions.c.s
+.PHONY : list_functions.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -149,6 +311,60 @@ main.s: main.c.s
 main.c.s:
 	$(MAKE) -f CMakeFiles/push_swap3.dir/build.make CMakeFiles/push_swap3.dir/main.c.s
 .PHONY : main.c.s
+
+push_a.o: push_a.c.o
+
+.PHONY : push_a.o
+
+# target to build an object file
+push_a.c.o:
+	$(MAKE) -f CMakeFiles/push_swap3.dir/build.make CMakeFiles/push_swap3.dir/push_a.c.o
+.PHONY : push_a.c.o
+
+push_a.i: push_a.c.i
+
+.PHONY : push_a.i
+
+# target to preprocess a source file
+push_a.c.i:
+	$(MAKE) -f CMakeFiles/push_swap3.dir/build.make CMakeFiles/push_swap3.dir/push_a.c.i
+.PHONY : push_a.c.i
+
+push_a.s: push_a.c.s
+
+.PHONY : push_a.s
+
+# target to generate assembly for a file
+push_a.c.s:
+	$(MAKE) -f CMakeFiles/push_swap3.dir/build.make CMakeFiles/push_swap3.dir/push_a.c.s
+.PHONY : push_a.c.s
+
+push_in_a.o: push_in_a.c.o
+
+.PHONY : push_in_a.o
+
+# target to build an object file
+push_in_a.c.o:
+	$(MAKE) -f CMakeFiles/push_swap3.dir/build.make CMakeFiles/push_swap3.dir/push_in_a.c.o
+.PHONY : push_in_a.c.o
+
+push_in_a.i: push_in_a.c.i
+
+.PHONY : push_in_a.i
+
+# target to preprocess a source file
+push_in_a.c.i:
+	$(MAKE) -f CMakeFiles/push_swap3.dir/build.make CMakeFiles/push_swap3.dir/push_in_a.c.i
+.PHONY : push_in_a.c.i
+
+push_in_a.s: push_in_a.c.s
+
+.PHONY : push_in_a.s
+
+# target to generate assembly for a file
+push_in_a.c.s:
+	$(MAKE) -f CMakeFiles/push_swap3.dir/build.make CMakeFiles/push_swap3.dir/push_in_a.c.s
+.PHONY : push_in_a.c.s
 
 push_swap.o: push_swap.c.o
 
@@ -186,9 +402,33 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... push_swap3"
+	@echo "... Users/gstarvin/gnl/libft/ft_isdigit.o"
+	@echo "... Users/gstarvin/gnl/libft/ft_isdigit.i"
+	@echo "... Users/gstarvin/gnl/libft/ft_isdigit.s"
+	@echo "... Users/gstarvin/gnl/libft/ft_strcmp.o"
+	@echo "... Users/gstarvin/gnl/libft/ft_strcmp.i"
+	@echo "... Users/gstarvin/gnl/libft/ft_strcmp.s"
+	@echo "... check_functions.o"
+	@echo "... check_functions.i"
+	@echo "... check_functions.s"
+	@echo "... do_action.o"
+	@echo "... do_action.i"
+	@echo "... do_action.s"
+	@echo "... help_functions.o"
+	@echo "... help_functions.i"
+	@echo "... help_functions.s"
+	@echo "... list_functions.o"
+	@echo "... list_functions.i"
+	@echo "... list_functions.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... push_a.o"
+	@echo "... push_a.i"
+	@echo "... push_a.s"
+	@echo "... push_in_a.o"
+	@echo "... push_in_a.i"
+	@echo "... push_in_a.s"
 	@echo "... push_swap.o"
 	@echo "... push_swap.i"
 	@echo "... push_swap.s"

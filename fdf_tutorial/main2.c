@@ -24,7 +24,7 @@ int     deal_key(int key, fdf *data)
 	draw(data);
 	return (0);
 }*/
-/*
+//
 int main(int argc, char **argv) {
 
 	fdf *data;
@@ -57,4 +57,3 @@ int main(int argc, char **argv) {
 	mlx_loop(data->mlx_ptr);
 	return (0);
 }
-*/

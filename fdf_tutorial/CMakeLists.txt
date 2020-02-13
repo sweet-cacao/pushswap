@@ -3,4 +3,4 @@ project(fdf_tutorial C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(fdf_tutorial main.c fdf.h read_file.c draw.c)
+add_executable(fdf_tutorial main2.c fdf.h read_file.c draw.c)

@@ -52,6 +52,7 @@ int do_action(char *buff, t_sort **sort, t_sort **sort2)
 			g_h++;
 			printf("sb");
 			swap(sort2);
+//			display_list(*sort2);
 	//		visual_gen(*sort, *sort2, data);
 		}
 	}
@@ -63,6 +64,7 @@ int do_action(char *buff, t_sort **sort, t_sort **sort2)
 			printf("ss");
 			swap(sort);
 			swap(sort2);
+//			display_list(*sort);
 	//		visual_gen(*sort, *sort2, data);
 		}
 	}
@@ -129,8 +131,8 @@ int do_action(char *buff, t_sort **sort, t_sort **sort2)
 			printf("rb\n");
 			rotate(sort2);
 	//		visual_gen(*sort, *sort2, data);
-//			printf("b\n");
-//			display_list(*sort2);
+	//		printf("b\n");
+	//		display_list(*sort2);
 		}
 		if (ft_strcmp(buff, "rrb") == 0)
 		{
@@ -138,8 +140,8 @@ int do_action(char *buff, t_sort **sort, t_sort **sort2)
 			printf("rrb\n");
 			rrotate(sort2);
 	//		visual_gen(*sort, *sort2, data);
-//			printf("b\n");
-//			display_list(*sort2);
+	//		printf("b\n");
+	//		display_list(*sort2);
 		}
 
 	}
@@ -151,6 +153,10 @@ int do_action(char *buff, t_sort **sort, t_sort **sort2)
 			printf("rr");
 			rotate(sort);
 			rotate(sort2);
+	//		printf("a\n");
+	//		display_list(*sort);
+	//		printf("b\n");
+		//	display_list(*sort2);
 	//		visual_gen(*sort, *sort2, data);
 		}
 		if (ft_strcmp(buff, "rrr") == 0)
@@ -159,6 +165,10 @@ int do_action(char *buff, t_sort **sort, t_sort **sort2)
 			printf("rrr");
 			rrotate(sort);
 			rrotate(sort2);
+	//		printf("a\n");
+	//		display_list(*sort);
+	//		printf("b\n");
+		//	display_list(*sort2);
 	//		visual_gen(*sort, *sort2, data);
 		}
 	}

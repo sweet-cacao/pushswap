@@ -13,41 +13,47 @@ typedef struct      s_sort
 	struct s_sort   *prev;
 }                   t_sort;
 
-
-typedef struct      s_fdf
-{
-	int width;
-	int height;
-	int **z_matrix;
-	int zoom;
-	int color;
-	int shift_x;
-	int shift_y;
-
-	void *mlx_ptr;
-	void *win_ptr;
-}                   t_fdf;
-
 typedef struct      s_swap
 {
-	t_sort *sort;
-	t_sort *sort2;
-	t_fdf *data;
+	t_sort          *sort;
+	t_sort          *sort2;
+	t_sort          *one;
+	t_sort          *two;
+	int             min;
+	int             max;
+	int             len;
+	int             stack[3];
+	int             count_one;
+	int             count_two;
+	int             op_a;
+	int             op_b;
+	int             dir_a;
+	int             dir_b;
 }                   t_swap;
 
 int			        check_args(int ac, char **av);
 void                push_front(int data, t_sort **sort);
 void                push_end(int data, t_sort **sort);
 int 		        count_len(t_sort *sort);
-void                draw(t_fdf *data);
 int                 do_action(char *buff, t_sort **sort, t_sort **sort2);
-void                 push_swap(t_sort **sort, t_sort **sort2, t_swap *swap);
+void                push_swap(t_sort **sort, t_sort **sort2, t_swap *swap);
 void 		        delete_last(t_sort **sort);
 void		        delete_first(t_sort **sort);
 void		        swap(t_sort **sort);
 t_sort 		        *get_next(t_sort *map);
 void		        rotate(t_sort **sort);
 void		        rrotate(t_sort **sort);
-int                 visual_gen_change(t_swap *swap);
+
+int                 find_min(t_sort **sort);
+int                 find_max(t_sort **sort);
+int 	            count_operations(t_sort *sort);
+int		            count_op_prev(t_sort *sort);
+int		            count_op_next(t_sort *sort);
+int                 check_biggest(t_sort **sort, t_sort **sort2);
+int                 check_smallest(t_sort **sort, t_sort **sort2);
+void                insertion_push(t_swap *swap);
+void                push_in_a(t_swap *swap, t_sort *need);
+void                do_a(t_swap *swap);
+void	            display_list(t_sort *sort);
 
 #endif

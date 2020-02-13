@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/gstarvin/CLionProjects/checker
+CMAKE_SOURCE_DIR = /Users/gstarvin/pushswap/checker
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/gstarvin/CLionProjects/checker/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/gstarvin/pushswap/checker/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/checker.dir/depend.make
@@ -59,33 +59,33 @@ include CMakeFiles/checker.dir/flags.make
 
 CMakeFiles/checker.dir/main.c.o: CMakeFiles/checker.dir/flags.make
 CMakeFiles/checker.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/CLionProjects/checker/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/checker.dir/main.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/checker.dir/main.c.o   -c /Users/gstarvin/CLionProjects/checker/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/pushswap/checker/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/checker.dir/main.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/checker.dir/main.c.o   -c /Users/gstarvin/pushswap/checker/main.c
 
 CMakeFiles/checker.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/checker.dir/main.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/gstarvin/CLionProjects/checker/main.c > CMakeFiles/checker.dir/main.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/gstarvin/pushswap/checker/main.c > CMakeFiles/checker.dir/main.c.i
 
 CMakeFiles/checker.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/checker.dir/main.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/gstarvin/CLionProjects/checker/main.c -o CMakeFiles/checker.dir/main.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/gstarvin/pushswap/checker/main.c -o CMakeFiles/checker.dir/main.c.s
 
 CMakeFiles/checker.dir/list_functions.c.o: CMakeFiles/checker.dir/flags.make
 CMakeFiles/checker.dir/list_functions.c.o: ../list_functions.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/CLionProjects/checker/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/checker.dir/list_functions.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/checker.dir/list_functions.c.o   -c /Users/gstarvin/CLionProjects/checker/list_functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/pushswap/checker/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/checker.dir/list_functions.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/checker.dir/list_functions.c.o   -c /Users/gstarvin/pushswap/checker/list_functions.c
 
 CMakeFiles/checker.dir/list_functions.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/checker.dir/list_functions.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/gstarvin/CLionProjects/checker/list_functions.c > CMakeFiles/checker.dir/list_functions.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/gstarvin/pushswap/checker/list_functions.c > CMakeFiles/checker.dir/list_functions.c.i
 
 CMakeFiles/checker.dir/list_functions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/checker.dir/list_functions.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/gstarvin/CLionProjects/checker/list_functions.c -o CMakeFiles/checker.dir/list_functions.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/gstarvin/pushswap/checker/list_functions.c -o CMakeFiles/checker.dir/list_functions.c.s
 
 CMakeFiles/checker.dir/Users/gstarvin/gnl/get_next_line.c.o: CMakeFiles/checker.dir/flags.make
 CMakeFiles/checker.dir/Users/gstarvin/gnl/get_next_line.c.o: /Users/gstarvin/gnl/get_next_line.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/CLionProjects/checker/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/checker.dir/Users/gstarvin/gnl/get_next_line.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/pushswap/checker/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/checker.dir/Users/gstarvin/gnl/get_next_line.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/checker.dir/Users/gstarvin/gnl/get_next_line.c.o   -c /Users/gstarvin/gnl/get_next_line.c
 
 CMakeFiles/checker.dir/Users/gstarvin/gnl/get_next_line.c.i: cmake_force
@@ -98,7 +98,7 @@ CMakeFiles/checker.dir/Users/gstarvin/gnl/get_next_line.c.s: cmake_force
 
 CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_atoi.c.o: CMakeFiles/checker.dir/flags.make
 CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_atoi.c.o: /Users/gstarvin/gnl/libft/ft_atoi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/CLionProjects/checker/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_atoi.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/pushswap/checker/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_atoi.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_atoi.c.o   -c /Users/gstarvin/gnl/libft/ft_atoi.c
 
 CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_atoi.c.i: cmake_force
@@ -111,7 +111,7 @@ CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_atoi.c.s: cmake_force
 
 CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_strchr.c.o: CMakeFiles/checker.dir/flags.make
 CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_strchr.c.o: /Users/gstarvin/gnl/libft/ft_strchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/CLionProjects/checker/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_strchr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/pushswap/checker/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_strchr.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_strchr.c.o   -c /Users/gstarvin/gnl/libft/ft_strchr.c
 
 CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_strchr.c.i: cmake_force
@@ -124,7 +124,7 @@ CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_strchr.c.s: cmake_force
 
 CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_strdup.c.o: CMakeFiles/checker.dir/flags.make
 CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_strdup.c.o: /Users/gstarvin/gnl/libft/ft_strdup.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/CLionProjects/checker/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_strdup.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/pushswap/checker/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_strdup.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_strdup.c.o   -c /Users/gstarvin/gnl/libft/ft_strdup.c
 
 CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_strdup.c.i: cmake_force
@@ -137,7 +137,7 @@ CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_strdup.c.s: cmake_force
 
 CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_strjoin.c.o: CMakeFiles/checker.dir/flags.make
 CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_strjoin.c.o: /Users/gstarvin/gnl/libft/ft_strjoin.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/CLionProjects/checker/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_strjoin.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/pushswap/checker/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_strjoin.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_strjoin.c.o   -c /Users/gstarvin/gnl/libft/ft_strjoin.c
 
 CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_strjoin.c.i: cmake_force
@@ -150,7 +150,7 @@ CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_strjoin.c.s: cmake_force
 
 CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_strnew.c.o: CMakeFiles/checker.dir/flags.make
 CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_strnew.c.o: /Users/gstarvin/gnl/libft/ft_strnew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/CLionProjects/checker/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_strnew.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/pushswap/checker/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_strnew.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_strnew.c.o   -c /Users/gstarvin/gnl/libft/ft_strnew.c
 
 CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_strnew.c.i: cmake_force
@@ -163,7 +163,7 @@ CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_strnew.c.s: cmake_force
 
 CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_strcmp.c.o: CMakeFiles/checker.dir/flags.make
 CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_strcmp.c.o: /Users/gstarvin/gnl/libft/ft_strcmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/CLionProjects/checker/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_strcmp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/pushswap/checker/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_strcmp.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_strcmp.c.o   -c /Users/gstarvin/gnl/libft/ft_strcmp.c
 
 CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_strcmp.c.i: cmake_force
@@ -176,7 +176,7 @@ CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_strcmp.c.s: cmake_force
 
 CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_strdel.c.o: CMakeFiles/checker.dir/flags.make
 CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_strdel.c.o: /Users/gstarvin/gnl/libft/ft_strdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/CLionProjects/checker/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_strdel.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/pushswap/checker/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_strdel.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_strdel.c.o   -c /Users/gstarvin/gnl/libft/ft_strdel.c
 
 CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_strdel.c.i: cmake_force
@@ -189,7 +189,7 @@ CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_strdel.c.s: cmake_force
 
 CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_strlen.c.o: CMakeFiles/checker.dir/flags.make
 CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_strlen.c.o: /Users/gstarvin/gnl/libft/ft_strlen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/CLionProjects/checker/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_strlen.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/pushswap/checker/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_strlen.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_strlen.c.o   -c /Users/gstarvin/gnl/libft/ft_strlen.c
 
 CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_strlen.c.i: cmake_force
@@ -202,7 +202,7 @@ CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_strlen.c.s: cmake_force
 
 CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_strsub.c.o: CMakeFiles/checker.dir/flags.make
 CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_strsub.c.o: /Users/gstarvin/gnl/libft/ft_strsub.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/CLionProjects/checker/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_strsub.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/pushswap/checker/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_strsub.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_strsub.c.o   -c /Users/gstarvin/gnl/libft/ft_strsub.c
 
 CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_strsub.c.i: cmake_force
@@ -215,20 +215,20 @@ CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_strsub.c.s: cmake_force
 
 CMakeFiles/checker.dir/check_functions.c.o: CMakeFiles/checker.dir/flags.make
 CMakeFiles/checker.dir/check_functions.c.o: ../check_functions.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/CLionProjects/checker/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/checker.dir/check_functions.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/checker.dir/check_functions.c.o   -c /Users/gstarvin/CLionProjects/checker/check_functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/pushswap/checker/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/checker.dir/check_functions.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/checker.dir/check_functions.c.o   -c /Users/gstarvin/pushswap/checker/check_functions.c
 
 CMakeFiles/checker.dir/check_functions.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/checker.dir/check_functions.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/gstarvin/CLionProjects/checker/check_functions.c > CMakeFiles/checker.dir/check_functions.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/gstarvin/pushswap/checker/check_functions.c > CMakeFiles/checker.dir/check_functions.c.i
 
 CMakeFiles/checker.dir/check_functions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/checker.dir/check_functions.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/gstarvin/CLionProjects/checker/check_functions.c -o CMakeFiles/checker.dir/check_functions.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/gstarvin/pushswap/checker/check_functions.c -o CMakeFiles/checker.dir/check_functions.c.s
 
 CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_isdigit.c.o: CMakeFiles/checker.dir/flags.make
 CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_isdigit.c.o: /Users/gstarvin/gnl/libft/ft_isdigit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/CLionProjects/checker/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_isdigit.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/pushswap/checker/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_isdigit.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_isdigit.c.o   -c /Users/gstarvin/gnl/libft/ft_isdigit.c
 
 CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_isdigit.c.i: cmake_force
@@ -241,20 +241,20 @@ CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_isdigit.c.s: cmake_force
 
 CMakeFiles/checker.dir/do_action.c.o: CMakeFiles/checker.dir/flags.make
 CMakeFiles/checker.dir/do_action.c.o: ../do_action.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/CLionProjects/checker/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/checker.dir/do_action.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/checker.dir/do_action.c.o   -c /Users/gstarvin/CLionProjects/checker/do_action.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/pushswap/checker/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/checker.dir/do_action.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/checker.dir/do_action.c.o   -c /Users/gstarvin/pushswap/checker/do_action.c
 
 CMakeFiles/checker.dir/do_action.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/checker.dir/do_action.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/gstarvin/CLionProjects/checker/do_action.c > CMakeFiles/checker.dir/do_action.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/gstarvin/pushswap/checker/do_action.c > CMakeFiles/checker.dir/do_action.c.i
 
 CMakeFiles/checker.dir/do_action.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/checker.dir/do_action.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/gstarvin/CLionProjects/checker/do_action.c -o CMakeFiles/checker.dir/do_action.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/gstarvin/pushswap/checker/do_action.c -o CMakeFiles/checker.dir/do_action.c.s
 
 CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_lstadd.c.o: CMakeFiles/checker.dir/flags.make
 CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_lstadd.c.o: /Users/gstarvin/gnl/libft/ft_lstadd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/CLionProjects/checker/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_lstadd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/pushswap/checker/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_lstadd.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_lstadd.c.o   -c /Users/gstarvin/gnl/libft/ft_lstadd.c
 
 CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_lstadd.c.i: cmake_force
@@ -267,7 +267,7 @@ CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_lstadd.c.s: cmake_force
 
 CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_lstdel.c.o: CMakeFiles/checker.dir/flags.make
 CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_lstdel.c.o: /Users/gstarvin/gnl/libft/ft_lstdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/CLionProjects/checker/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_lstdel.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/pushswap/checker/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_lstdel.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_lstdel.c.o   -c /Users/gstarvin/gnl/libft/ft_lstdel.c
 
 CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_lstdel.c.i: cmake_force
@@ -280,7 +280,7 @@ CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_lstdel.c.s: cmake_force
 
 CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_lstnew.c.o: CMakeFiles/checker.dir/flags.make
 CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_lstnew.c.o: /Users/gstarvin/gnl/libft/ft_lstnew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/CLionProjects/checker/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_lstnew.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/pushswap/checker/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_lstnew.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_lstnew.c.o   -c /Users/gstarvin/gnl/libft/ft_lstnew.c
 
 CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_lstnew.c.i: cmake_force
@@ -293,7 +293,7 @@ CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_lstnew.c.s: cmake_force
 
 CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_memcpy.c.o: CMakeFiles/checker.dir/flags.make
 CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_memcpy.c.o: /Users/gstarvin/gnl/libft/ft_memcpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/CLionProjects/checker/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_memcpy.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/pushswap/checker/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_memcpy.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_memcpy.c.o   -c /Users/gstarvin/gnl/libft/ft_memcpy.c
 
 CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_memcpy.c.i: cmake_force
@@ -306,42 +306,42 @@ CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_memcpy.c.s: cmake_force
 
 CMakeFiles/checker.dir/parse.c.o: CMakeFiles/checker.dir/flags.make
 CMakeFiles/checker.dir/parse.c.o: ../parse.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/CLionProjects/checker/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/checker.dir/parse.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/checker.dir/parse.c.o   -c /Users/gstarvin/CLionProjects/checker/parse.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/pushswap/checker/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/checker.dir/parse.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/checker.dir/parse.c.o   -c /Users/gstarvin/pushswap/checker/parse.c
 
 CMakeFiles/checker.dir/parse.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/checker.dir/parse.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/gstarvin/CLionProjects/checker/parse.c > CMakeFiles/checker.dir/parse.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/gstarvin/pushswap/checker/parse.c > CMakeFiles/checker.dir/parse.c.i
 
 CMakeFiles/checker.dir/parse.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/checker.dir/parse.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/gstarvin/CLionProjects/checker/parse.c -o CMakeFiles/checker.dir/parse.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/gstarvin/pushswap/checker/parse.c -o CMakeFiles/checker.dir/parse.c.s
 
 CMakeFiles/checker.dir/extra_functions.c.o: CMakeFiles/checker.dir/flags.make
 CMakeFiles/checker.dir/extra_functions.c.o: ../extra_functions.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/CLionProjects/checker/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/checker.dir/extra_functions.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/checker.dir/extra_functions.c.o   -c /Users/gstarvin/CLionProjects/checker/extra_functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/pushswap/checker/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/checker.dir/extra_functions.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/checker.dir/extra_functions.c.o   -c /Users/gstarvin/pushswap/checker/extra_functions.c
 
 CMakeFiles/checker.dir/extra_functions.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/checker.dir/extra_functions.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/gstarvin/CLionProjects/checker/extra_functions.c > CMakeFiles/checker.dir/extra_functions.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/gstarvin/pushswap/checker/extra_functions.c > CMakeFiles/checker.dir/extra_functions.c.i
 
 CMakeFiles/checker.dir/extra_functions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/checker.dir/extra_functions.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/gstarvin/CLionProjects/checker/extra_functions.c -o CMakeFiles/checker.dir/extra_functions.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/gstarvin/pushswap/checker/extra_functions.c -o CMakeFiles/checker.dir/extra_functions.c.s
 
 CMakeFiles/checker.dir/instruction_functions.c.o: CMakeFiles/checker.dir/flags.make
 CMakeFiles/checker.dir/instruction_functions.c.o: ../instruction_functions.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/CLionProjects/checker/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/checker.dir/instruction_functions.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/checker.dir/instruction_functions.c.o   -c /Users/gstarvin/CLionProjects/checker/instruction_functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/pushswap/checker/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/checker.dir/instruction_functions.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/checker.dir/instruction_functions.c.o   -c /Users/gstarvin/pushswap/checker/instruction_functions.c
 
 CMakeFiles/checker.dir/instruction_functions.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/checker.dir/instruction_functions.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/gstarvin/CLionProjects/checker/instruction_functions.c > CMakeFiles/checker.dir/instruction_functions.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/gstarvin/pushswap/checker/instruction_functions.c > CMakeFiles/checker.dir/instruction_functions.c.i
 
 CMakeFiles/checker.dir/instruction_functions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/checker.dir/instruction_functions.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/gstarvin/CLionProjects/checker/instruction_functions.c -o CMakeFiles/checker.dir/instruction_functions.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/gstarvin/pushswap/checker/instruction_functions.c -o CMakeFiles/checker.dir/instruction_functions.c.s
 
 # Object files for target checker
 checker_OBJECTS = \
@@ -395,7 +395,7 @@ checker: CMakeFiles/checker.dir/extra_functions.c.o
 checker: CMakeFiles/checker.dir/instruction_functions.c.o
 checker: CMakeFiles/checker.dir/build.make
 checker: CMakeFiles/checker.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/gstarvin/CLionProjects/checker/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking C executable checker"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/gstarvin/pushswap/checker/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking C executable checker"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/checker.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -408,6 +408,6 @@ CMakeFiles/checker.dir/clean:
 .PHONY : CMakeFiles/checker.dir/clean
 
 CMakeFiles/checker.dir/depend:
-	cd /Users/gstarvin/CLionProjects/checker/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/gstarvin/CLionProjects/checker /Users/gstarvin/CLionProjects/checker /Users/gstarvin/CLionProjects/checker/cmake-build-debug /Users/gstarvin/CLionProjects/checker/cmake-build-debug /Users/gstarvin/CLionProjects/checker/cmake-build-debug/CMakeFiles/checker.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/gstarvin/pushswap/checker/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/gstarvin/pushswap/checker /Users/gstarvin/pushswap/checker /Users/gstarvin/pushswap/checker/cmake-build-debug /Users/gstarvin/pushswap/checker/cmake-build-debug /Users/gstarvin/pushswap/checker/cmake-build-debug/CMakeFiles/checker.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/checker.dir/depend
 

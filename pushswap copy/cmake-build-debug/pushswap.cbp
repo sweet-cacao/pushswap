@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/gstarvin/pushswap/pushswap/cmake-build-debug"/>
+				<Option working_dir="/Users/gstarvin/pushswap/pushswap copy/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/gstarvin/pushswap/pushswap/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gstarvin/pushswap/pushswap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gstarvin/pushswap/pushswap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gstarvin/pushswap/pushswap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gstarvin/pushswap/pushswap\ copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gstarvin/pushswap/pushswap\ copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gstarvin/pushswap/pushswap\ copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gstarvin/pushswap/pushswap\ copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/gstarvin/pushswap/pushswap/cmake-build-debug"/>
+				<Option working_dir="/Users/gstarvin/pushswap/pushswap copy/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/gstarvin/pushswap/pushswap/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gstarvin/pushswap/pushswap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gstarvin/pushswap/pushswap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gstarvin/pushswap/pushswap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gstarvin/pushswap/pushswap\ copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gstarvin/pushswap/pushswap\ copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gstarvin/pushswap/pushswap\ copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gstarvin/pushswap/pushswap\ copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/gstarvin/pushswap/pushswap/cmake-build-debug"/>
+				<Option working_dir="/Users/gstarvin/pushswap/pushswap copy/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/gstarvin/pushswap/pushswap/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gstarvin/pushswap/pushswap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gstarvin/pushswap/pushswap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gstarvin/pushswap/pushswap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gstarvin/pushswap/pushswap\ copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gstarvin/pushswap/pushswap\ copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gstarvin/pushswap/pushswap\ copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gstarvin/pushswap/pushswap\ copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="pushswap">
-				<Option output="/Users/gstarvin/pushswap/pushswap/cmake-build-debug/pushswap" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/gstarvin/pushswap/pushswap/cmake-build-debug"/>
+				<Option output="/Users/gstarvin/pushswap/pushswap copy/cmake-build-debug/pushswap" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gstarvin/pushswap/pushswap copy/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -52,15 +52,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/gstarvin/pushswap/pushswap/cmake-build-debug/Makefile&quot;  VERBOSE=1 pushswap"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gstarvin/pushswap/pushswap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gstarvin/pushswap/pushswap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gstarvin/pushswap/pushswap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gstarvin/pushswap/pushswap\ copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 pushswap"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gstarvin/pushswap/pushswap\ copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gstarvin/pushswap/pushswap\ copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gstarvin/pushswap/pushswap\ copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="pushswap/fast">
-				<Option output="/Users/gstarvin/pushswap/pushswap/cmake-build-debug/pushswap" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/gstarvin/pushswap/pushswap/cmake-build-debug"/>
+				<Option output="/Users/gstarvin/pushswap/pushswap copy/cmake-build-debug/pushswap" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gstarvin/pushswap/pushswap copy/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -73,10 +73,10 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/gstarvin/pushswap/pushswap/cmake-build-debug/Makefile&quot;  VERBOSE=1 pushswap/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gstarvin/pushswap/pushswap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gstarvin/pushswap/pushswap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gstarvin/pushswap/pushswap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gstarvin/pushswap/pushswap\ copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 pushswap/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gstarvin/pushswap/pushswap\ copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gstarvin/pushswap/pushswap\ copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gstarvin/pushswap/pushswap\ copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
@@ -116,37 +116,37 @@
 		<Unit filename="/Users/gstarvin/gnl/libft/ft_strsub.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/Users/gstarvin/pushswap/pushswap/check_functions.c">
+		<Unit filename="/Users/gstarvin/pushswap/pushswap copy/check_functions.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/Users/gstarvin/pushswap/pushswap/common_actions.c">
+		<Unit filename="/Users/gstarvin/pushswap/pushswap copy/common_actions.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/Users/gstarvin/pushswap/pushswap/do_action.c">
+		<Unit filename="/Users/gstarvin/pushswap/pushswap copy/do_action.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/Users/gstarvin/pushswap/pushswap/help_functions.c">
+		<Unit filename="/Users/gstarvin/pushswap/pushswap copy/help_functions.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/Users/gstarvin/pushswap/pushswap/list_functions.c">
+		<Unit filename="/Users/gstarvin/pushswap/pushswap copy/list_functions.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/Users/gstarvin/pushswap/pushswap/main.c">
+		<Unit filename="/Users/gstarvin/pushswap/pushswap copy/main.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/Users/gstarvin/pushswap/pushswap/push_min_op.c">
+		<Unit filename="/Users/gstarvin/pushswap/pushswap copy/push_min_op.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/Users/gstarvin/pushswap/pushswap/push_swap.c">
+		<Unit filename="/Users/gstarvin/pushswap/pushswap copy/push_swap.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/Users/gstarvin/pushswap/pushswap/push_swap.h">
+		<Unit filename="/Users/gstarvin/pushswap/pushswap copy/push_swap.h">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/Users/gstarvin/pushswap/pushswap/push_swap_min.c">
+		<Unit filename="/Users/gstarvin/pushswap/pushswap copy/push_swap_min.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/Users/gstarvin/pushswap/pushswap/CMakeLists.txt">
+		<Unit filename="/Users/gstarvin/pushswap/pushswap copy/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

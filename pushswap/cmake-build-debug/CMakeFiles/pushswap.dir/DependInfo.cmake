@@ -18,6 +18,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/gstarvin/pushswap/pushswap/check_functions.c" "/Users/gstarvin/pushswap/pushswap/cmake-build-debug/CMakeFiles/pushswap.dir/check_functions.c.o"
   "/Users/gstarvin/pushswap/pushswap/common_actions.c" "/Users/gstarvin/pushswap/pushswap/cmake-build-debug/CMakeFiles/pushswap.dir/common_actions.c.o"
   "/Users/gstarvin/pushswap/pushswap/do_action.c" "/Users/gstarvin/pushswap/pushswap/cmake-build-debug/CMakeFiles/pushswap.dir/do_action.c.o"
+  "/Users/gstarvin/pushswap/pushswap/help_functions.c" "/Users/gstarvin/pushswap/pushswap/cmake-build-debug/CMakeFiles/pushswap.dir/help_functions.c.o"
   "/Users/gstarvin/pushswap/pushswap/list_functions.c" "/Users/gstarvin/pushswap/pushswap/cmake-build-debug/CMakeFiles/pushswap.dir/list_functions.c.o"
   "/Users/gstarvin/pushswap/pushswap/main.c" "/Users/gstarvin/pushswap/pushswap/cmake-build-debug/CMakeFiles/pushswap.dir/main.c.o"
   "/Users/gstarvin/pushswap/pushswap/push_min_op.c" "/Users/gstarvin/pushswap/pushswap/cmake-build-debug/CMakeFiles/pushswap.dir/push_min_op.c.o"

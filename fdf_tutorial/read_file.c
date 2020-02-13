@@ -1,6 +1,6 @@
 #include "fdf.h"
 
-int     get_hight(char *file_name)
+/*int     get_hight(char *file_name)
 {
 	char *line;
 	int fd;
@@ -79,3 +79,4 @@ void    read_file(char *file_name, fdf *data)
 	close(fd);
 	data->z_matrix[i] = NULL;
 }
+*/

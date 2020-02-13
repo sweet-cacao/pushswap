@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/gstarvin/CLionProjects/fdf_tutorial
+CMAKE_SOURCE_DIR = /Users/gstarvin/pushswap/fdf_tutorial
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/gstarvin/CLionProjects/fdf_tutorial/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/gstarvin/pushswap/fdf_tutorial/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/gstarvin/CLionProjects/fdf_tutorial/cmake-build-debug/CMakeFiles /Users/gstarvin/CLionProjects/fdf_tutorial/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/gstarvin/pushswap/fdf_tutorial/cmake-build-debug/CMakeFiles /Users/gstarvin/pushswap/fdf_tutorial/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/gstarvin/CLionProjects/fdf_tutorial/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/gstarvin/pushswap/fdf_tutorial/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -150,32 +150,32 @@ draw.c.s:
 	$(MAKE) -f CMakeFiles/fdf_tutorial.dir/build.make CMakeFiles/fdf_tutorial.dir/draw.c.s
 .PHONY : draw.c.s
 
-main.o: main.c.o
+main2.o: main2.c.o
 
-.PHONY : main.o
+.PHONY : main2.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) -f CMakeFiles/fdf_tutorial.dir/build.make CMakeFiles/fdf_tutorial.dir/main.c.o
-.PHONY : main.c.o
+main2.c.o:
+	$(MAKE) -f CMakeFiles/fdf_tutorial.dir/build.make CMakeFiles/fdf_tutorial.dir/main2.c.o
+.PHONY : main2.c.o
 
-main.i: main.c.i
+main2.i: main2.c.i
 
-.PHONY : main.i
+.PHONY : main2.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles/fdf_tutorial.dir/build.make CMakeFiles/fdf_tutorial.dir/main.c.i
-.PHONY : main.c.i
+main2.c.i:
+	$(MAKE) -f CMakeFiles/fdf_tutorial.dir/build.make CMakeFiles/fdf_tutorial.dir/main2.c.i
+.PHONY : main2.c.i
 
-main.s: main.c.s
+main2.s: main2.c.s
 
-.PHONY : main.s
+.PHONY : main2.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles/fdf_tutorial.dir/build.make CMakeFiles/fdf_tutorial.dir/main.c.s
-.PHONY : main.c.s
+main2.c.s:
+	$(MAKE) -f CMakeFiles/fdf_tutorial.dir/build.make CMakeFiles/fdf_tutorial.dir/main2.c.s
+.PHONY : main2.c.s
 
 read_file.o: read_file.c.o
 
@@ -216,9 +216,9 @@ help:
 	@echo "... draw.o"
 	@echo "... draw.i"
 	@echo "... draw.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... main2.o"
+	@echo "... main2.i"
+	@echo "... main2.s"
 	@echo "... read_file.o"
 	@echo "... read_file.i"
 	@echo "... read_file.s"

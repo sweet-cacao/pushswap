@@ -1,10 +1,11 @@
 #ifndef FDF_TUTORIAL_FDF_H
-#define FDF_TUTORIAL_FDF_H
+# define FDF_TUTORIAL_FDF_H
 
-#include "../../gnl/get_next_line.h"
-#include <stdio.h>
-#include "minilibx_macos/mlx.h"
-#include <math.h>
+# include "minilibx_macos/mlx.h"
+# include "../../gnl/get_next_line.h"
+# include <stdio.h>
+# include <math.h>
+
 
 typedef struct
 {

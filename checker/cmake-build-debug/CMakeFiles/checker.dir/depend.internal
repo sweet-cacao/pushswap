@@ -48,37 +48,37 @@ CMakeFiles/checker.dir/Users/gstarvin/gnl/libft/ft_strsub.c.o
  /Users/gstarvin/gnl/libft/ft_strsub.c
  /Users/gstarvin/gnl/libft/libft.h
 CMakeFiles/checker.dir/check_functions.c.o
- /Users/gstarvin/CLionProjects/checker/check_functions.c
- /Users/gstarvin/CLionProjects/checker/push_swap.h
  /Users/gstarvin/gnl/get_next_line.h
  /Users/gstarvin/gnl/libft/libft.h
+ /Users/gstarvin/pushswap/checker/check_functions.c
+ /Users/gstarvin/pushswap/checker/push_swap.h
 CMakeFiles/checker.dir/do_action.c.o
- /Users/gstarvin/CLionProjects/checker/do_action.c
- /Users/gstarvin/CLionProjects/checker/push_swap.h
  /Users/gstarvin/gnl/get_next_line.h
  /Users/gstarvin/gnl/libft/libft.h
+ /Users/gstarvin/pushswap/checker/do_action.c
+ /Users/gstarvin/pushswap/checker/push_swap.h
 CMakeFiles/checker.dir/extra_functions.c.o
- /Users/gstarvin/CLionProjects/checker/extra_functions.c
- /Users/gstarvin/CLionProjects/checker/push_swap.h
  /Users/gstarvin/gnl/get_next_line.h
  /Users/gstarvin/gnl/libft/libft.h
+ /Users/gstarvin/pushswap/checker/extra_functions.c
+ /Users/gstarvin/pushswap/checker/push_swap.h
 CMakeFiles/checker.dir/instruction_functions.c.o
- /Users/gstarvin/CLionProjects/checker/instruction_functions.c
- /Users/gstarvin/CLionProjects/checker/push_swap.h
  /Users/gstarvin/gnl/get_next_line.h
  /Users/gstarvin/gnl/libft/libft.h
+ /Users/gstarvin/pushswap/checker/instruction_functions.c
+ /Users/gstarvin/pushswap/checker/push_swap.h
 CMakeFiles/checker.dir/list_functions.c.o
- /Users/gstarvin/CLionProjects/checker/list_functions.c
- /Users/gstarvin/CLionProjects/checker/push_swap.h
  /Users/gstarvin/gnl/get_next_line.h
  /Users/gstarvin/gnl/libft/libft.h
+ /Users/gstarvin/pushswap/checker/list_functions.c
+ /Users/gstarvin/pushswap/checker/push_swap.h
 CMakeFiles/checker.dir/main.c.o
- /Users/gstarvin/CLionProjects/checker/main.c
- /Users/gstarvin/CLionProjects/checker/push_swap.h
  /Users/gstarvin/gnl/get_next_line.h
  /Users/gstarvin/gnl/libft/libft.h
+ /Users/gstarvin/pushswap/checker/main.c
+ /Users/gstarvin/pushswap/checker/push_swap.h
 CMakeFiles/checker.dir/parse.c.o
- /Users/gstarvin/CLionProjects/checker/parse.c
- /Users/gstarvin/CLionProjects/checker/push_swap.h
  /Users/gstarvin/gnl/get_next_line.h
  /Users/gstarvin/gnl/libft/libft.h
+ /Users/gstarvin/pushswap/checker/parse.c
+ /Users/gstarvin/pushswap/checker/push_swap.h

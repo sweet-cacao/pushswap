@@ -20,11 +20,11 @@ unistd.h
 string.h
 -
 
-/Users/gstarvin/pushswap/pushswap/push_swap.c
+/Users/gstarvin/pushswap/pushswap copy/push_min_op.c
 push_swap.h
-/Users/gstarvin/pushswap/pushswap/push_swap.h
+/Users/gstarvin/pushswap/pushswap copy/push_swap.h
 
-/Users/gstarvin/pushswap/pushswap/push_swap.h
+/Users/gstarvin/pushswap/pushswap copy/push_swap.h
 ../../gnl/get_next_line.h
 /Users/gstarvin/gnl/get_next_line.h
 stdio.h

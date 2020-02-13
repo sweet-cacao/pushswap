@@ -4,7 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/Users/gstarvin/gnl/libft/ft_isdigit.c" "/Users/gstarvin/CLionProjects/push_swap3/cmake-build-debug/CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_isdigit.c.o"
+  "/Users/gstarvin/gnl/libft/ft_strcmp.c" "/Users/gstarvin/CLionProjects/push_swap3/cmake-build-debug/CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_strcmp.c.o"
+  "/Users/gstarvin/CLionProjects/push_swap3/check_functions.c" "/Users/gstarvin/CLionProjects/push_swap3/cmake-build-debug/CMakeFiles/push_swap3.dir/check_functions.c.o"
+  "/Users/gstarvin/CLionProjects/push_swap3/do_action.c" "/Users/gstarvin/CLionProjects/push_swap3/cmake-build-debug/CMakeFiles/push_swap3.dir/do_action.c.o"
+  "/Users/gstarvin/CLionProjects/push_swap3/help_functions.c" "/Users/gstarvin/CLionProjects/push_swap3/cmake-build-debug/CMakeFiles/push_swap3.dir/help_functions.c.o"
+  "/Users/gstarvin/CLionProjects/push_swap3/list_functions.c" "/Users/gstarvin/CLionProjects/push_swap3/cmake-build-debug/CMakeFiles/push_swap3.dir/list_functions.c.o"
   "/Users/gstarvin/CLionProjects/push_swap3/main.c" "/Users/gstarvin/CLionProjects/push_swap3/cmake-build-debug/CMakeFiles/push_swap3.dir/main.c.o"
+  "/Users/gstarvin/CLionProjects/push_swap3/push_a.c" "/Users/gstarvin/CLionProjects/push_swap3/cmake-build-debug/CMakeFiles/push_swap3.dir/push_a.c.o"
+  "/Users/gstarvin/CLionProjects/push_swap3/push_in_a.c" "/Users/gstarvin/CLionProjects/push_swap3/cmake-build-debug/CMakeFiles/push_swap3.dir/push_in_a.c.o"
   "/Users/gstarvin/CLionProjects/push_swap3/push_swap.c" "/Users/gstarvin/CLionProjects/push_swap3/cmake-build-debug/CMakeFiles/push_swap3.dir/push_swap.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")

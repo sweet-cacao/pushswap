@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/gstarvin/pushswap/pushswap
+CMAKE_SOURCE_DIR = "/Users/gstarvin/pushswap/pushswap copy"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/gstarvin/pushswap/pushswap/cmake-build-debug
+CMAKE_BINARY_DIR = "/Users/gstarvin/pushswap/pushswap copy/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/pushswap.dir/depend.make
@@ -59,33 +59,33 @@ include CMakeFiles/pushswap.dir/flags.make
 
 CMakeFiles/pushswap.dir/main.c.o: CMakeFiles/pushswap.dir/flags.make
 CMakeFiles/pushswap.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/pushswap.dir/main.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/main.c.o   -c /Users/gstarvin/pushswap/pushswap/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/gstarvin/pushswap/pushswap copy/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/pushswap.dir/main.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/main.c.o   -c "/Users/gstarvin/pushswap/pushswap copy/main.c"
 
 CMakeFiles/pushswap.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/main.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/gstarvin/pushswap/pushswap/main.c > CMakeFiles/pushswap.dir/main.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/gstarvin/pushswap/pushswap copy/main.c" > CMakeFiles/pushswap.dir/main.c.i
 
 CMakeFiles/pushswap.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/main.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/gstarvin/pushswap/pushswap/main.c -o CMakeFiles/pushswap.dir/main.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/gstarvin/pushswap/pushswap copy/main.c" -o CMakeFiles/pushswap.dir/main.c.s
 
 CMakeFiles/pushswap.dir/list_functions.c.o: CMakeFiles/pushswap.dir/flags.make
 CMakeFiles/pushswap.dir/list_functions.c.o: ../list_functions.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/pushswap.dir/list_functions.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/list_functions.c.o   -c /Users/gstarvin/pushswap/pushswap/list_functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/gstarvin/pushswap/pushswap copy/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/pushswap.dir/list_functions.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/list_functions.c.o   -c "/Users/gstarvin/pushswap/pushswap copy/list_functions.c"
 
 CMakeFiles/pushswap.dir/list_functions.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/list_functions.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/gstarvin/pushswap/pushswap/list_functions.c > CMakeFiles/pushswap.dir/list_functions.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/gstarvin/pushswap/pushswap copy/list_functions.c" > CMakeFiles/pushswap.dir/list_functions.c.i
 
 CMakeFiles/pushswap.dir/list_functions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/list_functions.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/gstarvin/pushswap/pushswap/list_functions.c -o CMakeFiles/pushswap.dir/list_functions.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/gstarvin/pushswap/pushswap copy/list_functions.c" -o CMakeFiles/pushswap.dir/list_functions.c.s
 
 CMakeFiles/pushswap.dir/Users/gstarvin/gnl/get_next_line.c.o: CMakeFiles/pushswap.dir/flags.make
 CMakeFiles/pushswap.dir/Users/gstarvin/gnl/get_next_line.c.o: /Users/gstarvin/gnl/get_next_line.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/pushswap.dir/Users/gstarvin/gnl/get_next_line.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/gstarvin/pushswap/pushswap copy/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/pushswap.dir/Users/gstarvin/gnl/get_next_line.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/gstarvin/gnl/get_next_line.c.o   -c /Users/gstarvin/gnl/get_next_line.c
 
 CMakeFiles/pushswap.dir/Users/gstarvin/gnl/get_next_line.c.i: cmake_force
@@ -98,7 +98,7 @@ CMakeFiles/pushswap.dir/Users/gstarvin/gnl/get_next_line.c.s: cmake_force
 
 CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_atoi.c.o: CMakeFiles/pushswap.dir/flags.make
 CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_atoi.c.o: /Users/gstarvin/gnl/libft/ft_atoi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_atoi.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/gstarvin/pushswap/pushswap copy/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_atoi.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_atoi.c.o   -c /Users/gstarvin/gnl/libft/ft_atoi.c
 
 CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_atoi.c.i: cmake_force
@@ -111,7 +111,7 @@ CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_atoi.c.s: cmake_force
 
 CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_strchr.c.o: CMakeFiles/pushswap.dir/flags.make
 CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_strchr.c.o: /Users/gstarvin/gnl/libft/ft_strchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_strchr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/gstarvin/pushswap/pushswap copy/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_strchr.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_strchr.c.o   -c /Users/gstarvin/gnl/libft/ft_strchr.c
 
 CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_strchr.c.i: cmake_force
@@ -124,7 +124,7 @@ CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_strchr.c.s: cmake_force
 
 CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_strdup.c.o: CMakeFiles/pushswap.dir/flags.make
 CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_strdup.c.o: /Users/gstarvin/gnl/libft/ft_strdup.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_strdup.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/gstarvin/pushswap/pushswap copy/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_strdup.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_strdup.c.o   -c /Users/gstarvin/gnl/libft/ft_strdup.c
 
 CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_strdup.c.i: cmake_force
@@ -137,7 +137,7 @@ CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_strdup.c.s: cmake_force
 
 CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_strjoin.c.o: CMakeFiles/pushswap.dir/flags.make
 CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_strjoin.c.o: /Users/gstarvin/gnl/libft/ft_strjoin.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_strjoin.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/gstarvin/pushswap/pushswap copy/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_strjoin.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_strjoin.c.o   -c /Users/gstarvin/gnl/libft/ft_strjoin.c
 
 CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_strjoin.c.i: cmake_force
@@ -150,7 +150,7 @@ CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_strjoin.c.s: cmake_force
 
 CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_strnew.c.o: CMakeFiles/pushswap.dir/flags.make
 CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_strnew.c.o: /Users/gstarvin/gnl/libft/ft_strnew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_strnew.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/gstarvin/pushswap/pushswap copy/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_strnew.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_strnew.c.o   -c /Users/gstarvin/gnl/libft/ft_strnew.c
 
 CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_strnew.c.i: cmake_force
@@ -163,7 +163,7 @@ CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_strnew.c.s: cmake_force
 
 CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_strcmp.c.o: CMakeFiles/pushswap.dir/flags.make
 CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_strcmp.c.o: /Users/gstarvin/gnl/libft/ft_strcmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_strcmp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/gstarvin/pushswap/pushswap copy/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_strcmp.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_strcmp.c.o   -c /Users/gstarvin/gnl/libft/ft_strcmp.c
 
 CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_strcmp.c.i: cmake_force
@@ -176,7 +176,7 @@ CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_strcmp.c.s: cmake_force
 
 CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_strdel.c.o: CMakeFiles/pushswap.dir/flags.make
 CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_strdel.c.o: /Users/gstarvin/gnl/libft/ft_strdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_strdel.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/gstarvin/pushswap/pushswap copy/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_strdel.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_strdel.c.o   -c /Users/gstarvin/gnl/libft/ft_strdel.c
 
 CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_strdel.c.i: cmake_force
@@ -189,7 +189,7 @@ CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_strdel.c.s: cmake_force
 
 CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_strlen.c.o: CMakeFiles/pushswap.dir/flags.make
 CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_strlen.c.o: /Users/gstarvin/gnl/libft/ft_strlen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_strlen.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/gstarvin/pushswap/pushswap copy/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_strlen.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_strlen.c.o   -c /Users/gstarvin/gnl/libft/ft_strlen.c
 
 CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_strlen.c.i: cmake_force
@@ -202,7 +202,7 @@ CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_strlen.c.s: cmake_force
 
 CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_strsub.c.o: CMakeFiles/pushswap.dir/flags.make
 CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_strsub.c.o: /Users/gstarvin/gnl/libft/ft_strsub.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_strsub.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/gstarvin/pushswap/pushswap copy/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_strsub.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_strsub.c.o   -c /Users/gstarvin/gnl/libft/ft_strsub.c
 
 CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_strsub.c.i: cmake_force
@@ -215,20 +215,20 @@ CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_strsub.c.s: cmake_force
 
 CMakeFiles/pushswap.dir/check_functions.c.o: CMakeFiles/pushswap.dir/flags.make
 CMakeFiles/pushswap.dir/check_functions.c.o: ../check_functions.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/pushswap.dir/check_functions.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/check_functions.c.o   -c /Users/gstarvin/pushswap/pushswap/check_functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/gstarvin/pushswap/pushswap copy/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/pushswap.dir/check_functions.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/check_functions.c.o   -c "/Users/gstarvin/pushswap/pushswap copy/check_functions.c"
 
 CMakeFiles/pushswap.dir/check_functions.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/check_functions.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/gstarvin/pushswap/pushswap/check_functions.c > CMakeFiles/pushswap.dir/check_functions.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/gstarvin/pushswap/pushswap copy/check_functions.c" > CMakeFiles/pushswap.dir/check_functions.c.i
 
 CMakeFiles/pushswap.dir/check_functions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/check_functions.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/gstarvin/pushswap/pushswap/check_functions.c -o CMakeFiles/pushswap.dir/check_functions.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/gstarvin/pushswap/pushswap copy/check_functions.c" -o CMakeFiles/pushswap.dir/check_functions.c.s
 
 CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_isdigit.c.o: CMakeFiles/pushswap.dir/flags.make
 CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_isdigit.c.o: /Users/gstarvin/gnl/libft/ft_isdigit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_isdigit.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/gstarvin/pushswap/pushswap copy/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_isdigit.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_isdigit.c.o   -c /Users/gstarvin/gnl/libft/ft_isdigit.c
 
 CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_isdigit.c.i: cmake_force
@@ -241,81 +241,81 @@ CMakeFiles/pushswap.dir/Users/gstarvin/gnl/libft/ft_isdigit.c.s: cmake_force
 
 CMakeFiles/pushswap.dir/do_action.c.o: CMakeFiles/pushswap.dir/flags.make
 CMakeFiles/pushswap.dir/do_action.c.o: ../do_action.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/pushswap.dir/do_action.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/do_action.c.o   -c /Users/gstarvin/pushswap/pushswap/do_action.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/gstarvin/pushswap/pushswap copy/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/pushswap.dir/do_action.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/do_action.c.o   -c "/Users/gstarvin/pushswap/pushswap copy/do_action.c"
 
 CMakeFiles/pushswap.dir/do_action.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/do_action.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/gstarvin/pushswap/pushswap/do_action.c > CMakeFiles/pushswap.dir/do_action.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/gstarvin/pushswap/pushswap copy/do_action.c" > CMakeFiles/pushswap.dir/do_action.c.i
 
 CMakeFiles/pushswap.dir/do_action.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/do_action.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/gstarvin/pushswap/pushswap/do_action.c -o CMakeFiles/pushswap.dir/do_action.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/gstarvin/pushswap/pushswap copy/do_action.c" -o CMakeFiles/pushswap.dir/do_action.c.s
 
 CMakeFiles/pushswap.dir/push_swap.c.o: CMakeFiles/pushswap.dir/flags.make
 CMakeFiles/pushswap.dir/push_swap.c.o: ../push_swap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/pushswap.dir/push_swap.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/push_swap.c.o   -c /Users/gstarvin/pushswap/pushswap/push_swap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/gstarvin/pushswap/pushswap copy/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/pushswap.dir/push_swap.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/push_swap.c.o   -c "/Users/gstarvin/pushswap/pushswap copy/push_swap.c"
 
 CMakeFiles/pushswap.dir/push_swap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/push_swap.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/gstarvin/pushswap/pushswap/push_swap.c > CMakeFiles/pushswap.dir/push_swap.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/gstarvin/pushswap/pushswap copy/push_swap.c" > CMakeFiles/pushswap.dir/push_swap.c.i
 
 CMakeFiles/pushswap.dir/push_swap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/push_swap.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/gstarvin/pushswap/pushswap/push_swap.c -o CMakeFiles/pushswap.dir/push_swap.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/gstarvin/pushswap/pushswap copy/push_swap.c" -o CMakeFiles/pushswap.dir/push_swap.c.s
 
 CMakeFiles/pushswap.dir/push_swap_min.c.o: CMakeFiles/pushswap.dir/flags.make
 CMakeFiles/pushswap.dir/push_swap_min.c.o: ../push_swap_min.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/pushswap.dir/push_swap_min.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/push_swap_min.c.o   -c /Users/gstarvin/pushswap/pushswap/push_swap_min.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/gstarvin/pushswap/pushswap copy/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/pushswap.dir/push_swap_min.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/push_swap_min.c.o   -c "/Users/gstarvin/pushswap/pushswap copy/push_swap_min.c"
 
 CMakeFiles/pushswap.dir/push_swap_min.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/push_swap_min.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/gstarvin/pushswap/pushswap/push_swap_min.c > CMakeFiles/pushswap.dir/push_swap_min.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/gstarvin/pushswap/pushswap copy/push_swap_min.c" > CMakeFiles/pushswap.dir/push_swap_min.c.i
 
 CMakeFiles/pushswap.dir/push_swap_min.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/push_swap_min.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/gstarvin/pushswap/pushswap/push_swap_min.c -o CMakeFiles/pushswap.dir/push_swap_min.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/gstarvin/pushswap/pushswap copy/push_swap_min.c" -o CMakeFiles/pushswap.dir/push_swap_min.c.s
 
 CMakeFiles/pushswap.dir/common_actions.c.o: CMakeFiles/pushswap.dir/flags.make
 CMakeFiles/pushswap.dir/common_actions.c.o: ../common_actions.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/pushswap.dir/common_actions.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/common_actions.c.o   -c /Users/gstarvin/pushswap/pushswap/common_actions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/gstarvin/pushswap/pushswap copy/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/pushswap.dir/common_actions.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/common_actions.c.o   -c "/Users/gstarvin/pushswap/pushswap copy/common_actions.c"
 
 CMakeFiles/pushswap.dir/common_actions.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/common_actions.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/gstarvin/pushswap/pushswap/common_actions.c > CMakeFiles/pushswap.dir/common_actions.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/gstarvin/pushswap/pushswap copy/common_actions.c" > CMakeFiles/pushswap.dir/common_actions.c.i
 
 CMakeFiles/pushswap.dir/common_actions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/common_actions.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/gstarvin/pushswap/pushswap/common_actions.c -o CMakeFiles/pushswap.dir/common_actions.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/gstarvin/pushswap/pushswap copy/common_actions.c" -o CMakeFiles/pushswap.dir/common_actions.c.s
 
 CMakeFiles/pushswap.dir/push_min_op.c.o: CMakeFiles/pushswap.dir/flags.make
 CMakeFiles/pushswap.dir/push_min_op.c.o: ../push_min_op.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/pushswap.dir/push_min_op.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/push_min_op.c.o   -c /Users/gstarvin/pushswap/pushswap/push_min_op.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/gstarvin/pushswap/pushswap copy/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/pushswap.dir/push_min_op.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/push_min_op.c.o   -c "/Users/gstarvin/pushswap/pushswap copy/push_min_op.c"
 
 CMakeFiles/pushswap.dir/push_min_op.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/push_min_op.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/gstarvin/pushswap/pushswap/push_min_op.c > CMakeFiles/pushswap.dir/push_min_op.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/gstarvin/pushswap/pushswap copy/push_min_op.c" > CMakeFiles/pushswap.dir/push_min_op.c.i
 
 CMakeFiles/pushswap.dir/push_min_op.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/push_min_op.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/gstarvin/pushswap/pushswap/push_min_op.c -o CMakeFiles/pushswap.dir/push_min_op.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/gstarvin/pushswap/pushswap copy/push_min_op.c" -o CMakeFiles/pushswap.dir/push_min_op.c.s
 
 CMakeFiles/pushswap.dir/help_functions.c.o: CMakeFiles/pushswap.dir/flags.make
 CMakeFiles/pushswap.dir/help_functions.c.o: ../help_functions.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/pushswap.dir/help_functions.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/help_functions.c.o   -c /Users/gstarvin/pushswap/pushswap/help_functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/gstarvin/pushswap/pushswap copy/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/pushswap.dir/help_functions.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/help_functions.c.o   -c "/Users/gstarvin/pushswap/pushswap copy/help_functions.c"
 
 CMakeFiles/pushswap.dir/help_functions.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/help_functions.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/gstarvin/pushswap/pushswap/help_functions.c > CMakeFiles/pushswap.dir/help_functions.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/gstarvin/pushswap/pushswap copy/help_functions.c" > CMakeFiles/pushswap.dir/help_functions.c.i
 
 CMakeFiles/pushswap.dir/help_functions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/help_functions.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/gstarvin/pushswap/pushswap/help_functions.c -o CMakeFiles/pushswap.dir/help_functions.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/gstarvin/pushswap/pushswap copy/help_functions.c" -o CMakeFiles/pushswap.dir/help_functions.c.s
 
 # Object files for target pushswap
 pushswap_OBJECTS = \
@@ -365,7 +365,7 @@ pushswap: CMakeFiles/pushswap.dir/push_min_op.c.o
 pushswap: CMakeFiles/pushswap.dir/help_functions.c.o
 pushswap: CMakeFiles/pushswap.dir/build.make
 pushswap: CMakeFiles/pushswap.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/gstarvin/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking C executable pushswap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/gstarvin/pushswap/pushswap copy/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Linking C executable pushswap"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pushswap.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -378,6 +378,6 @@ CMakeFiles/pushswap.dir/clean:
 .PHONY : CMakeFiles/pushswap.dir/clean
 
 CMakeFiles/pushswap.dir/depend:
-	cd /Users/gstarvin/pushswap/pushswap/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/gstarvin/pushswap/pushswap /Users/gstarvin/pushswap/pushswap /Users/gstarvin/pushswap/pushswap/cmake-build-debug /Users/gstarvin/pushswap/pushswap/cmake-build-debug /Users/gstarvin/pushswap/pushswap/cmake-build-debug/CMakeFiles/pushswap.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/Users/gstarvin/pushswap/pushswap copy/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/gstarvin/pushswap/pushswap copy" "/Users/gstarvin/pushswap/pushswap copy" "/Users/gstarvin/pushswap/pushswap copy/cmake-build-debug" "/Users/gstarvin/pushswap/pushswap copy/cmake-build-debug" "/Users/gstarvin/pushswap/pushswap copy/cmake-build-debug/CMakeFiles/pushswap.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/pushswap.dir/depend
 

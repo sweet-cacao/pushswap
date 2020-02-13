@@ -1,31 +1,23 @@
+
 #include "push_swap.h"
 
-int 	make_up_a2(t_sort **sort, t_sort **sort2, t_sort *tmp, t_act *act)
+int 	make_up_a2(t_sort **sort, t_sort **sort2, t_sort *tmp)
 {
 	int op_next;
 	int op_prev;
-	char *str = malloc(sizeof(char) * 5);
-	int i;
-//	char *instr[1000];
+	char *str;
 	int j;
 
 	if (tmp == NULL || sort == NULL)
 		return (0);
-	i = 0;
 	j = 0;
 	op_next = count_op_next(tmp);
 	op_prev = count_op_prev(tmp);
 	str = op_next <= op_prev ? "next" : "prev";
 	if (ft_strcmp("next", str) == 0)
-	{
-		act->str_b = 1;
 		return (op_next);
-	}
 	if (ft_strcmp("prev", str) == 0)
-	{
-		act->str_b = 0;
 		return (op_prev);
-	}
 	return (j);
 }
 
@@ -50,7 +42,7 @@ int 	make_sorted3(t_sort **sort, t_sort **sort2, t_act *act)
 		tmp = tmp->next;
 	}
 	if (need != NULL)
-		j = make_up_a2(sort, sort, need, act); //костыль, потому что передается сразу сорт2 2 раза
+		j = make_up_a2(sort, sort, need); //костыль, потому что передается сразу сорт2 2 раза
 	return (j);
 }
 
@@ -86,7 +78,7 @@ int			find_place3_a(t_sort **walk, t_sort **sort, t_act *act)
 			}
 		}
 		if (need != NULL)
-			op = make_up_a2(walk, sort, need, act);
+			op = make_up_a2(walk, sort, need);
 	}
 	else if (check_biggest(walk, sort))
 	{
@@ -99,17 +91,14 @@ int			find_place3_a(t_sort **walk, t_sort **sort, t_act *act)
 	return (op);
 }
 
-int push_min_op(t_sort **sort, t_sort **sort2)
+int push_min_op(t_sort **sort, t_sort **sort2, fdf *data)
 {
 	int op;
 	t_sort *tmp;
 	t_act act;
 	t_sort *need;
-//	int first;
-//	int second;
 	int min;
 
-	min = INT32_MAX;
 	tmp = (*sort2);
 	need = NULL;
 	while ((*sort2))
@@ -117,7 +106,7 @@ int push_min_op(t_sort **sort, t_sort **sort2)
         min = INT32_MAX;
 		while (tmp)
 		{
-			op = find_place3_a(&tmp, sort, &act) + make_up_a2(sort, sort2, tmp, &act);
+			op = find_place3_a(&tmp, sort, &act) + make_up_a2(sort, sort2, tmp);
 			if (op < min)
 			{
 				min = op;
@@ -125,10 +114,10 @@ int push_min_op(t_sort **sort, t_sort **sort2)
 			}
 			tmp = tmp->next;
 		}
-		make_up_b(sort2, sort2, need);
-		find_place3_b(sort2, sort);
+		make_up_b(sort2, sort2, need, data);
+		find_place3_b(sort2, sort, data);
 		tmp = (*sort2);
 	}
-	make_sorted(sort, sort2);
-	return (do_action("pa", sort,  sort2));
+	make_sorted(sort, sort2, data);
+	return (do_action("pa", sort, sort2, data));
 }

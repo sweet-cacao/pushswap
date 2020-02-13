@@ -1,6 +1,6 @@
 #include "push_swap.h"
 
-int 	make_up_a2(t_sort **sort, t_sort **sort2, t_sort *tmp)
+int 	make_up_a2(t_sort **sort, t_sort **sort2, t_sort *tmp, t_act *act)
 {
 	int op_next;
 	int op_prev;

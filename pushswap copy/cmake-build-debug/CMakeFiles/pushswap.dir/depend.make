@@ -50,6 +50,11 @@ CMakeFiles/pushswap.dir/do_action.c.o: /Users/gstarvin/gnl/libft/libft.h
 CMakeFiles/pushswap.dir/do_action.c.o: ../do_action.c
 CMakeFiles/pushswap.dir/do_action.c.o: ../push_swap.h
 
+CMakeFiles/pushswap.dir/help_functions.c.o: /Users/gstarvin/gnl/get_next_line.h
+CMakeFiles/pushswap.dir/help_functions.c.o: /Users/gstarvin/gnl/libft/libft.h
+CMakeFiles/pushswap.dir/help_functions.c.o: ../help_functions.c
+CMakeFiles/pushswap.dir/help_functions.c.o: ../push_swap.h
+
 CMakeFiles/pushswap.dir/list_functions.c.o: /Users/gstarvin/gnl/get_next_line.h
 CMakeFiles/pushswap.dir/list_functions.c.o: /Users/gstarvin/gnl/libft/libft.h
 CMakeFiles/pushswap.dir/list_functions.c.o: ../list_functions.c

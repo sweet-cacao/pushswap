@@ -1,3 +1,4 @@
+#include <tclDecls.h>
 #include "push_swap.h"
 
 int is_number(char *str)
@@ -32,7 +33,7 @@ int			check_args(int ac, char **av)
 	}
 	return (1);
 }
-
+/*
 int			check_list(t_sort *sort, t_sort *sort2)
 {
 	t_sort	*tmp;
@@ -66,6 +67,18 @@ void	display_list(t_sort *sort)
 		tmp = tmp->next;
 	}
 	printf("\n");
-}
+}*/
+/*
+int	push_everything(t_sort **sort, t_sort **sort2)
+{
+	int p;
+	t_sort *tmp;
 
-
+	p = 0;
+	tmp = (*sort2);
+	while (*sort2)
+	{
+		p = do_action("pa", sort, sort2, result);
+	}
+	return (p);
+}*/

@@ -20,9 +20,49 @@ unistd.h
 string.h
 -
 
+/Users/gstarvin/pushswap/fdf_tutorial/fdf.h
+minilibx_macos/mlx.h
+/Users/gstarvin/pushswap/fdf_tutorial/minilibx_macos/mlx.h
+../../gnl/get_next_line.h
+/Users/gstarvin/gnl/get_next_line.h
+stdio.h
+-
+math.h
+-
+
+/Users/gstarvin/pushswap/fdf_tutorial/minilibx_macos/mlx.h
+
+/Users/gstarvin/pushswap/pushswap/check_functions.c
+tclDecls.h
+-
+push_swap.h
+/Users/gstarvin/pushswap/pushswap/push_swap.h
+
+/Users/gstarvin/pushswap/pushswap/common_actions.c
+push_swap.h
+/Users/gstarvin/pushswap/pushswap/push_swap.h
+
+/Users/gstarvin/pushswap/pushswap/do_action.c
+push_swap.h
+/Users/gstarvin/pushswap/pushswap/push_swap.h
+
+/Users/gstarvin/pushswap/pushswap/help_functions.c
+push_swap.h
+/Users/gstarvin/pushswap/pushswap/push_swap.h
+
+/Users/gstarvin/pushswap/pushswap/list_functions.c
+push_swap.h
+/Users/gstarvin/pushswap/pushswap/push_swap.h
+
 /Users/gstarvin/pushswap/pushswap/main.c
 stdio.h
 -
+tclDecls.h
+-
+push_swap.h
+/Users/gstarvin/pushswap/pushswap/push_swap.h
+
+/Users/gstarvin/pushswap/pushswap/push_min_op.c
 push_swap.h
 /Users/gstarvin/pushswap/pushswap/push_swap.h
 
@@ -31,10 +71,8 @@ push_swap.h
 /Users/gstarvin/pushswap/pushswap/push_swap.h
 
 /Users/gstarvin/pushswap/pushswap/push_swap.h
-../../gnl/get_next_line.h
-/Users/gstarvin/gnl/get_next_line.h
-stdio.h
--
+../fdf_tutorial/fdf.h
+/Users/gstarvin/pushswap/fdf_tutorial/fdf.h
 
 /Users/gstarvin/pushswap/pushswap/push_swap_min.c
 push_swap.h

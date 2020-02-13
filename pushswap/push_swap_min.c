@@ -1,7 +1,8 @@
+
 #include "push_swap.h"
 
 
-int 	push_swap_min(t_sort **sort, t_sort **sort2)
+int push_swap_min(t_sort **sort, t_sort **sort2, fdf *data)
 {
 	t_sort *tmp;
 	int p;
@@ -10,30 +11,30 @@ int 	push_swap_min(t_sort **sort, t_sort **sort2)
 	tmp = (*sort);
 	if ((tmp->data < tmp->next->next->data) && (tmp->data > tmp->next->data))
 	{
-		return (p = do_action("sa", sort, sort2));
+		return (p = do_action("sa", sort, sort2, data));
 	}
 	if ((tmp->data > tmp->next->next->data) && (tmp->data > tmp->next->data) && (tmp->next->data > tmp->next->next->data))
 	{
-		do_action("sa", sort, sort2);
-		return (p = do_action("rra", sort, sort2));
+		do_action("sa", sort, sort2, data);
+		return (p = do_action("rra", sort, sort2, data));
 	}
 	if ((tmp->data > tmp->next->next->data) && (tmp->data > tmp->next->data) && (tmp->next->data < tmp->next->next->data))
 	{
-		return (p = do_action("ra", sort, sort2));
+		return (p = do_action("ra", sort, sort2, data));
 	}
 	if ((tmp->data > tmp->next->next->data) && (tmp->data < tmp->next->data))
 	{
-		return (p = do_action("rra", sort, sort2));
+		return (p = do_action("rra", sort, sort2, data));
 	}
 	if ((tmp->data < tmp->next->next->data) && (tmp->data < tmp->next->data) && (tmp->next->data > tmp->next->next->data))
 	{
-		do_action("sa", sort, sort2);
-		return (p = do_action("ra", sort, sort2));
+		do_action("sa", sort, sort2, data);
+		return (p = do_action("ra", sort, sort2, data));
 	}
 	return (p);
 }
 
-int 	make_up_a(t_sort **sort, t_sort **sort2, t_sort *tmp)
+int make_up_a(t_sort **sort, t_sort **sort2, t_sort *tmp, fdf *data)
 {
 	int op_next;
 	int op_prev;
@@ -53,7 +54,7 @@ int 	make_up_a(t_sort **sort, t_sort **sort2, t_sort *tmp)
 	{
 		while (i < op_next)
 		{
-			j = do_action("rra", sort, sort2);
+			j = do_action("rra", sort, sort2, data);
 			i++;
 		}
 	}
@@ -61,7 +62,7 @@ int 	make_up_a(t_sort **sort, t_sort **sort2, t_sort *tmp)
 	{
 		while (i < op_prev)
 		{
-			j = do_action("ra",  sort, sort2);
+			j = do_action("ra", sort, sort2, data);
 			i++;
 
 		}
@@ -69,7 +70,7 @@ int 	make_up_a(t_sort **sort, t_sort **sort2, t_sort *tmp)
 	return (j);
 }
 
-int 	make_up_b(t_sort **sort, t_sort **sort2, t_sort *tmp)
+int make_up_b(t_sort **sort, t_sort **sort2, t_sort *tmp, fdf *data)
 {
 	int op_next;
 	int op_prev;
@@ -89,7 +90,7 @@ int 	make_up_b(t_sort **sort, t_sort **sort2, t_sort *tmp)
 	{
 		while (i < op_next)
 		{
-			j = do_action("rrb", sort, sort2);
+			j = do_action("rrb", sort, sort2, data);
 			i++;
 		}
 	}
@@ -97,14 +98,14 @@ int 	make_up_b(t_sort **sort, t_sort **sort2, t_sort *tmp)
 	{
 		while (i < op_prev)
 		{
-			j = do_action("rb",  sort, sort2);
+			j = do_action("rb", sort, sort2, data);
 			i++;
 		}
 	}
 	return (j);
 }
 
-int			find_place2(t_sort **sort, t_sort **sort2)
+int find_place2(t_sort **sort, t_sort **sort2, fdf *data)
 {
 	t_sort 	*tmp;
 	t_sort 	*need;
@@ -123,13 +124,13 @@ int			find_place2(t_sort **sort, t_sort **sort2)
 
 	if (need != NULL)
 	{
-		make_up_a(sort, sort2, tmp);
+		make_up_a(sort, sort2, tmp, data);
 	}
-	j = do_action("pa", sort, sort2);
+	j = do_action("pa", sort, sort2, data);
 	return (j);
 }
 
-int 	make_sorted(t_sort **sort, t_sort **sort2)
+int make_sorted(t_sort **sort, t_sort **sort2, fdf *data)
 {
 	t_sort *tmp;
 	t_sort *need;
@@ -150,7 +151,7 @@ int 	make_sorted(t_sort **sort, t_sort **sort2)
 		tmp = tmp->next;
 	}
 	if (need != NULL)
-		j = make_up_a(sort, sort2, need);
+		j = make_up_a(sort, sort2, need, data);
 	return (j);
 }
 
@@ -182,7 +183,7 @@ int check_smallest(t_sort **sort, t_sort **sort2)
 	return (0);
 }
 
-void			find_place3_b(t_sort **sort, t_sort **sort2)
+void find_place3_b(t_sort **sort, t_sort **sort2, fdf *data)
 {
 	t_sort 	*tmp;
 	t_sort 	*need;
@@ -213,31 +214,31 @@ void			find_place3_b(t_sort **sort, t_sort **sort2)
 			}
 		}
 		if (need != NULL)
-			make_up_b(sort, sort2, need);
+			make_up_b(sort, sort2, need, data);
 	}
 	else if (check_biggest(sort, sort2))
 	{
-		make_sorted(sort2, sort2);
+		make_sorted(sort2, sort2, data);
 	}
 	else if (check_smallest(sort, sort2))
 	{
-		make_sorted(sort2, sort2);
+		make_sorted(sort2, sort2, data);
 	}
-	do_action("pb", sort, sort2);
+	do_action("pb", sort, sort2, data);
 }
 
-int 	push_swap_five(t_sort **sort, t_sort **sort2)
+int push_swap_five(t_sort **sort, t_sort **sort2, fdf *data)
 {
 	t_sort *tmp;
 	t_sort *need;
 	int otv;
 
-	do_action("pb", sort, sort2);
-	do_action("pb", sort, sort2);
-	push_swap_min(sort, sort2);
-	find_place2(sort, sort2);
-	find_place2(sort, sort2);
-	make_sorted(sort, sort2);
-	otv = do_action("rb", sort, sort2);
+	do_action("pb", sort, sort2, data);
+	do_action("pb", sort, sort2, data);
+	push_swap_min(sort, sort2, data);
+	find_place2(sort, sort2, data);
+	find_place2(sort, sort2, data);
+	make_sorted(sort, sort2, data);
+	otv = do_action("rb", sort, sort2, data);
 	return (otv);
 }

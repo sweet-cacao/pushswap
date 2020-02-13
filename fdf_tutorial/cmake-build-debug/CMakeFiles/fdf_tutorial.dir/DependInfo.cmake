@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/gstarvin/CLionProjects/fdf_tutorial/draw.c" "/Users/gstarvin/CLionProjects/fdf_tutorial/cmake-build-debug/CMakeFiles/fdf_tutorial.dir/draw.c.o"
-  "/Users/gstarvin/CLionProjects/fdf_tutorial/main.c" "/Users/gstarvin/CLionProjects/fdf_tutorial/cmake-build-debug/CMakeFiles/fdf_tutorial.dir/main.c.o"
-  "/Users/gstarvin/CLionProjects/fdf_tutorial/read_file.c" "/Users/gstarvin/CLionProjects/fdf_tutorial/cmake-build-debug/CMakeFiles/fdf_tutorial.dir/read_file.c.o"
+  "/Users/gstarvin/pushswap/fdf_tutorial/draw.c" "/Users/gstarvin/pushswap/fdf_tutorial/cmake-build-debug/CMakeFiles/fdf_tutorial.dir/draw.c.o"
+  "/Users/gstarvin/pushswap/fdf_tutorial/main2.c" "/Users/gstarvin/pushswap/fdf_tutorial/cmake-build-debug/CMakeFiles/fdf_tutorial.dir/main2.c.o"
+  "/Users/gstarvin/pushswap/fdf_tutorial/read_file.c" "/Users/gstarvin/pushswap/fdf_tutorial/cmake-build-debug/CMakeFiles/fdf_tutorial.dir/read_file.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

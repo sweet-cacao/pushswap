@@ -1,9 +1,9 @@
 #ifndef PUSHSWAP_PUSH_SWAP_H
-#define PUSHSWAP_PUSH_SWAP_H
+# define PUSHSWAP_PUSH_SWAP_H
 
-#include "../../gnl/get_next_line.h"
-#include <stdio.h>
+//#include "../../gnl/get_next_line.h"
 
+# include "../fdf_tutorial/fdf.h"
 
 typedef struct      s_sort
 {
@@ -34,26 +34,30 @@ void		swap(t_sort **sort);
 t_sort 		*get_next(t_sort *map);
 void		rotate(t_sort **sort);
 void		rrotate(t_sort **sort);
-int			do_action(char *buff, t_sort **sort, t_sort **sort2);
+int do_action(char *buff, t_sort **sort, t_sort **sort2, fdf *data);
 void		display_list(t_sort *sort);
 int			push_swap(t_sort **sort, t_sort **sort2);
-int			push_swap2(t_sort **sort, t_sort **sort2);
+int push_swap2(t_sort **sort, t_sort **sort2, fdf *data);
 int 		count_len(t_sort *sort);
-int 		push_swap_min(t_sort **sort, t_sort **sort2);
+int push_swap_min(t_sort **sort, t_sort **sort2, fdf *data);
 int			make_up(t_sort **sort, t_sort *tmp, int go);
-int 		push_swap_five(t_sort **sort, t_sort **sort2);
+int push_swap_five(t_sort **sort, t_sort **sort2, fdf *data);
 int			count_op_prev(t_sort *sort);
 int			count_op_next(t_sort *sort);
-int 		make_up_a(t_sort **sort, t_sort **sort2, t_sort *tmp);
-int			find_place2(t_sort **sort, t_sort **sort2);
+int make_up_a(t_sort **sort, t_sort **sort2, t_sort *tmp, fdf *data);
+int find_place2(t_sort **sort, t_sort **sort2, fdf *data);
 int			find_place2_b(t_sort **sort, t_sort **sort2);
-void		find_place3_b(t_sort **sort, t_sort **sort2);
+void find_place3_b(t_sort **sort, t_sort **sort2, fdf *data);
 int 		check_biggest(t_sort **sort, t_sort **sort2);
 int			check_smallest(t_sort **sort, t_sort **sort2);
 int			find_place3_b2(t_sort **walk, t_sort **sort2, t_act *act);
-int			push_min_op(t_sort **sort, t_sort **sort2);
-int 		make_up_b(t_sort **sort, t_sort **sort2, t_sort *tmp);
-int 		make_sorted(t_sort **sort, t_sort **sort2);
+int push_min_op(t_sort **sort, t_sort **sort2, fdf *data);
+int make_up_b(t_sort **sort, t_sort **sort2, t_sort *tmp, fdf *data);
+int make_sorted(t_sort **sort, t_sort **sort2, fdf *data);
 void 		clear_make(t_sort **sort, t_sort **sort2, t_sort *need);
+int 	    count_operations(t_sort *sort);
+int         find_min(t_sort **sort);
+int         find_max(t_sort **sort);
+int	        push_everything(t_sort **sort, t_sort **sort2);
 
 #endif

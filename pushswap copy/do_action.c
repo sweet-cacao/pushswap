@@ -91,7 +91,7 @@ int	do_action(char *buff, t_sort **sort, t_sort **sort2)
 //			printf("a\n");
 //			display_list(*sort);
 //			printf("b\n");
-//			display_list(*sort2);
+			display_list(*sort2);
 
 		}
 	}
