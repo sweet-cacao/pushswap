@@ -609,6 +609,33 @@ extra_functions.c.s:
 	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/extra_functions.c.s
 .PHONY : extra_functions.c.s
 
+instr_functions.o: instr_functions.c.o
+
+.PHONY : instr_functions.o
+
+# target to build an object file
+instr_functions.c.o:
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/instr_functions.c.o
+.PHONY : instr_functions.c.o
+
+instr_functions.i: instr_functions.c.i
+
+.PHONY : instr_functions.i
+
+# target to preprocess a source file
+instr_functions.c.i:
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/instr_functions.c.i
+.PHONY : instr_functions.c.i
+
+instr_functions.s: instr_functions.c.s
+
+.PHONY : instr_functions.s
+
+# target to generate assembly for a file
+instr_functions.c.s:
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/instr_functions.c.s
+.PHONY : instr_functions.c.s
+
 instruction_functions.o: instruction_functions.c.o
 
 .PHONY : instruction_functions.o
@@ -780,6 +807,9 @@ help:
 	@echo "... extra_functions.o"
 	@echo "... extra_functions.i"
 	@echo "... extra_functions.s"
+	@echo "... instr_functions.o"
+	@echo "... instr_functions.i"
+	@echo "... instr_functions.s"
 	@echo "... instruction_functions.o"
 	@echo "... instruction_functions.i"
 	@echo "... instruction_functions.s"

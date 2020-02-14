@@ -7,7 +7,7 @@ int main(int ac, char **av)
 	int i;
 
 	i = 1;
-	check_args(ac, av);
+//	check_args(ac, av);
 	swap.sort = NULL;
 	swap.sort2 = NULL;
 	swap.op_a = 0;

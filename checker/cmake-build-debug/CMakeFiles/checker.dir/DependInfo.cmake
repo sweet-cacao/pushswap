@@ -22,6 +22,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/gstarvin/pushswap/checker/check_functions.c" "/Users/gstarvin/pushswap/checker/cmake-build-debug/CMakeFiles/checker.dir/check_functions.c.o"
   "/Users/gstarvin/pushswap/checker/do_action.c" "/Users/gstarvin/pushswap/checker/cmake-build-debug/CMakeFiles/checker.dir/do_action.c.o"
   "/Users/gstarvin/pushswap/checker/extra_functions.c" "/Users/gstarvin/pushswap/checker/cmake-build-debug/CMakeFiles/checker.dir/extra_functions.c.o"
+  "/Users/gstarvin/pushswap/checker/instr_functions.c" "/Users/gstarvin/pushswap/checker/cmake-build-debug/CMakeFiles/checker.dir/instr_functions.c.o"
   "/Users/gstarvin/pushswap/checker/instruction_functions.c" "/Users/gstarvin/pushswap/checker/cmake-build-debug/CMakeFiles/checker.dir/instruction_functions.c.o"
   "/Users/gstarvin/pushswap/checker/list_functions.c" "/Users/gstarvin/pushswap/checker/cmake-build-debug/CMakeFiles/checker.dir/list_functions.c.o"
   "/Users/gstarvin/pushswap/checker/main.c" "/Users/gstarvin/pushswap/checker/cmake-build-debug/CMakeFiles/checker.dir/main.c.o"

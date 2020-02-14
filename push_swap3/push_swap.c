@@ -97,6 +97,7 @@ void        choose_number(t_swap *swap)
 			i++;
 		}
 	}
+	do_action("pb", &swap->sort, &swap->sort2);
 	if (swap->sort2  && ((swap->sort2)->next))
 	{
 		if (swap->sort->data < swap->stack[0])
@@ -104,7 +105,6 @@ void        choose_number(t_swap *swap)
 			do_action("rb", &swap->sort, &swap->sort2);
 		}
 	}
-	do_action("pb", &swap->sort, &swap->sort2);
 }
 
 void        push_swap(t_sort **sort, t_sort **sort2, t_swap *swap)
@@ -113,7 +113,7 @@ void        push_swap(t_sort **sort, t_sort **sort2, t_swap *swap)
 
 	i = 1;
 	get_max_min_len(swap);
-	while (i < 2)
+	while (i < 3)
 	{
 		swap->one = find_first(swap->stack[i], *sort, swap->min, swap->max);
 		while(swap->one != NULL && (*sort)->next->next)

@@ -137,6 +137,9 @@
 		<Unit filename="/Users/gstarvin/pushswap/checker/extra_functions.c">
 			<Option target="checker"/>
 		</Unit>
+		<Unit filename="/Users/gstarvin/pushswap/checker/instr_functions.c">
+			<Option target="checker"/>
+		</Unit>
 		<Unit filename="/Users/gstarvin/pushswap/checker/instruction_functions.c">
 			<Option target="checker"/>
 		</Unit>

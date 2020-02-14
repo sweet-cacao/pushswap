@@ -9,6 +9,7 @@
 typedef struct      s_sort
 {
 	int             data;
+	int             order;
 	struct s_sort   *next;
 	struct s_sort   *prev;
 }                   t_sort;
@@ -27,28 +28,23 @@ typedef struct      s_fdf
 	void *win_ptr;
 }                   t_fdf;
 
-typedef struct		s_global
-{
-	t_sort			*sort;
-	t_sort			*sort2;
-	t_list			*instr;
-}					t_global;
-
 typedef struct      s_swap
 {
 	t_sort          *sort;
 	t_sort          *sort2;
 	t_fdf           *data;
 	t_list          *instr;
+	t_list          *instr_init;
+	t_sort          *sort_init;
 }                   t_swap;
 
 void        		push_front(int data, t_sort **sort);
-void        		push_end(int data, t_sort *sort);
+void        		push_end(int data, t_sort **sort);
 t_sort      		*add_block(int data);
 int 				actual_command(char *buff);
 int					check_args(int ac, char **av, t_sort **sort);
 int					check_list(t_sort *sort, t_sort *sort2);
-void 				delete_last(t_sort *sort);
+void 				delete_last(t_sort **sort);
 void				delete_first(t_sort **sort);
 void				swap(t_sort **sort);
 t_sort 				*get_next(t_sort *map);
@@ -63,5 +59,7 @@ t_list				*parse_instr();
 t_sort				*parse_args(int ac, char **av, t_sort **sort);
 void				sort_del(t_sort **sort);
 void                draw(t_fdf *data);
+
+void                push_end_list(char *data, t_list **instr);
 
 #endif

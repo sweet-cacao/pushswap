@@ -223,7 +223,7 @@ void			find_place3_b(t_sort **sort, t_sort **sort2)
 	{
 		make_sorted(sort2, sort2);
 	}
-	do_action("pb", sort, sort2);
+	do_action("pa", sort2, sort);
 }
 
 int 	push_swap_five(t_sort **sort, t_sort **sort2)

@@ -9,15 +9,25 @@ t_list		*parse_instr()
 	buff = malloc(sizeof(char*));
 	instr = NULL;
 	while (get_next_line(0, &buff) > 0)
-		ft_lstadd(&instr, ft_lstnew(buff, sizeof(buff)));
+	{
+		push_end_list(buff, &instr);
+//		free(buff);
+//		buff = (char *)malloc(sizeof(char*));
+	}
+
+//	free(buff);
+//	push_end_list(buff, &instr);
+
+	//	ft_lstadd(&instr, ft_lstnew(buff, sizeof(buff)));
 	walk = instr;
 	while(walk)
 	{
-		if (!actual_command(walk->content))
-			exit_error("Error", NULL, NULL);
+//		if (!actual_command(walk->content))
+//			exit_error("Error", NULL, NULL);
 		walk = walk->next;
 	}
-	ft_strdel(&buff);
+	walk = NULL;
+//	ft_strdel(&buff);
 	free(walk);
 	return (instr);
 }
@@ -29,7 +39,7 @@ t_sort		*parse_args(int ac, char **av, t_sort **sort)
 
 	i = 1;
 	sortik = NULL;
-	check_args(ac, av, &sortik);
+//	check_args(ac, av, &sortik);
 	while (i < ac)
 	{
 		push_front(ft_atoi(av[i]), &sortik);

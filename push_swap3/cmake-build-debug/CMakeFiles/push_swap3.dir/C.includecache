@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/gstarvin/CLionProjects/push_swap3/minilibx_macos/mlx.h
-
-/Users/gstarvin/CLionProjects/push_swap3/push_swap.c
+/Users/gstarvin/CLionProjects/push_swap3/main.c
 push_swap.h
 /Users/gstarvin/CLionProjects/push_swap3/push_swap.h
+
+/Users/gstarvin/CLionProjects/push_swap3/minilibx_macos/mlx.h
 
 /Users/gstarvin/CLionProjects/push_swap3/push_swap.h
 minilibx_macos/mlx.h

@@ -17,6 +17,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/checker.dir/check_functions.c.o"
   "CMakeFiles/checker.dir/do_action.c.o"
   "CMakeFiles/checker.dir/extra_functions.c.o"
+  "CMakeFiles/checker.dir/instr_functions.c.o"
   "CMakeFiles/checker.dir/instruction_functions.c.o"
   "CMakeFiles/checker.dir/list_functions.c.o"
   "CMakeFiles/checker.dir/main.c.o"

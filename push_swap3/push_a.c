@@ -104,19 +104,26 @@ int         find_place_in_a_count(t_sort *walk, t_swap *swap)
 			while (tmp && walk->data < tmp->data)
 			{
 				tmp = tmp->next;
-				need = tmp;
+//				if (walk->data > tmp->data)
+					need = tmp;
 			}
 			while (tmp && walk->data > tmp->data)
 			{
 				tmp = tmp->next;
+	//			if (walk->data < tmp->data)
 				need = tmp;
+				//need = tmp;
 			}
 		}
 		if (need != NULL)
 			op = make_up_a_count(need, swap);
 	}
-	else
+	else if (check_biggest(&walk, &swap->sort))
 		op = make_sorted_a_count(swap);
+	else if (check_smallest(&walk, &swap->sort))
+		op = make_sorted_a_count(swap);
+	else
+		swap->op_a = 0;
 	return (op);
 }
 
@@ -141,9 +148,18 @@ void        insertion_push(t_swap *swap)
 			}
 			tmp = tmp->next;
 		}
-		find_place_in_a_count(need, swap);
-		make_up_b_count(need, swap);
-		push_in_a(swap, need);
+		swap->op_a = find_place_in_a_count(need, swap);
+		swap->op_b =  make_up_b_count(need, swap);
+		op = swap->op_a + swap->op_b;
+		//find_place_in_a_count(need, swap);
+		if (op != 0)
+		{
+
+		//	make_up_b_count(need, swap);
+			push_in_a(swap, need);
+		}
+		if (op == 0)
+			do_action("pa", &swap->sort, &swap->sort2);
 		tmp = swap->sort2;
 	}
 	make_sorted_a_count(swap);
