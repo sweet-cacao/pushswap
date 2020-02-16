@@ -6,8 +6,8 @@
 
 void    isometric(float *x, float *y, int z)
 {
-	*x = (*x - *y) * cos(0.8);
-	*y = (*x + *y) * sin(0.8) - z;
+	*x = (*x - *y) * cos(0.7);
+	*y = (*x + *y) * sin(0.7) - z;
 }
 
 void    bresenham(float x, float y, float x1, float y1, t_fdf *data)
@@ -26,7 +26,7 @@ void    bresenham(float x, float y, float x1, float y1, t_fdf *data)
 	x1 *= data->zoom;
 	y1 *= data->zoom;
 
-	data->color = (z || z1) ? 0xe80c0c : 0xffffff;
+	data->color = (z || z1) ? 0xADD8E6 : 0xffffff;
 //	data->color = (z1) ? 0xe80c0c : 0xffffff;
 
 

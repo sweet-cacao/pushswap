@@ -30,7 +30,7 @@ void	display_list(t_sort *sort)
 	//  delete_last(sort);
 	while (tmp)
 	{
-		printf("el = %d\n", tmp->data);
+		printf("el = %d %d\n", tmp->data, tmp->order);
 		tmp = tmp->next;
 	}
 	printf("\n");

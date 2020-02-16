@@ -119,3 +119,21 @@ void 	delete_last(t_sort **sort)
 	tmp->next->prev = NULL;
 	tmp->next = NULL;
 }
+
+void	sort_del(t_sort **sort)
+{
+	t_sort *tmp;
+	t_sort *next;
+
+
+	if (!sort || !(*sort))
+		return;
+	tmp = *sort;
+	while (tmp)
+	{
+		next = tmp->next;
+		free(tmp);
+		tmp = next;
+	}
+	*sort = NULL;
+}

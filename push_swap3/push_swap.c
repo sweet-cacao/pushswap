@@ -100,7 +100,7 @@ void        choose_number(t_swap *swap)
 	do_action("pb", &swap->sort, &swap->sort2);
 	if (swap->sort2  && ((swap->sort2)->next))
 	{
-		if (swap->sort->data < swap->stack[0])
+		if (swap->sort2->data < swap->stack[0])
 		{
 			do_action("rb", &swap->sort, &swap->sort2);
 		}

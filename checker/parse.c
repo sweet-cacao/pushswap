@@ -11,19 +11,12 @@ t_list		*parse_instr()
 	while (get_next_line(0, &buff) > 0)
 	{
 		push_end_list(buff, &instr);
-//		free(buff);
-//		buff = (char *)malloc(sizeof(char*));
 	}
-
-//	free(buff);
-//	push_end_list(buff, &instr);
-
-	//	ft_lstadd(&instr, ft_lstnew(buff, sizeof(buff)));
 	walk = instr;
 	while(walk)
 	{
-//		if (!actual_command(walk->content))
-//			exit_error("Error", NULL, NULL);
+		if (!actual_command(walk->content))
+			exit_error("Error", NULL, NULL);
 		walk = walk->next;
 	}
 	walk = NULL;
@@ -38,11 +31,13 @@ t_sort		*parse_args(int ac, char **av, t_sort **sort)
 	int		i;
 
 	i = 1;
+	if (ac == 1)
+		exit(0);
 	sortik = NULL;
-//	check_args(ac, av, &sortik);
+	check_args(ac, av, &sortik);
 	while (i < ac)
 	{
-		push_front(ft_atoi(av[i]), &sortik);
+		push_end(ft_atoi(av[i]), 0, &sortik);
 		i++;
 	}
 	return (sortik);

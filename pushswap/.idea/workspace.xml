@@ -13,15 +13,16 @@
   <component name="ChangeListManager">
     <list default="true" id="7e5f080a-d8b9-413e-8ef1-e0787a722a53" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../checker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../checker/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../checker/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../checker/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../checker/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../checker/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../checker/cmake-build-debug/checker" beforeDir="false" afterPath="$PROJECT_DIR$/../checker/cmake-build-debug/checker" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pushswap copy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pushswap copy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pushswap copy/cmake-build-debug/CMakeFiles/pushswap.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../pushswap copy/cmake-build-debug/CMakeFiles/pushswap.dir/C.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pushswap copy/cmake-build-debug/CMakeFiles/pushswap.dir/do_action.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/../pushswap copy/cmake-build-debug/CMakeFiles/pushswap.dir/do_action.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pushswap copy/cmake-build-debug/CMakeFiles/pushswap.dir/push_swap_min.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/../pushswap copy/cmake-build-debug/CMakeFiles/pushswap.dir/push_swap_min.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pushswap copy/cmake-build-debug/pushswap" beforeDir="false" afterPath="$PROJECT_DIR$/../pushswap copy/cmake-build-debug/pushswap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pushswap copy/push_swap_min.c" beforeDir="false" afterPath="$PROJECT_DIR$/../pushswap copy/push_swap_min.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../checker/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/../checker/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../checker/check_functions.c" beforeDir="false" afterPath="$PROJECT_DIR$/../checker/check_functions.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../checker/do_action.c" beforeDir="false" afterPath="$PROJECT_DIR$/../checker/do_action.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../checker/draw.c" beforeDir="false" afterPath="$PROJECT_DIR$/../checker/draw.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../checker/extra_functions.c" beforeDir="false" afterPath="$PROJECT_DIR$/../checker/extra_functions.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../checker/instruction_functions.c" beforeDir="false" afterPath="$PROJECT_DIR$/../checker/instruction_functions.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../checker/list_functions.c" beforeDir="false" afterPath="$PROJECT_DIR$/../checker/list_functions.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../checker/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../checker/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../checker/parse.c" beforeDir="false" afterPath="$PROJECT_DIR$/../checker/parse.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../checker/push_swap.h" beforeDir="false" afterPath="$PROJECT_DIR$/../checker/push_swap.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -113,6 +114,7 @@
       <workItem from="1581521121093" duration="2522000" />
       <workItem from="1581596545054" duration="12538000" />
       <workItem from="1581681719779" duration="74000" />
+      <workItem from="1581868642221" duration="800000" />
     </task>
     <servers />
   </component>

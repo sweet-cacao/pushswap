@@ -133,24 +133,25 @@ t_sort 		*get_next(t_sort *map)
 	return map;
 }
 
-t_sort      *add_block(int data)
+t_sort      *add_block(int data, int order)
 {
 	t_sort  *sort;
 
 	sort = malloc(sizeof(t_sort));
 	sort->data = data;
+	sort->order = order;
 	sort->next = NULL;
 	sort->prev = NULL;
 	return (sort);
 }
 
-void     push_end(int data, t_sort **sort)
+void     push_end(int data, int order, t_sort **sort)
 {
 	t_sort  *last;
 	t_sort  *tmp;
 
 	last = get_next(*sort);
-	tmp = add_block(data);
+	tmp = add_block(data, order);
 	if (last == NULL)
 	{
 		(*sort) = tmp;
@@ -164,16 +165,16 @@ void     push_end(int data, t_sort **sort)
 }
 
 
-void      push_front(int data, t_sort **sort)
+void      push_front(int data, int order, t_sort **sort)
 {
 	t_sort  *tmp;
 	t_sort *head;
 
 	if ((*sort) == NULL)
-		(*sort) = add_block(data);
+		(*sort) = add_block(data, order);
 	else
 	{
-		tmp = add_block(data);
+		tmp = add_block(data, order);
 		if (*sort)
 			(*sort)->prev = tmp;
 		tmp->next = (*sort);

@@ -7,4 +7,7 @@ add_executable(push_swap3 main.c push_swap.h push_swap.c push_a.c push_in_a.c he
         list_functions.c check_functions.c
         ../../gnl/libft/ft_isdigit.c
         ../../gnl/libft/ft_strcmp.c
-        do_action.c)
+        do_action.c push_swap_min.c
+        ../../gnl/libft/ft_atoi.c
+        ../../gnl/libft/ft_strlen.c
+        ../../gnl/libft/ft_strsplit.c)

@@ -97,22 +97,18 @@ int         find_place_in_a_count(t_sort *walk, t_swap *swap)
 			tmp = tmp->next;
 			need = tmp;
 		}
-//		if (need != NULL)
-//			need = tmp->next;
+
 		if (need == NULL)
 		{
 			while (tmp && walk->data < tmp->data)
 			{
 				tmp = tmp->next;
-//				if (walk->data > tmp->data)
 					need = tmp;
 			}
 			while (tmp && walk->data > tmp->data)
 			{
 				tmp = tmp->next;
-	//			if (walk->data < tmp->data)
 				need = tmp;
-				//need = tmp;
 			}
 		}
 		if (need != NULL)
@@ -154,7 +150,6 @@ void        insertion_push(t_swap *swap)
 		//find_place_in_a_count(need, swap);
 		if (op != 0)
 		{
-
 		//	make_up_b_count(need, swap);
 			push_in_a(swap, need);
 		}

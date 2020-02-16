@@ -5,7 +5,7 @@ void	swap(t_sort **sort)
 	t_sort *tmp;
 
 	tmp = (*sort)->next;
-	push_front(tmp->data, sort);
+	push_front(tmp->data, tmp->order, sort);
 	(*sort)->next->next = (*sort)->next->next->next;
 	(*sort)->next->next->prev = (*sort)->next;
 }
@@ -16,7 +16,7 @@ void	rotate(t_sort **sort)
 
 	tmp2 = (*sort);
 	delete_first(sort);
-	push_end(tmp2->data, sort);
+	push_end(tmp2->data, tmp2->order, sort);
 }
 
 void	rrotate(t_sort **sort)
@@ -25,6 +25,6 @@ void	rrotate(t_sort **sort)
 
 	tmp = (*sort);
 	tmp = get_next(tmp);
-	push_front(tmp->data, sort);
+	push_front(tmp->data, tmp->order, sort);
 	delete_last(sort);
 }

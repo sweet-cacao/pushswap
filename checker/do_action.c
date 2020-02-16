@@ -32,7 +32,7 @@ void	do_action_push(char *buff, t_sort **sort, t_sort **sort2)
 		{
 			tmp = (*sort2);
 			delete_first(sort2);
-			push_front(tmp->data, sort);
+			push_front(tmp->data, tmp->order, sort);
 		}
 	}
 	if (ft_strcmp(buff, "pb") == 0)
@@ -41,7 +41,7 @@ void	do_action_push(char *buff, t_sort **sort, t_sort **sort2)
 		{
 			tmp = (*sort);
 			delete_first(sort);
-			push_front(tmp->data, sort2);
+			push_front(tmp->data, tmp->order, sort2);
 		}
 	}
 }

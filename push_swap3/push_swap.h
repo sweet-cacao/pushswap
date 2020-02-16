@@ -9,6 +9,7 @@
 typedef struct      s_sort
 {
 	int             data;
+	int             order;
 	struct s_sort   *next;
 	struct s_sort   *prev;
 }                   t_sort;
@@ -31,7 +32,7 @@ typedef struct      s_swap
 	int             dir_b;
 }                   t_swap;
 
-int			        check_args(int ac, char **av);
+int			        check_args(int k, char **arv, t_swap *swap);
 void                push_front(int data, t_sort **sort);
 void                push_end(int data, t_sort **sort);
 int 		        count_len(t_sort *sort);
@@ -55,5 +56,9 @@ void                insertion_push(t_swap *swap);
 void                push_in_a(t_swap *swap, t_sort *need);
 void                do_a(t_swap *swap);
 void	            display_list(t_sort *sort);
+void	            sort_del(t_sort **sort);
+int			        check_list(t_sort *sort, t_sort *sort2);
+void		        exit_error(char *str, t_swap *swap);
+void                push_swap_min(t_swap *swap);
 
 #endif

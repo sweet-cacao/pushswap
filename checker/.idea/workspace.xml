@@ -12,46 +12,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0fa05161-b0b5-47cd-af74-42633cf82b4e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/instr_functions.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/a.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/checker.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/checker.dir/C.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/checker.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/checker.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/checker.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/checker.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/checker.dir/check_functions.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/checker.dir/check_functions.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/checker.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/checker.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/checker.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/checker.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/checker.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/checker.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/checker.dir/do_action.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/checker.dir/do_action.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/checker.dir/extra_functions.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/checker.dir/extra_functions.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/checker.dir/instruction_functions.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/checker.dir/instruction_functions.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/checker.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/checker.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/checker.dir/list_functions.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/checker.dir/list_functions.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/checker.dir/main.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/checker.dir/main.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/checker.dir/parse.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/checker.dir/parse.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/checker.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/checker.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/checker" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/checker.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/checker.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_functions.c" beforeDir="false" afterPath="$PROJECT_DIR$/check_functions.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/do_action.c" beforeDir="false" afterPath="$PROJECT_DIR$/do_action.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/draw.c" beforeDir="false" afterPath="$PROJECT_DIR$/draw.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extra_functions.c" beforeDir="false" afterPath="$PROJECT_DIR$/extra_functions.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/instruction_functions.c" beforeDir="false" afterPath="$PROJECT_DIR$/instruction_functions.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/list_functions.c" beforeDir="false" afterPath="$PROJECT_DIR$/list_functions.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/parse.c" beforeDir="false" afterPath="$PROJECT_DIR$/parse.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/push_swap.h" beforeDir="false" afterPath="$PROJECT_DIR$/push_swap.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pushswap copy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pushswap copy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pushswap copy/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../pushswap copy/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pushswap copy/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../pushswap copy/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pushswap copy/cmake-build-debug/CMakeFiles/pushswap.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../pushswap copy/cmake-build-debug/CMakeFiles/pushswap.dir/C.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pushswap copy/cmake-build-debug/CMakeFiles/pushswap.dir/do_action.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/../pushswap copy/cmake-build-debug/CMakeFiles/pushswap.dir/do_action.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pushswap copy/cmake-build-debug/CMakeFiles/pushswap.dir/push_swap_min.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/../pushswap copy/cmake-build-debug/CMakeFiles/pushswap.dir/push_swap_min.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pushswap copy/cmake-build-debug/pushswap" beforeDir="false" afterPath="$PROJECT_DIR$/../pushswap copy/cmake-build-debug/pushswap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pushswap copy/push_swap_min.c" beforeDir="false" afterPath="$PROJECT_DIR$/../pushswap copy/push_swap_min.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pushswap/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pushswap/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -110,7 +81,11 @@
       <workItem from="1580581832579" duration="1165000" />
       <workItem from="1581587527224" duration="6264000" />
       <workItem from="1581681717198" duration="13696000" />
-      <workItem from="1581705297157" duration="2981000" />
+      <workItem from="1581705297157" duration="3053000" />
+      <workItem from="1581782942494" duration="4129000" />
+      <workItem from="1581791930310" duration="5000" />
+      <workItem from="1581852372402" duration="8295000" />
+      <workItem from="1581866606962" duration="8005000" />
     </task>
     <servers />
   </component>
@@ -171,9 +146,10 @@
     <state width="1034" height="469" key="GridCell.Tab.1.right/0.22.2560.1338@0.22.2560.1338" timestamp="1581623455153" />
     <state width="2518" height="468" key="GridCell.Tab.1.right/0.23.2560.1337@0.23.2560.1337" timestamp="1580582840214" />
     <state width="1358" height="334" key="GridCell.Tab.1.right/0.23.2880.1517@0.23.2880.1517" timestamp="1580407680481" />
-    <state x="479" y="550" key="com.intellij.ide.util.TipDialog" timestamp="1580573843324">
-      <screen x="0" y="23" width="2560" height="1337" />
+    <state x="479" y="549" key="com.intellij.ide.util.TipDialog" timestamp="1581852374467">
+      <screen x="0" y="22" width="2560" height="1338" />
     </state>
+    <state x="479" y="549" key="com.intellij.ide.util.TipDialog/0.22.2560.1338@0.22.2560.1338" timestamp="1581852374467" />
     <state x="479" y="550" key="com.intellij.ide.util.TipDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1580573843324" />
     <state x="539" y="621" key="com.intellij.ide.util.TipDialog/0.23.2880.1517@0.23.2880.1517" timestamp="1580406504955" />
     <state x="945" y="328" width="670" height="676" key="search.everywhere.popup" timestamp="1580582757800">

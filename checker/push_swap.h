@@ -23,6 +23,7 @@ typedef struct      s_fdf
 	int color;
 	int shift_x;
 	int shift_y;
+	double score;
 
 	void *mlx_ptr;
 	void *win_ptr;
@@ -38,9 +39,9 @@ typedef struct      s_swap
 	t_sort          *sort_init;
 }                   t_swap;
 
-void        		push_front(int data, t_sort **sort);
-void        		push_end(int data, t_sort **sort);
-t_sort      		*add_block(int data);
+void        		push_front(int data, int order, t_sort **sort);
+void        		push_end(int data, int order, t_sort **sort);
+t_sort      		*add_block(int data, int order);
 int 				actual_command(char *buff);
 int					check_args(int ac, char **av, t_sort **sort);
 int					check_list(t_sort *sort, t_sort *sort2);

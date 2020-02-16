@@ -123,6 +123,33 @@ push_swap3/fast:
 	$(MAKE) -f CMakeFiles/push_swap3.dir/build.make CMakeFiles/push_swap3.dir/build
 .PHONY : push_swap3/fast
 
+Users/gstarvin/gnl/libft/ft_atoi.o: Users/gstarvin/gnl/libft/ft_atoi.c.o
+
+.PHONY : Users/gstarvin/gnl/libft/ft_atoi.o
+
+# target to build an object file
+Users/gstarvin/gnl/libft/ft_atoi.c.o:
+	$(MAKE) -f CMakeFiles/push_swap3.dir/build.make CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_atoi.c.o
+.PHONY : Users/gstarvin/gnl/libft/ft_atoi.c.o
+
+Users/gstarvin/gnl/libft/ft_atoi.i: Users/gstarvin/gnl/libft/ft_atoi.c.i
+
+.PHONY : Users/gstarvin/gnl/libft/ft_atoi.i
+
+# target to preprocess a source file
+Users/gstarvin/gnl/libft/ft_atoi.c.i:
+	$(MAKE) -f CMakeFiles/push_swap3.dir/build.make CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_atoi.c.i
+.PHONY : Users/gstarvin/gnl/libft/ft_atoi.c.i
+
+Users/gstarvin/gnl/libft/ft_atoi.s: Users/gstarvin/gnl/libft/ft_atoi.c.s
+
+.PHONY : Users/gstarvin/gnl/libft/ft_atoi.s
+
+# target to generate assembly for a file
+Users/gstarvin/gnl/libft/ft_atoi.c.s:
+	$(MAKE) -f CMakeFiles/push_swap3.dir/build.make CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_atoi.c.s
+.PHONY : Users/gstarvin/gnl/libft/ft_atoi.c.s
+
 Users/gstarvin/gnl/libft/ft_isdigit.o: Users/gstarvin/gnl/libft/ft_isdigit.c.o
 
 .PHONY : Users/gstarvin/gnl/libft/ft_isdigit.o
@@ -176,6 +203,60 @@ Users/gstarvin/gnl/libft/ft_strcmp.s: Users/gstarvin/gnl/libft/ft_strcmp.c.s
 Users/gstarvin/gnl/libft/ft_strcmp.c.s:
 	$(MAKE) -f CMakeFiles/push_swap3.dir/build.make CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_strcmp.c.s
 .PHONY : Users/gstarvin/gnl/libft/ft_strcmp.c.s
+
+Users/gstarvin/gnl/libft/ft_strlen.o: Users/gstarvin/gnl/libft/ft_strlen.c.o
+
+.PHONY : Users/gstarvin/gnl/libft/ft_strlen.o
+
+# target to build an object file
+Users/gstarvin/gnl/libft/ft_strlen.c.o:
+	$(MAKE) -f CMakeFiles/push_swap3.dir/build.make CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_strlen.c.o
+.PHONY : Users/gstarvin/gnl/libft/ft_strlen.c.o
+
+Users/gstarvin/gnl/libft/ft_strlen.i: Users/gstarvin/gnl/libft/ft_strlen.c.i
+
+.PHONY : Users/gstarvin/gnl/libft/ft_strlen.i
+
+# target to preprocess a source file
+Users/gstarvin/gnl/libft/ft_strlen.c.i:
+	$(MAKE) -f CMakeFiles/push_swap3.dir/build.make CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_strlen.c.i
+.PHONY : Users/gstarvin/gnl/libft/ft_strlen.c.i
+
+Users/gstarvin/gnl/libft/ft_strlen.s: Users/gstarvin/gnl/libft/ft_strlen.c.s
+
+.PHONY : Users/gstarvin/gnl/libft/ft_strlen.s
+
+# target to generate assembly for a file
+Users/gstarvin/gnl/libft/ft_strlen.c.s:
+	$(MAKE) -f CMakeFiles/push_swap3.dir/build.make CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_strlen.c.s
+.PHONY : Users/gstarvin/gnl/libft/ft_strlen.c.s
+
+Users/gstarvin/gnl/libft/ft_strsplit.o: Users/gstarvin/gnl/libft/ft_strsplit.c.o
+
+.PHONY : Users/gstarvin/gnl/libft/ft_strsplit.o
+
+# target to build an object file
+Users/gstarvin/gnl/libft/ft_strsplit.c.o:
+	$(MAKE) -f CMakeFiles/push_swap3.dir/build.make CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_strsplit.c.o
+.PHONY : Users/gstarvin/gnl/libft/ft_strsplit.c.o
+
+Users/gstarvin/gnl/libft/ft_strsplit.i: Users/gstarvin/gnl/libft/ft_strsplit.c.i
+
+.PHONY : Users/gstarvin/gnl/libft/ft_strsplit.i
+
+# target to preprocess a source file
+Users/gstarvin/gnl/libft/ft_strsplit.c.i:
+	$(MAKE) -f CMakeFiles/push_swap3.dir/build.make CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_strsplit.c.i
+.PHONY : Users/gstarvin/gnl/libft/ft_strsplit.c.i
+
+Users/gstarvin/gnl/libft/ft_strsplit.s: Users/gstarvin/gnl/libft/ft_strsplit.c.s
+
+.PHONY : Users/gstarvin/gnl/libft/ft_strsplit.s
+
+# target to generate assembly for a file
+Users/gstarvin/gnl/libft/ft_strsplit.c.s:
+	$(MAKE) -f CMakeFiles/push_swap3.dir/build.make CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_strsplit.c.s
+.PHONY : Users/gstarvin/gnl/libft/ft_strsplit.c.s
 
 check_functions.o: check_functions.c.o
 
@@ -393,6 +474,33 @@ push_swap.c.s:
 	$(MAKE) -f CMakeFiles/push_swap3.dir/build.make CMakeFiles/push_swap3.dir/push_swap.c.s
 .PHONY : push_swap.c.s
 
+push_swap_min.o: push_swap_min.c.o
+
+.PHONY : push_swap_min.o
+
+# target to build an object file
+push_swap_min.c.o:
+	$(MAKE) -f CMakeFiles/push_swap3.dir/build.make CMakeFiles/push_swap3.dir/push_swap_min.c.o
+.PHONY : push_swap_min.c.o
+
+push_swap_min.i: push_swap_min.c.i
+
+.PHONY : push_swap_min.i
+
+# target to preprocess a source file
+push_swap_min.c.i:
+	$(MAKE) -f CMakeFiles/push_swap3.dir/build.make CMakeFiles/push_swap3.dir/push_swap_min.c.i
+.PHONY : push_swap_min.c.i
+
+push_swap_min.s: push_swap_min.c.s
+
+.PHONY : push_swap_min.s
+
+# target to generate assembly for a file
+push_swap_min.c.s:
+	$(MAKE) -f CMakeFiles/push_swap3.dir/build.make CMakeFiles/push_swap3.dir/push_swap_min.c.s
+.PHONY : push_swap_min.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -402,12 +510,21 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... push_swap3"
+	@echo "... Users/gstarvin/gnl/libft/ft_atoi.o"
+	@echo "... Users/gstarvin/gnl/libft/ft_atoi.i"
+	@echo "... Users/gstarvin/gnl/libft/ft_atoi.s"
 	@echo "... Users/gstarvin/gnl/libft/ft_isdigit.o"
 	@echo "... Users/gstarvin/gnl/libft/ft_isdigit.i"
 	@echo "... Users/gstarvin/gnl/libft/ft_isdigit.s"
 	@echo "... Users/gstarvin/gnl/libft/ft_strcmp.o"
 	@echo "... Users/gstarvin/gnl/libft/ft_strcmp.i"
 	@echo "... Users/gstarvin/gnl/libft/ft_strcmp.s"
+	@echo "... Users/gstarvin/gnl/libft/ft_strlen.o"
+	@echo "... Users/gstarvin/gnl/libft/ft_strlen.i"
+	@echo "... Users/gstarvin/gnl/libft/ft_strlen.s"
+	@echo "... Users/gstarvin/gnl/libft/ft_strsplit.o"
+	@echo "... Users/gstarvin/gnl/libft/ft_strsplit.i"
+	@echo "... Users/gstarvin/gnl/libft/ft_strsplit.s"
 	@echo "... check_functions.o"
 	@echo "... check_functions.i"
 	@echo "... check_functions.s"
@@ -432,6 +549,9 @@ help:
 	@echo "... push_swap.o"
 	@echo "... push_swap.i"
 	@echo "... push_swap.s"
+	@echo "... push_swap_min.o"
+	@echo "... push_swap_min.i"
+	@echo "... push_swap_min.s"
 .PHONY : help
 
 

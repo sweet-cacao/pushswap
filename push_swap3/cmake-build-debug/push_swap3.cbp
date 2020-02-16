@@ -107,10 +107,22 @@
 		<Unit filename="/Users/gstarvin/CLionProjects/push_swap3/push_swap.h">
 			<Option target="push_swap3"/>
 		</Unit>
+		<Unit filename="/Users/gstarvin/CLionProjects/push_swap3/push_swap_min.c">
+			<Option target="push_swap3"/>
+		</Unit>
+		<Unit filename="/Users/gstarvin/gnl/libft/ft_atoi.c">
+			<Option target="push_swap3"/>
+		</Unit>
 		<Unit filename="/Users/gstarvin/gnl/libft/ft_isdigit.c">
 			<Option target="push_swap3"/>
 		</Unit>
 		<Unit filename="/Users/gstarvin/gnl/libft/ft_strcmp.c">
+			<Option target="push_swap3"/>
+		</Unit>
+		<Unit filename="/Users/gstarvin/gnl/libft/ft_strlen.c">
+			<Option target="push_swap3"/>
+		</Unit>
+		<Unit filename="/Users/gstarvin/gnl/libft/ft_strsplit.c">
 			<Option target="push_swap3"/>
 		</Unit>
 		<Unit filename="/Users/gstarvin/CLionProjects/push_swap3/CMakeLists.txt">
