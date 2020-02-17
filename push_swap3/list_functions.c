@@ -55,14 +55,15 @@ void     push_end(int data, t_sort **sort)
     t_sort  *last;
     t_sort  *tmp;
 
-    last = get_next(*sort);
-    tmp = add_block(data);
+
+	last = get_next(*sort);
     if (last == NULL)
     {
-		(*sort) = tmp;
+		(*sort) = add_block(data);
     }
     else
     {
+    	tmp = add_block(data);
         last->next = tmp;
         last->next->prev = last;
     }
@@ -72,10 +73,10 @@ void     push_end(int data, t_sort **sort)
 void      push_front(int data, t_sort **sort)
 {
     t_sort  *tmp;
-    t_sort *head;
+    t_sort  *head;
 
     if ((*sort) == NULL)
-		(*sort) = add_block(data);
+    	(*sort) = add_block(data);
     else
     {
         tmp = add_block(data);
@@ -90,14 +91,15 @@ void	delete_first(t_sort **sort)
 {
 	t_sort *tmp;
 
-
 	tmp = (*sort);
 	if (!tmp->next)
 	{
+		free(*sort);
 		(*sort) = NULL;
 		return;
 	}
 	(*sort) = (*sort)->next;
+	free(tmp);
 	(*sort)->prev = NULL;
 	//free(tmp);
 }
@@ -105,35 +107,52 @@ void	delete_first(t_sort **sort)
 void 	delete_last(t_sort **sort)
 {
 	t_sort *tmp;
+	t_sort *need;
 
 	tmp = (*sort);
-/*	if (!tmp->next)
+	if (!tmp->next)
 	{
+		free(*sort);
 		(*sort) = NULL;
 		return;
-	}*/
+	}
 	while (tmp->next->next)
 	{
 		tmp = tmp->next;
 	}
+
 	tmp->next->prev = NULL;
+	free(tmp->next);
 	tmp->next = NULL;
 }
 
 void	sort_del(t_sort **sort)
 {
-	t_sort *tmp;
 	t_sort *next;
-
 
 	if (!sort || !(*sort))
 		return;
-	tmp = *sort;
-	while (tmp)
+	while (*sort)
 	{
-		next = tmp->next;
-		free(tmp);
-		tmp = next;
+		next = (*sort)->next;
+		free((*sort));
+		(*sort) = next;
 	}
-	*sort = NULL;
+	if (*sort)
+		free(*sort);
+	sort = NULL;
+}
+
+void    massiv_del(char **arv)
+{
+	int i;
+
+	i = 0;
+	while(arv[i])
+	{
+		ft_strdel(&arv[i]);
+		i++;
+	}
+	free(arv);
+	arv = NULL;
 }

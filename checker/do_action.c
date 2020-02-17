@@ -86,5 +86,5 @@ void	do_action(char *buff, t_sort **sort, t_sort **sort2)
 	do_action_push(buff, sort, sort2);
 	do_action_rotate(buff, sort, sort2);
 	do_action_rrotate(buff, sort, sort2);
-
+	ft_strdel(&buff);
 }

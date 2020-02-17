@@ -35,16 +35,14 @@ typedef struct      s_swap
 	t_sort          *sort2;
 	t_fdf           *data;
 	t_list          *instr;
-	t_list          *instr_init;
-	t_sort          *sort_init;
 }                   t_swap;
 
 void        		push_front(int data, int order, t_sort **sort);
 void        		push_end(int data, int order, t_sort **sort);
 t_sort      		*add_block(int data, int order);
 int 				actual_command(char *buff);
-int					check_args(int ac, char **av, t_sort **sort);
-int					check_list(t_sort *sort, t_sort *sort2);
+int					check_args(int ac, char **av, t_swap *swap);
+int			        check_list(t_swap *swap);
 void 				delete_last(t_sort **sort);
 void				delete_first(t_sort **sort);
 void				swap(t_sort **sort);
@@ -54,13 +52,15 @@ void				rrotate(t_sort **sort);
 void				do_action(char *buff, t_sort **sort, t_sort **sort2);
 void				display_list(t_sort *sort);
 void				push_swap(t_sort **sort, t_sort **sort2);
-void				exit_error(char *str, t_sort **sort, t_sort **sort2);
-void				check_choose(t_sort **sort, t_sort **sort2);
-t_list				*parse_instr();
-t_sort				*parse_args(int ac, char **av, t_sort **sort);
+void				exit_error(char *str, t_swap *swap2);
+void				check_choose(t_swap *swap);
+void                parse_instr(t_list **instr);
+void		        parse_args(int k, char **arv, t_sort **sort, t_swap *swap);
 void				sort_del(t_sort **sort);
 void                draw(t_fdf *data);
-
+void	            instr_del(t_list **sort);
+void                clear_matrix(t_swap *swap);
 void                push_end_list(char *data, t_list **instr);
+void                massiv_del(char **arv);
 
 #endif

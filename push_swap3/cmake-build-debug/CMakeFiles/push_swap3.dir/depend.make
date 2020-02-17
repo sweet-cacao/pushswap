@@ -4,11 +4,23 @@
 CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_atoi.c.o: /Users/gstarvin/gnl/libft/ft_atoi.c
 CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_atoi.c.o: /Users/gstarvin/gnl/libft/libft.h
 
+CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_bzero.c.o: /Users/gstarvin/gnl/libft/ft_bzero.c
+CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_bzero.c.o: /Users/gstarvin/gnl/libft/libft.h
+
 CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_isdigit.c.o: /Users/gstarvin/gnl/libft/ft_isdigit.c
 CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_isdigit.c.o: /Users/gstarvin/gnl/libft/libft.h
 
+CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_memalloc.c.o: /Users/gstarvin/gnl/libft/ft_memalloc.c
+CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_memalloc.c.o: /Users/gstarvin/gnl/libft/libft.h
+
 CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_strcmp.c.o: /Users/gstarvin/gnl/libft/ft_strcmp.c
 CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_strcmp.c.o: /Users/gstarvin/gnl/libft/libft.h
+
+CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_strdel.c.o: /Users/gstarvin/gnl/libft/ft_strdel.c
+CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_strdel.c.o: /Users/gstarvin/gnl/libft/libft.h
+
+CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_strdup.c.o: /Users/gstarvin/gnl/libft/ft_strdup.c
+CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_strdup.c.o: /Users/gstarvin/gnl/libft/libft.h
 
 CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_strlen.c.o: /Users/gstarvin/gnl/libft/ft_strlen.c
 CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_strlen.c.o: /Users/gstarvin/gnl/libft/libft.h
@@ -45,6 +57,12 @@ CMakeFiles/push_swap3.dir/main.c.o: ../minilibx_macos/mlx.h
 CMakeFiles/push_swap3.dir/main.c.o: ../push_swap.h
 CMakeFiles/push_swap3.dir/main.c.o: /Users/gstarvin/gnl/get_next_line.h
 CMakeFiles/push_swap3.dir/main.c.o: /Users/gstarvin/gnl/libft/libft.h
+
+CMakeFiles/push_swap3.dir/parse.c.o: ../minilibx_macos/mlx.h
+CMakeFiles/push_swap3.dir/parse.c.o: ../parse.c
+CMakeFiles/push_swap3.dir/parse.c.o: ../push_swap.h
+CMakeFiles/push_swap3.dir/parse.c.o: /Users/gstarvin/gnl/get_next_line.h
+CMakeFiles/push_swap3.dir/parse.c.o: /Users/gstarvin/gnl/libft/libft.h
 
 CMakeFiles/push_swap3.dir/push_a.c.o: ../minilibx_macos/mlx.h
 CMakeFiles/push_swap3.dir/push_a.c.o: ../push_a.c

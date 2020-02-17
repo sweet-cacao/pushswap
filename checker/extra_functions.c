@@ -1,14 +1,14 @@
 #include "push_swap.h"
 
-void		check_choose(t_sort **sort, t_sort **sort2)
+void		check_choose(t_swap *swap)
 {
-	if (check_list(*sort, *sort2))
-		exit_error("OK",  sort, sort2);
-	if (check_list(*sort, *sort2) == 0)
-		exit_error("KO",  sort, sort2);
+	if (check_list(swap))
+		exit_error("OK", swap);
+	if (check_list(swap) == 0)
+		exit_error("KO", swap);
 }
 
-void		exit_error(char *str, t_sort **sort, t_sort **sort2)
+void		exit_error(char *str, t_swap *swap)
 {
 	if (ft_strcmp("Error", str) == 0)
 		write(2, "Error\n", 6);
@@ -16,10 +16,18 @@ void		exit_error(char *str, t_sort **sort, t_sort **sort2)
 		write(1, "OK\n", 3);
 	if (ft_strcmp("KO", str) == 0)
 		write(1, "KO\n", 3);
-	if (sort != NULL)
-		sort_del(sort);
-	if (sort2 != NULL)
-		sort_del(sort2);
+	if (swap->sort != NULL)
+		sort_del(&swap->sort);
+	if (swap->sort2 != NULL)
+		sort_del(&swap->sort2);
+	if (swap->instr != NULL)
+		instr_del(&swap->instr);
+//	if (swap->sort_init != NULL)
+//		sort_del(&swap->sort_init);
+//	if (swap->instr_init != NULL)
+//		instr_del(&swap->instr_init);
+//	if (swap->data->z_matrix != NULL)
+	//	clear_matrix(swap);
 	exit(0);
 }
 

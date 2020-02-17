@@ -10,4 +10,9 @@ add_executable(push_swap3 main.c push_swap.h push_swap.c push_a.c push_in_a.c he
         do_action.c push_swap_min.c
         ../../gnl/libft/ft_atoi.c
         ../../gnl/libft/ft_strlen.c
-        ../../gnl/libft/ft_strsplit.c)
+        ../../gnl/libft/ft_strsplit.c
+        parse.c
+        ../../gnl/libft/ft_strdel.c
+        ../../gnl/libft/ft_strdup.c
+        ../../gnl/libft/ft_memalloc.c
+        ../../gnl/libft/ft_bzero.c)

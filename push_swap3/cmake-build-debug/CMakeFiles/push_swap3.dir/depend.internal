@@ -4,11 +4,23 @@
 CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_atoi.c.o
  /Users/gstarvin/gnl/libft/ft_atoi.c
  /Users/gstarvin/gnl/libft/libft.h
+CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_bzero.c.o
+ /Users/gstarvin/gnl/libft/ft_bzero.c
+ /Users/gstarvin/gnl/libft/libft.h
 CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_isdigit.c.o
  /Users/gstarvin/gnl/libft/ft_isdigit.c
  /Users/gstarvin/gnl/libft/libft.h
+CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_memalloc.c.o
+ /Users/gstarvin/gnl/libft/ft_memalloc.c
+ /Users/gstarvin/gnl/libft/libft.h
 CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_strcmp.c.o
  /Users/gstarvin/gnl/libft/ft_strcmp.c
+ /Users/gstarvin/gnl/libft/libft.h
+CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_strdel.c.o
+ /Users/gstarvin/gnl/libft/ft_strdel.c
+ /Users/gstarvin/gnl/libft/libft.h
+CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_strdup.c.o
+ /Users/gstarvin/gnl/libft/ft_strdup.c
  /Users/gstarvin/gnl/libft/libft.h
 CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_strlen.c.o
  /Users/gstarvin/gnl/libft/ft_strlen.c
@@ -43,6 +55,12 @@ CMakeFiles/push_swap3.dir/list_functions.c.o
 CMakeFiles/push_swap3.dir/main.c.o
  /Users/gstarvin/CLionProjects/push_swap3/main.c
  /Users/gstarvin/CLionProjects/push_swap3/minilibx_macos/mlx.h
+ /Users/gstarvin/CLionProjects/push_swap3/push_swap.h
+ /Users/gstarvin/gnl/get_next_line.h
+ /Users/gstarvin/gnl/libft/libft.h
+CMakeFiles/push_swap3.dir/parse.c.o
+ /Users/gstarvin/CLionProjects/push_swap3/minilibx_macos/mlx.h
+ /Users/gstarvin/CLionProjects/push_swap3/parse.c
  /Users/gstarvin/CLionProjects/push_swap3/push_swap.h
  /Users/gstarvin/gnl/get_next_line.h
  /Users/gstarvin/gnl/libft/libft.h

@@ -150,6 +150,33 @@ Users/gstarvin/gnl/libft/ft_atoi.c.s:
 	$(MAKE) -f CMakeFiles/push_swap3.dir/build.make CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_atoi.c.s
 .PHONY : Users/gstarvin/gnl/libft/ft_atoi.c.s
 
+Users/gstarvin/gnl/libft/ft_bzero.o: Users/gstarvin/gnl/libft/ft_bzero.c.o
+
+.PHONY : Users/gstarvin/gnl/libft/ft_bzero.o
+
+# target to build an object file
+Users/gstarvin/gnl/libft/ft_bzero.c.o:
+	$(MAKE) -f CMakeFiles/push_swap3.dir/build.make CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_bzero.c.o
+.PHONY : Users/gstarvin/gnl/libft/ft_bzero.c.o
+
+Users/gstarvin/gnl/libft/ft_bzero.i: Users/gstarvin/gnl/libft/ft_bzero.c.i
+
+.PHONY : Users/gstarvin/gnl/libft/ft_bzero.i
+
+# target to preprocess a source file
+Users/gstarvin/gnl/libft/ft_bzero.c.i:
+	$(MAKE) -f CMakeFiles/push_swap3.dir/build.make CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_bzero.c.i
+.PHONY : Users/gstarvin/gnl/libft/ft_bzero.c.i
+
+Users/gstarvin/gnl/libft/ft_bzero.s: Users/gstarvin/gnl/libft/ft_bzero.c.s
+
+.PHONY : Users/gstarvin/gnl/libft/ft_bzero.s
+
+# target to generate assembly for a file
+Users/gstarvin/gnl/libft/ft_bzero.c.s:
+	$(MAKE) -f CMakeFiles/push_swap3.dir/build.make CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_bzero.c.s
+.PHONY : Users/gstarvin/gnl/libft/ft_bzero.c.s
+
 Users/gstarvin/gnl/libft/ft_isdigit.o: Users/gstarvin/gnl/libft/ft_isdigit.c.o
 
 .PHONY : Users/gstarvin/gnl/libft/ft_isdigit.o
@@ -177,6 +204,33 @@ Users/gstarvin/gnl/libft/ft_isdigit.c.s:
 	$(MAKE) -f CMakeFiles/push_swap3.dir/build.make CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_isdigit.c.s
 .PHONY : Users/gstarvin/gnl/libft/ft_isdigit.c.s
 
+Users/gstarvin/gnl/libft/ft_memalloc.o: Users/gstarvin/gnl/libft/ft_memalloc.c.o
+
+.PHONY : Users/gstarvin/gnl/libft/ft_memalloc.o
+
+# target to build an object file
+Users/gstarvin/gnl/libft/ft_memalloc.c.o:
+	$(MAKE) -f CMakeFiles/push_swap3.dir/build.make CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_memalloc.c.o
+.PHONY : Users/gstarvin/gnl/libft/ft_memalloc.c.o
+
+Users/gstarvin/gnl/libft/ft_memalloc.i: Users/gstarvin/gnl/libft/ft_memalloc.c.i
+
+.PHONY : Users/gstarvin/gnl/libft/ft_memalloc.i
+
+# target to preprocess a source file
+Users/gstarvin/gnl/libft/ft_memalloc.c.i:
+	$(MAKE) -f CMakeFiles/push_swap3.dir/build.make CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_memalloc.c.i
+.PHONY : Users/gstarvin/gnl/libft/ft_memalloc.c.i
+
+Users/gstarvin/gnl/libft/ft_memalloc.s: Users/gstarvin/gnl/libft/ft_memalloc.c.s
+
+.PHONY : Users/gstarvin/gnl/libft/ft_memalloc.s
+
+# target to generate assembly for a file
+Users/gstarvin/gnl/libft/ft_memalloc.c.s:
+	$(MAKE) -f CMakeFiles/push_swap3.dir/build.make CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_memalloc.c.s
+.PHONY : Users/gstarvin/gnl/libft/ft_memalloc.c.s
+
 Users/gstarvin/gnl/libft/ft_strcmp.o: Users/gstarvin/gnl/libft/ft_strcmp.c.o
 
 .PHONY : Users/gstarvin/gnl/libft/ft_strcmp.o
@@ -203,6 +257,60 @@ Users/gstarvin/gnl/libft/ft_strcmp.s: Users/gstarvin/gnl/libft/ft_strcmp.c.s
 Users/gstarvin/gnl/libft/ft_strcmp.c.s:
 	$(MAKE) -f CMakeFiles/push_swap3.dir/build.make CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_strcmp.c.s
 .PHONY : Users/gstarvin/gnl/libft/ft_strcmp.c.s
+
+Users/gstarvin/gnl/libft/ft_strdel.o: Users/gstarvin/gnl/libft/ft_strdel.c.o
+
+.PHONY : Users/gstarvin/gnl/libft/ft_strdel.o
+
+# target to build an object file
+Users/gstarvin/gnl/libft/ft_strdel.c.o:
+	$(MAKE) -f CMakeFiles/push_swap3.dir/build.make CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_strdel.c.o
+.PHONY : Users/gstarvin/gnl/libft/ft_strdel.c.o
+
+Users/gstarvin/gnl/libft/ft_strdel.i: Users/gstarvin/gnl/libft/ft_strdel.c.i
+
+.PHONY : Users/gstarvin/gnl/libft/ft_strdel.i
+
+# target to preprocess a source file
+Users/gstarvin/gnl/libft/ft_strdel.c.i:
+	$(MAKE) -f CMakeFiles/push_swap3.dir/build.make CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_strdel.c.i
+.PHONY : Users/gstarvin/gnl/libft/ft_strdel.c.i
+
+Users/gstarvin/gnl/libft/ft_strdel.s: Users/gstarvin/gnl/libft/ft_strdel.c.s
+
+.PHONY : Users/gstarvin/gnl/libft/ft_strdel.s
+
+# target to generate assembly for a file
+Users/gstarvin/gnl/libft/ft_strdel.c.s:
+	$(MAKE) -f CMakeFiles/push_swap3.dir/build.make CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_strdel.c.s
+.PHONY : Users/gstarvin/gnl/libft/ft_strdel.c.s
+
+Users/gstarvin/gnl/libft/ft_strdup.o: Users/gstarvin/gnl/libft/ft_strdup.c.o
+
+.PHONY : Users/gstarvin/gnl/libft/ft_strdup.o
+
+# target to build an object file
+Users/gstarvin/gnl/libft/ft_strdup.c.o:
+	$(MAKE) -f CMakeFiles/push_swap3.dir/build.make CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_strdup.c.o
+.PHONY : Users/gstarvin/gnl/libft/ft_strdup.c.o
+
+Users/gstarvin/gnl/libft/ft_strdup.i: Users/gstarvin/gnl/libft/ft_strdup.c.i
+
+.PHONY : Users/gstarvin/gnl/libft/ft_strdup.i
+
+# target to preprocess a source file
+Users/gstarvin/gnl/libft/ft_strdup.c.i:
+	$(MAKE) -f CMakeFiles/push_swap3.dir/build.make CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_strdup.c.i
+.PHONY : Users/gstarvin/gnl/libft/ft_strdup.c.i
+
+Users/gstarvin/gnl/libft/ft_strdup.s: Users/gstarvin/gnl/libft/ft_strdup.c.s
+
+.PHONY : Users/gstarvin/gnl/libft/ft_strdup.s
+
+# target to generate assembly for a file
+Users/gstarvin/gnl/libft/ft_strdup.c.s:
+	$(MAKE) -f CMakeFiles/push_swap3.dir/build.make CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_strdup.c.s
+.PHONY : Users/gstarvin/gnl/libft/ft_strdup.c.s
 
 Users/gstarvin/gnl/libft/ft_strlen.o: Users/gstarvin/gnl/libft/ft_strlen.c.o
 
@@ -393,6 +501,33 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/push_swap3.dir/build.make CMakeFiles/push_swap3.dir/main.c.s
 .PHONY : main.c.s
 
+parse.o: parse.c.o
+
+.PHONY : parse.o
+
+# target to build an object file
+parse.c.o:
+	$(MAKE) -f CMakeFiles/push_swap3.dir/build.make CMakeFiles/push_swap3.dir/parse.c.o
+.PHONY : parse.c.o
+
+parse.i: parse.c.i
+
+.PHONY : parse.i
+
+# target to preprocess a source file
+parse.c.i:
+	$(MAKE) -f CMakeFiles/push_swap3.dir/build.make CMakeFiles/push_swap3.dir/parse.c.i
+.PHONY : parse.c.i
+
+parse.s: parse.c.s
+
+.PHONY : parse.s
+
+# target to generate assembly for a file
+parse.c.s:
+	$(MAKE) -f CMakeFiles/push_swap3.dir/build.make CMakeFiles/push_swap3.dir/parse.c.s
+.PHONY : parse.c.s
+
 push_a.o: push_a.c.o
 
 .PHONY : push_a.o
@@ -513,12 +648,24 @@ help:
 	@echo "... Users/gstarvin/gnl/libft/ft_atoi.o"
 	@echo "... Users/gstarvin/gnl/libft/ft_atoi.i"
 	@echo "... Users/gstarvin/gnl/libft/ft_atoi.s"
+	@echo "... Users/gstarvin/gnl/libft/ft_bzero.o"
+	@echo "... Users/gstarvin/gnl/libft/ft_bzero.i"
+	@echo "... Users/gstarvin/gnl/libft/ft_bzero.s"
 	@echo "... Users/gstarvin/gnl/libft/ft_isdigit.o"
 	@echo "... Users/gstarvin/gnl/libft/ft_isdigit.i"
 	@echo "... Users/gstarvin/gnl/libft/ft_isdigit.s"
+	@echo "... Users/gstarvin/gnl/libft/ft_memalloc.o"
+	@echo "... Users/gstarvin/gnl/libft/ft_memalloc.i"
+	@echo "... Users/gstarvin/gnl/libft/ft_memalloc.s"
 	@echo "... Users/gstarvin/gnl/libft/ft_strcmp.o"
 	@echo "... Users/gstarvin/gnl/libft/ft_strcmp.i"
 	@echo "... Users/gstarvin/gnl/libft/ft_strcmp.s"
+	@echo "... Users/gstarvin/gnl/libft/ft_strdel.o"
+	@echo "... Users/gstarvin/gnl/libft/ft_strdel.i"
+	@echo "... Users/gstarvin/gnl/libft/ft_strdel.s"
+	@echo "... Users/gstarvin/gnl/libft/ft_strdup.o"
+	@echo "... Users/gstarvin/gnl/libft/ft_strdup.i"
+	@echo "... Users/gstarvin/gnl/libft/ft_strdup.s"
 	@echo "... Users/gstarvin/gnl/libft/ft_strlen.o"
 	@echo "... Users/gstarvin/gnl/libft/ft_strlen.i"
 	@echo "... Users/gstarvin/gnl/libft/ft_strlen.s"
@@ -540,6 +687,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... parse.o"
+	@echo "... parse.i"
+	@echo "... parse.s"
 	@echo "... push_a.o"
 	@echo "... push_a.i"
 	@echo "... push_a.s"

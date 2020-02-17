@@ -13,12 +13,11 @@
   <component name="ChangeListManager">
     <list default="true" id="0fa05161-b0b5-47cd-af74-42633cf82b4e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/a.out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/check_functions.c" beforeDir="false" afterPath="$PROJECT_DIR$/check_functions.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checker" beforeDir="false" afterPath="$PROJECT_DIR$/checker" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/do_action.c" beforeDir="false" afterPath="$PROJECT_DIR$/do_action.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/draw.c" beforeDir="false" afterPath="$PROJECT_DIR$/draw.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/extra_functions.c" beforeDir="false" afterPath="$PROJECT_DIR$/extra_functions.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instruction_functions.c" beforeDir="false" afterPath="$PROJECT_DIR$/instruction_functions.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instr_functions.c" beforeDir="false" afterPath="$PROJECT_DIR$/instr_functions.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/list_functions.c" beforeDir="false" afterPath="$PROJECT_DIR$/list_functions.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/parse.c" beforeDir="false" afterPath="$PROJECT_DIR$/parse.c" afterDir="false" />
@@ -86,6 +85,7 @@
       <workItem from="1581791930310" duration="5000" />
       <workItem from="1581852372402" duration="8295000" />
       <workItem from="1581866606962" duration="8005000" />
+      <workItem from="1581925046209" duration="18787000" />
     </task>
     <servers />
   </component>
@@ -98,6 +98,10 @@
     </state>
     <state x="1454" y="254" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1580582337568" />
     <state x="1636" y="285" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2880.1517@0.23.2880.1517" timestamp="1580406844791" />
+    <state x="1640" y="502" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581959525465">
+      <screen x="0" y="22" width="2560" height="1338" />
+    </state>
+    <state x="1640" y="502" key="#com.intellij.fileTypes.FileTypeChooser/0.22.2560.1338@0.22.2560.1338" timestamp="1581959525465" />
     <state width="1034" height="469" key="GridCell.Tab.0.bottom" timestamp="1581623455153">
       <screen x="0" y="22" width="2560" height="1338" />
     </state>

@@ -159,5 +159,6 @@ void        insertion_push(t_swap *swap)
 	}
 	make_sorted_a_count(swap);
 	do_a(swap);
+//	sort_del(&tmp);
 }
 

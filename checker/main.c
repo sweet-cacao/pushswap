@@ -66,22 +66,38 @@ void    get_order(t_swap *swap)
 	}
 }
 
-int     deal_key(int key, t_swap *swap, t_list *instr, t_sort *sort)
+int     deal_key(int key, t_swap *swap)
 {
-	printf("%d", key);
-	if (key == 124)
-	{
-		swap->sort = NULL;
-		swap->sort = swap->sort_init;
-		swap->sort_init->prev = NULL;
-		swap->sort2 = NULL;
-		swap->instr = swap->instr_init;
-	}
+//	if (key == 124)
+//	{
+//		sort_del(&swap->sort);
+//		sort_del(&swap->sort2);
+//		swap->sort = NULL;
+//		swap->sort = swap->sort_init;
+//		swap->sort_init->prev = NULL;
+//		swap->sort2 = NULL;
+//		swap->instr = swap->instr_init;
+//	}
 	if (key == 53)
 	{
-		check_choose(&swap->sort, &swap->sort2);
+		if (swap->data)
+			free(swap->data);
+		check_choose(swap);
 	}
 	return (0);
+}
+
+void    clear_matrix(t_swap *swap)
+{
+	int i;
+
+	i = 0;
+	if (swap->data->z_matrix)
+	{
+		while (i < swap->data->height)
+			free(swap->data->z_matrix[i++]);// (int*)malloc(sizeof(int) * (swap->data->width + 1));
+		free(swap->data->z_matrix);
+	}
 }
 
 void    fill_visual(t_swap *swap, t_sort **sort)
@@ -91,33 +107,32 @@ void    fill_visual(t_swap *swap, t_sort **sort)
 
 	i = 0;
 	tmp = *sort;
-	while (i < swap->data->height)
-		free(swap->data->z_matrix[i++]);// (int*)malloc(sizeof(int) * (swap->data->width + 1));
-	free(swap->data->z_matrix);
-
-	swap->data->width = 2;
-	swap->data->height = count_len(*sort) * 2 + 1;
-
-	swap->data->z_matrix = (int **)malloc(sizeof(int*) * (swap->data->height + 1));
-	i = 0;
-	while (i < swap->data->height)
-		swap->data->z_matrix[i++] = (int*)malloc(sizeof(int) * (swap->data->width + 1));
-	i = 0;
-	while(tmp)
+	if (*sort)
 	{
-		if (i % 2 == 0) {
-			swap->data->z_matrix[i][0] = 0;
-			swap->data->z_matrix[i][1] = 0;
-		} else{
-			swap->data->z_matrix[i][0] = (int)(tmp->order * swap->data->score);
-			swap->data->z_matrix[i][1] = (int)(tmp->order * swap->data->score);
-			tmp = tmp->next;
+		clear_matrix(swap);
+		swap->data->width = 2;
+		swap->data->height = count_len(*sort) * 2 + 1;
+
+		swap->data->z_matrix = (int **) malloc(sizeof(int *) * (swap->data->height + 1));
+		i = 0;
+		while (i < swap->data->height)
+			swap->data->z_matrix[i++] = (int *) malloc(sizeof(int) * (swap->data->width + 1));
+		i = 0;
+		while (tmp) {
+			if (i % 2 == 0) {
+				swap->data->z_matrix[i][0] = 0;
+				swap->data->z_matrix[i][1] = 0;
+			} else {
+				swap->data->z_matrix[i][0] = (int) (tmp->order * swap->data->score);
+				swap->data->z_matrix[i][1] = (int) (tmp->order * swap->data->score);
+				tmp = tmp->next;
+			}
+			i++;
 		}
-		i++;
+		swap->data->z_matrix[i][0] = 0;
+		swap->data->z_matrix[i][1] = 0;
+		swap->data->z_matrix[i + 1] = NULL;
 	}
-	swap->data->z_matrix[i][0] = 0;
-	swap->data->z_matrix[i][1] = 0;
-	swap->data->z_matrix[i +1] = NULL;
 }
 
 int     sleep_baby(t_swap *swap)
@@ -140,9 +155,10 @@ int     visual_gen_change(t_swap *swap)
 	if (swap->instr)
 	{
 		do_action(swap->instr->content, &swap->sort, &(swap->sort2));
+//		ft_strdel(swap->instr->content);
+		free(swap->instr);
 		swap->instr = swap->instr->next;
 	}
-
 	fill_visual(swap, &swap->sort);
 	mlx_clear_window(swap->data->mlx_ptr, swap->data->win_ptr);
 	swap->data->shift_y = 300;
@@ -189,19 +205,32 @@ void    zoom_and_score(t_swap *swap)
 	}
 }
 
+void    initialize_swap(t_swap *swap)
+{
+	swap->sort = NULL;
+	swap->sort2 = NULL;
+	swap->instr = NULL;
+}
+
 int main(int ac, char **av)
 {
+
 	t_swap swap;
 
-	swap.sort2 = NULL;
+	initialize_swap(&swap);
 	if (ft_strcmp("-v" , av[1]) == 0)
-		swap.sort = parse_args(ac - 1, &av[1], NULL);
+	{
+		parse_args(ac - 1, &av[1], &swap.sort, &swap);
+//		parse_args(ac - 1, &av[1], &swap.sort_init, &swap);
+	}
 	else
-		swap.sort = parse_args(ac, av, NULL);
-
-	swap.instr = parse_instr();
-	swap.sort_init = swap.sort;
-	swap.instr_init = swap.instr;
+	{
+		parse_args(ac, av, &swap.sort, &swap);
+//		parse_args(ac, av, &swap.sort_init, &swap);
+	}
+//	swap.sort_init = swap.sort;
+	parse_instr(&swap.instr);
+	//swap.instr_init = swap.instr;
 	if (ft_strcmp("-v" , av[1]) == 0 && count_len(swap.sort) <= 1000)
 	{
 //		if (check_list(swap.sort, swap.sort2))
@@ -222,13 +251,17 @@ int main(int ac, char **av)
 		while (swap.instr)
 		{
 			do_action(swap.instr->content, &swap.sort, &(swap.sort2));
+	//		ft_strdel(swap.instr->content);
+			free(swap.instr);
 			swap.instr = swap.instr->next;
 		}
-		if (check_list(swap.sort, swap.sort2))
-			exit_error("OK", &swap.sort, &swap.sort2);
+		if (check_list(&swap))
+			exit_error("OK", &swap);
+		else
+			exit_error("KO", &swap);
 	}
 //	display_list(swap.sort);
-	check_choose(&swap.sort, &swap.sort2);
+//	check_choose(&swap);
 
 	return (0);
 }

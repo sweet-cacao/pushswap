@@ -239,6 +239,71 @@ CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_strsplit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_strsplit.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/gstarvin/gnl/libft/ft_strsplit.c -o CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_strsplit.c.s
 
+CMakeFiles/push_swap3.dir/parse.c.o: CMakeFiles/push_swap3.dir/flags.make
+CMakeFiles/push_swap3.dir/parse.c.o: ../parse.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/CLionProjects/push_swap3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/push_swap3.dir/parse.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap3.dir/parse.c.o   -c /Users/gstarvin/CLionProjects/push_swap3/parse.c
+
+CMakeFiles/push_swap3.dir/parse.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap3.dir/parse.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/gstarvin/CLionProjects/push_swap3/parse.c > CMakeFiles/push_swap3.dir/parse.c.i
+
+CMakeFiles/push_swap3.dir/parse.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap3.dir/parse.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/gstarvin/CLionProjects/push_swap3/parse.c -o CMakeFiles/push_swap3.dir/parse.c.s
+
+CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_strdel.c.o: CMakeFiles/push_swap3.dir/flags.make
+CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_strdel.c.o: /Users/gstarvin/gnl/libft/ft_strdel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/CLionProjects/push_swap3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_strdel.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_strdel.c.o   -c /Users/gstarvin/gnl/libft/ft_strdel.c
+
+CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_strdel.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_strdel.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/gstarvin/gnl/libft/ft_strdel.c > CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_strdel.c.i
+
+CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_strdel.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_strdel.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/gstarvin/gnl/libft/ft_strdel.c -o CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_strdel.c.s
+
+CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_strdup.c.o: CMakeFiles/push_swap3.dir/flags.make
+CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_strdup.c.o: /Users/gstarvin/gnl/libft/ft_strdup.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/CLionProjects/push_swap3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_strdup.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_strdup.c.o   -c /Users/gstarvin/gnl/libft/ft_strdup.c
+
+CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_strdup.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_strdup.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/gstarvin/gnl/libft/ft_strdup.c > CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_strdup.c.i
+
+CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_strdup.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_strdup.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/gstarvin/gnl/libft/ft_strdup.c -o CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_strdup.c.s
+
+CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_memalloc.c.o: CMakeFiles/push_swap3.dir/flags.make
+CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_memalloc.c.o: /Users/gstarvin/gnl/libft/ft_memalloc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/CLionProjects/push_swap3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_memalloc.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_memalloc.c.o   -c /Users/gstarvin/gnl/libft/ft_memalloc.c
+
+CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_memalloc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_memalloc.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/gstarvin/gnl/libft/ft_memalloc.c > CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_memalloc.c.i
+
+CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_memalloc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_memalloc.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/gstarvin/gnl/libft/ft_memalloc.c -o CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_memalloc.c.s
+
+CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_bzero.c.o: CMakeFiles/push_swap3.dir/flags.make
+CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_bzero.c.o: /Users/gstarvin/gnl/libft/ft_bzero.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/CLionProjects/push_swap3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_bzero.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_bzero.c.o   -c /Users/gstarvin/gnl/libft/ft_bzero.c
+
+CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_bzero.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_bzero.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/gstarvin/gnl/libft/ft_bzero.c > CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_bzero.c.i
+
+CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_bzero.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_bzero.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/gstarvin/gnl/libft/ft_bzero.c -o CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_bzero.c.s
+
 # Object files for target push_swap3
 push_swap3_OBJECTS = \
 "CMakeFiles/push_swap3.dir/main.c.o" \
@@ -254,7 +319,12 @@ push_swap3_OBJECTS = \
 "CMakeFiles/push_swap3.dir/push_swap_min.c.o" \
 "CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_atoi.c.o" \
 "CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_strlen.c.o" \
-"CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_strsplit.c.o"
+"CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_strsplit.c.o" \
+"CMakeFiles/push_swap3.dir/parse.c.o" \
+"CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_strdel.c.o" \
+"CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_strdup.c.o" \
+"CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_memalloc.c.o" \
+"CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_bzero.c.o"
 
 # External object files for target push_swap3
 push_swap3_EXTERNAL_OBJECTS =
@@ -273,9 +343,14 @@ push_swap3: CMakeFiles/push_swap3.dir/push_swap_min.c.o
 push_swap3: CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_atoi.c.o
 push_swap3: CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_strlen.c.o
 push_swap3: CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_strsplit.c.o
+push_swap3: CMakeFiles/push_swap3.dir/parse.c.o
+push_swap3: CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_strdel.c.o
+push_swap3: CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_strdup.c.o
+push_swap3: CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_memalloc.c.o
+push_swap3: CMakeFiles/push_swap3.dir/Users/gstarvin/gnl/libft/ft_bzero.c.o
 push_swap3: CMakeFiles/push_swap3.dir/build.make
 push_swap3: CMakeFiles/push_swap3.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/gstarvin/CLionProjects/push_swap3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking C executable push_swap3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/gstarvin/CLionProjects/push_swap3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking C executable push_swap3"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/push_swap3.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

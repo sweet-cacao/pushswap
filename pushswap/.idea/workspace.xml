@@ -11,20 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e5f080a-d8b9-413e-8ef1-e0787a722a53" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../checker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../checker/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../checker/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/../checker/a.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../checker/check_functions.c" beforeDir="false" afterPath="$PROJECT_DIR$/../checker/check_functions.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../checker/do_action.c" beforeDir="false" afterPath="$PROJECT_DIR$/../checker/do_action.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../checker/draw.c" beforeDir="false" afterPath="$PROJECT_DIR$/../checker/draw.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../checker/extra_functions.c" beforeDir="false" afterPath="$PROJECT_DIR$/../checker/extra_functions.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../checker/instruction_functions.c" beforeDir="false" afterPath="$PROJECT_DIR$/../checker/instruction_functions.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../checker/list_functions.c" beforeDir="false" afterPath="$PROJECT_DIR$/../checker/list_functions.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../checker/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../checker/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../checker/parse.c" beforeDir="false" afterPath="$PROJECT_DIR$/../checker/parse.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../checker/push_swap.h" beforeDir="false" afterPath="$PROJECT_DIR$/../checker/push_swap.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7e5f080a-d8b9-413e-8ef1-e0787a722a53" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +20,6 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -115,6 +101,7 @@
       <workItem from="1581596545054" duration="12538000" />
       <workItem from="1581681719779" duration="74000" />
       <workItem from="1581868642221" duration="800000" />
+      <workItem from="1581924937672" duration="3000" />
     </task>
     <servers />
   </component>
@@ -176,10 +163,10 @@
     </state>
     <state width="2518" height="378" key="GridCell.Tab.1.right/0.23.2560.1337@0.23.2560.1337" timestamp="1581333496835" />
     <state width="1358" height="438" key="GridCell.Tab.1.right/0.23.2880.1517@0.23.2880.1517" timestamp="1581424740454" />
-    <state x="959" y="522" key="com.intellij.ide.util.TipDialog" timestamp="1581681717568">
+    <state x="959" y="522" key="com.intellij.ide.util.TipDialog" timestamp="1581924937150">
       <screen x="0" y="22" width="2560" height="1338" />
     </state>
-    <state x="959" y="522" key="com.intellij.ide.util.TipDialog/0.22.2560.1338@0.22.2560.1338" timestamp="1581681717568" />
+    <state x="959" y="522" key="com.intellij.ide.util.TipDialog/0.22.2560.1338@0.22.2560.1338" timestamp="1581924937150" />
     <state x="959" y="523" key="com.intellij.ide.util.TipDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1581325652396" />
     <state x="1079" y="590" key="com.intellij.ide.util.TipDialog/0.23.2880.1517@0.23.2880.1517" timestamp="1581448946579" />
     <state x="523" y="256" key="refactoring.ChangeSignatureDialog" timestamp="1581501838620">

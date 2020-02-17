@@ -118,7 +118,10 @@ int 		actual_command(char *buff)
 	while (i < 11)
 	{
 		if (!ft_strcmp(buff, arr[i]))
+		{
 			return (1);
+		}
+
 		i++;
 	}
 	return (0);
@@ -190,10 +193,12 @@ void	delete_first(t_sort **sort)
 	tmp = (*sort);
 	if (!tmp->next)
 	{
+		free(*sort);
 		(*sort) = NULL;
 		return;
 	}
 	(*sort) = (*sort)->next;
+	free(tmp);
 	(*sort)->prev = NULL;
 	//free(tmp);
 }
@@ -203,33 +208,48 @@ void 	delete_last(t_sort **sort)
 	t_sort *tmp;
 
 	tmp = (*sort);
-/*	if (!tmp->next)
+	if (!tmp->next)
 	{
+		free(*sort);
 		(*sort) = NULL;
 		return;
-	}*/
+	}
 	while (tmp->next->next)
 	{
 		tmp = tmp->next;
 	}
 	tmp->next->prev = NULL;
+	free(tmp->next);
 	tmp->next = NULL;
 }
 
 void	sort_del(t_sort **sort)
 {
-	t_sort *tmp;
 	t_sort *next;
-
 
 	if (!sort || !(*sort))
 		return;
-	tmp = *sort;
-	while (tmp)
+	while (*sort)
 	{
-		next = tmp->next;
-		free(tmp);
-		tmp = next;
+		next = (*sort)->next;
+		free((*sort));
+		(*sort) = next;
 	}
-	*sort = NULL;
+	if (*sort)
+		free(*sort);
+	sort = NULL;
+}
+
+void    massiv_del(char **arv)
+{
+	int i;
+
+	i = 0;
+	while(arv[i])
+	{
+		ft_strdel(&arv[i]);
+		i++;
+	}
+	free(arv);
+	arv = NULL;
 }

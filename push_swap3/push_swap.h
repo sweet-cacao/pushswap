@@ -60,5 +60,7 @@ void	            sort_del(t_sort **sort);
 int			        check_list(t_sort *sort, t_sort *sort2);
 void		        exit_error(char *str, t_swap *swap);
 void                push_swap_min(t_swap *swap);
+void		        parse_args(int k, char **arv, t_sort **sort);
+void                massiv_del(char **arv);
 
 #endif

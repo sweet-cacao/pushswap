@@ -35,7 +35,7 @@ int			check_max_min(char *str)
 	return (1);
 }
 
-int			check_args(int k, char **arv, t_sort **sort)
+int			check_args(int k, char **arv, t_swap *swap)
 {
 	int		i;
 	int		j;
@@ -46,26 +46,37 @@ int			check_args(int k, char **arv, t_sort **sort)
 	{
 		j = 1;
 		if (check_max_min(arv[i]) < 0)
-			exit_error("Error", sort, NULL);
+		{
+			massiv_del(arv);
+			exit_error("Error", swap);
+		}
+
 		while (j < k)
 		{
 			if (j != i && ft_strcmp(arv[i], arv[j]) == 0)
-				exit_error("Error", sort, NULL);
+			{
+				massiv_del(arv);
+				exit_error("Error", swap);
+			}
+
 			j++;
 		}
 		if (!is_number(arv[i]))// || ft_atoi(arv[i]) == -1)
-			exit_error("Error", sort, NULL);
+		{
+			massiv_del(arv);
+			exit_error("Error", swap);
+		}
 		i++;
 	}
 	return (1);
 }
 
-int			check_list(t_sort *sort, t_sort *sort2)
+int			check_list(t_swap *swap)
 {
 	t_sort	*tmp;
 	t_sort	*tmp2;
 
-	tmp = sort;
+	tmp = swap->sort;
 	tmp2 = NULL;
 	if (!(tmp->next))
 		return (1);
@@ -86,7 +97,7 @@ int			check_list(t_sort *sort, t_sort *sort2)
 	}
 //	sort_del(&tmp);
 //	sort_del(&tmp2);
-	if (sort2 == NULL)
+	if (swap->sort2 == NULL)
 		return (1);
 	return (0);
 }
