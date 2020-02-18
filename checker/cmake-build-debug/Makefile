@@ -717,6 +717,33 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/main.c.s
 .PHONY : main.c.s
 
+main2.o: main2.c.o
+
+.PHONY : main2.o
+
+# target to build an object file
+main2.c.o:
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/main2.c.o
+.PHONY : main2.c.o
+
+main2.i: main2.c.i
+
+.PHONY : main2.i
+
+# target to preprocess a source file
+main2.c.i:
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/main2.c.i
+.PHONY : main2.c.i
+
+main2.s: main2.c.s
+
+.PHONY : main2.s
+
+# target to generate assembly for a file
+main2.c.s:
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/main2.c.s
+.PHONY : main2.c.s
+
 parse.o: parse.c.o
 
 .PHONY : parse.o
@@ -819,6 +846,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... main2.o"
+	@echo "... main2.i"
+	@echo "... main2.s"
 	@echo "... parse.o"
 	@echo "... parse.i"
 	@echo "... parse.s"

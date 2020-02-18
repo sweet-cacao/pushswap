@@ -106,6 +106,10 @@ void 	delete_last(t_sort *sort)
 }
 */
 
+/*=====================================================*/
+/*функции ниже перенесены в либу*/
+/*=====================================================*/
+
 int 		actual_command(char *buff)
 {
 	int i;
@@ -126,7 +130,7 @@ int 		actual_command(char *buff)
 	}
 	return (0);
 }
-
+/*
 t_sort 		*get_next(t_sort *map)
 {
 	if (map == NULL)
@@ -253,3 +257,4 @@ void    massiv_del(char **arv)
 	free(arv);
 	arv = NULL;
 }
+ */

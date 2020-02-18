@@ -149,6 +149,9 @@
 		<Unit filename="/Users/gstarvin/pushswap/checker/main.c">
 			<Option target="checker"/>
 		</Unit>
+		<Unit filename="/Users/gstarvin/pushswap/checker/main2.c">
+			<Option target="checker"/>
+		</Unit>
 		<Unit filename="/Users/gstarvin/pushswap/checker/parse.c">
 			<Option target="checker"/>
 		</Unit>

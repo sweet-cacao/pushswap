@@ -26,6 +26,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/gstarvin/pushswap/checker/instruction_functions.c" "/Users/gstarvin/pushswap/checker/cmake-build-debug/CMakeFiles/checker.dir/instruction_functions.c.o"
   "/Users/gstarvin/pushswap/checker/list_functions.c" "/Users/gstarvin/pushswap/checker/cmake-build-debug/CMakeFiles/checker.dir/list_functions.c.o"
   "/Users/gstarvin/pushswap/checker/main.c" "/Users/gstarvin/pushswap/checker/cmake-build-debug/CMakeFiles/checker.dir/main.c.o"
+  "/Users/gstarvin/pushswap/checker/main2.c" "/Users/gstarvin/pushswap/checker/cmake-build-debug/CMakeFiles/checker.dir/main2.c.o"
   "/Users/gstarvin/pushswap/checker/parse.c" "/Users/gstarvin/pushswap/checker/cmake-build-debug/CMakeFiles/checker.dir/parse.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")

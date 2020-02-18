@@ -21,6 +21,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/checker.dir/instruction_functions.c.o"
   "CMakeFiles/checker.dir/list_functions.c.o"
   "CMakeFiles/checker.dir/main.c.o"
+  "CMakeFiles/checker.dir/main2.c.o"
   "CMakeFiles/checker.dir/parse.c.o"
   "checker"
   "checker.pdb"
