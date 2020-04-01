@@ -51,6 +51,8 @@ Move tha smallest number to the top.
 
 ## 3. Bonus
 As a bonus I created a graphic visualizer with minilibx.
+
+![Demo](demo/demo.gif)
 ## 4. Usage
 - clone the repositary
 - make
