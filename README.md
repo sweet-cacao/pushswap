@@ -56,6 +56,7 @@ As a bonus I created a graphic visualizer with minilibx.
 ## 4. Usage
 - clone the repositary
 - make
+
 It compiles push_swap and checker. They recieve as an argument the list of numbers.
 
 ./pushswap "5 6 10 12 0 1"
